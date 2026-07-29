@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge
+[0.336s] -- The C compiler identification is GNU 11.4.0
+[0.337s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.658s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.746s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.777s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.820s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.824s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.831s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.923s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.925s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.026s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.075s] -- Looking for pthread.h
+[1.135s] -- Looking for pthread.h - found
+[1.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.199s] -- Found Threads: TRUE  
+[1.244s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.245s] -- Checking for module 'yaml-cpp'
+[1.262s] --   Found yaml-cpp, version 0.7.0
+[1.301s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.422s] -- Configured cppcheck include dirs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/include
+[1.422s] -- Configured cppcheck exclude dirs and/or files: 
+[1.423s] -- Added test 'lint_cmake' to check CMake code style
+[1.425s] -- Added test 'uncrustify' to check C / C++ code style
+[1.425s] -- Configured uncrustify additional arguments: 
+[1.425s] -- Added test 'xmllint' to check XML markup files
+[1.427s] -- Configuring done
+[1.439s] -- Generating done
+[1.444s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge

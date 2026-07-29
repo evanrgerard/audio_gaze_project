@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/ros_madplay_player': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/ros_madplay_player -- -j12 -l12
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target ros_madplay_player[0m
+[0.101s] [100%] Built target ros_madplay_player
+[0.132s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/ros_madplay_player' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/ros_madplay_player -- -j12 -l12
+[0.160s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/ros_madplay_player': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/ros_madplay_player
+[0.205s] -- Install configuration: ""
+[0.205s] -- Execute custom install script
+[0.205s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/lib/ros_madplay_player/ros_madplay_player
+[0.213s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/include/ros_madplay_player/ros_madplay_player.h
+[0.247s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player
+[0.265s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player
+[0.291s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/ament_prefix_path.sh
+[0.308s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/ament_prefix_path.dsv
+[0.324s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/path.sh
+[0.340s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/path.dsv
+[0.355s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.bash
+[0.376s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.sh
+[0.403s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.zsh
+[0.418s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.dsv
+[0.434s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/package.dsv
+[0.445s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/packages/ros_madplay_player
+[0.477s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/cmake/ros_madplay_playerConfig.cmake
+[0.490s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/cmake/ros_madplay_playerConfig-version.cmake
+[0.511s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/package.xml
+[0.541s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/ros_madplay_player' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/ros_madplay_player

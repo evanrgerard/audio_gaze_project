@@ -1,0 +1,4 @@
+[0.033s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/face_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/face_detection -- -j12 -l12
+[0.175s] [ 50%] [32mBuilding CXX object CMakeFiles/face_tracking.dir/src/face_tracking.cpp.o[0m
+[20.199s] [100%] [32m[1mLinking CXX executable face_tracking[0m
+[21.968s] [100%] Built target face_tracking

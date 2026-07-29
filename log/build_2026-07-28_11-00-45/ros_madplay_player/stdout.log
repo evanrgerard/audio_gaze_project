@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target ros_madplay_player[0m
+[100%] Built target ros_madplay_player
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/lib/ros_madplay_player/ros_madplay_player
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/include/ros_madplay_player/ros_madplay_player.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ament_index/resource_index/packages/ros_madplay_player
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/cmake/ros_madplay_playerConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/cmake/ros_madplay_playerConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_madplay_player/share/ros_madplay_player/package.xml

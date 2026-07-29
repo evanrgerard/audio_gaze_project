@@ -1,0 +1,3 @@
+/home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+/home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport.cmake
+/home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport-noconfig.cmake

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "op3_camera_setting_tool_msgs__py",
+		"source" : "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/op3_camera_setting_tool_msgs__py"
+	}
+}

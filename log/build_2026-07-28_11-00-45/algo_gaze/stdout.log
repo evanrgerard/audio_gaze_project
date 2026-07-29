@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating algo_gaze.egg-info
+writing algo_gaze.egg-info/PKG-INFO
+writing dependency_links to algo_gaze.egg-info/dependency_links.txt
+writing entry points to algo_gaze.egg-info/entry_points.txt
+writing requirements to algo_gaze.egg-info/requires.txt
+writing top-level names to algo_gaze.egg-info/top_level.txt
+writing manifest file 'algo_gaze.egg-info/SOURCES.txt'
+reading manifest file 'algo_gaze.egg-info/SOURCES.txt'
+writing manifest file 'algo_gaze.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/python3.10/site-packages/algo-gaze.egg-link (link to .)
+Installing algo_gaze script to /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/algo_gaze
+
+Installed /home/evan/Documents/algo_gaze_project/build/algo_gaze
+running symlink_data
+creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index
+creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index
+creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/resource/algo_gaze -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/package.xml -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze
+creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze/launch
+symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/launch/algo_gaze.py -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze/launch

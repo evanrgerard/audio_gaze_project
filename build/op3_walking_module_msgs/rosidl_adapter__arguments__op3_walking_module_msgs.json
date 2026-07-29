@@ -1,8 +1,8 @@
 {
   "package_name": "op3_walking_module_msgs",
   "non_idl_tuples": [
-    "/home/brone-ub/robotis_ws/src/ROBOTIS-OP3-msgs/op3_walking_module_msgs:msg/WalkingParam.msg",
-    "/home/brone-ub/robotis_ws/src/ROBOTIS-OP3-msgs/op3_walking_module_msgs:srv/GetWalkingParam.srv",
-    "/home/brone-ub/robotis_ws/src/ROBOTIS-OP3-msgs/op3_walking_module_msgs:srv/SetWalkingParam.srv"
+    "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_walking_module_msgs:msg/WalkingParam.msg",
+    "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_walking_module_msgs:srv/GetWalkingParam.srv",
+    "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_walking_module_msgs:srv/SetWalkingParam.srv"
   ]
 }

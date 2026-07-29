@@ -1,0 +1,39 @@
+[0.048s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client -- -j12 -l12
+[0.143s] [  9%] [34m[1mGenerating ui_main_window.h[0m
+[0.143s] [ 18%] [34m[1mGenerating include/op3_offset_tuner_client/moc_main_window.cpp[0m
+[0.143s] [ 27%] [34m[1mGenerating include/op3_offset_tuner_client/moc_qnode.cpp[0m
+[0.143s] [ 36%] [34m[1mGenerating qrc_images.cpp[0m
+[0.152s] [ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o[0m
+[0.152s] [ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o[0m
+[0.152s] [ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o[0m
+[0.153s] [ 72%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o[0m
+[0.154s] [ 81%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o[0m
+[0.155s] [ 90%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o[0m
+[10.117s] [100%] [32m[1mLinking CXX executable op3_offset_tuner_client[0m
+[11.154s] [100%] Built target op3_offset_tuner_client
+[11.164s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client -- -j12 -l12
+[11.166s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client
+[11.174s] -- Install configuration: ""
+[11.175s] -- Execute custom install script
+[11.176s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/lib/op3_offset_tuner_client/op3_offset_tuner_client
+[11.186s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/resources/images.qrc
+[11.196s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/resources/images/icon.png
+[11.202s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/launch/client_only.launch.xml
+[11.212s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/launch/op3_offset_tuner.launch.xml
+[11.220s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/config/joint_data.yaml
+[11.228s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/package_run_dependencies/op3_offset_tuner_client
+[11.237s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/parent_prefix_path/op3_offset_tuner_client
+[11.244s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/ament_prefix_path.sh
+[11.251s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/ament_prefix_path.dsv
+[11.259s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/path.sh
+[11.269s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/path.dsv
+[11.278s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.bash
+[11.290s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.sh
+[11.301s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.zsh
+[11.312s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.dsv
+[11.320s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/package.dsv
+[11.328s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/packages/op3_offset_tuner_client
+[11.338s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/cmake/op3_offset_tuner_clientConfig.cmake
+[11.349s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/cmake/op3_offset_tuner_clientConfig-version.cmake
+[11.360s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/package.xml
+[11.371s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client

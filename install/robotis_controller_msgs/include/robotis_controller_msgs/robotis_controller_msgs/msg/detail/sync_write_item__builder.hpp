@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp

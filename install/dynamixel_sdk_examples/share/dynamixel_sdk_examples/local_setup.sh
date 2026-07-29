@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/build/dynamixel_sdk_examples/ament_cmake_environment_hooks/local_setup.sh

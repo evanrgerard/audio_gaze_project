@@ -1,0 +1,265 @@
+[0.027s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_localization': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_localization
+[2.353s] -- The C compiler identification is GNU 11.4.0
+[2.353s] -- The CXX compiler identification is GNU 11.4.0
+[2.353s] -- Detecting C compiler ABI info
+[2.353s] -- Detecting C compiler ABI info - done
+[2.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.353s] -- Detecting C compile features
+[2.353s] -- Detecting C compile features - done
+[2.353s] -- Detecting CXX compiler ABI info
+[2.354s] -- Detecting CXX compiler ABI info - done
+[2.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.354s] -- Detecting CXX compile features
+[2.354s] -- Detecting CXX compile features - done
+[2.354s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.354s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.354s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.354s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.354s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.354s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.354s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.354s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.354s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.355s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.355s] -- Looking for pthread.h
+[2.355s] -- Looking for pthread.h - found
+[2.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.355s] -- Found Threads: TRUE  
+[2.355s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.355s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[2.355s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.355s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.355s] -- Found robotis_math: 0.2.6 (/home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake)
+[2.740s] -- Configuring done
+[2.776s] -- Generating done
+[2.794s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/op3_localization
+[2.819s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_localization' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_localization
+[2.822s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_localization': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_localization -- -j12 -l12
+[5.179s] [ 33%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/op3_localization.cpp.o[0m
+[5.179s] [ 66%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/main.cpp.o[0m
+[9.024s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::OP3Localization::process()[m[K’:
+[9.024s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:66:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} and ‘[01m[Krclcpp::Duration[m[K’)
+[9.024s]   158 |   rclcpp::Time transform_expiration = ([32m[Kpelvis_pose_.header.stamp[m[K [01;31m[K+[m[K [34m[Ktransform_tolerance[m[K);
+[9.024s]       |                                        [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~~~[m[K
+[9.024s]       |                                                            [32m[K|[m[K       [34m[K|[m[K
+[9.026s]       |                                                            [32m[K|[m[K       [34m[Krclcpp::Duration[m[K
+[9.026s]       |                                                            [32m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}[m[K
+[9.026s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[9.027s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[9.027s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[9.027s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.027s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.027s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+[9.027s]   585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+[9.027s]       |     [01;36m[K^~~~~~~~[m[K
+[9.027s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.027s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[9.027s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.029s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.029s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[9.029s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[9.029s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[9.029s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.030s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.030s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+[9.030s]  1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+[9.030s]       |     [01;36m[K^~~~~~~~[m[K
+[9.030s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.030s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[9.030s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.030s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.030s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.030s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.030s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.030s] [01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[9.030s]  6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[9.030s]       |     [01;36m[K^~~~~~~~[m[K
+[9.030s] [01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.030s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.031s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.031s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.031s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[9.031s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.031s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.031s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[9.031s]  1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+[9.031s]       |     [01;36m[K^~~~~~~~[m[K
+[9.031s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.031s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’
+[9.031s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.033s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.033s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[9.033s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.033s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.033s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[9.033s]  1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+[9.033s]       |     [01;36m[K^~~~~~~~[m[K
+[9.033s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.033s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.033s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.034s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.034s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.034s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.034s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.034s] [01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[9.034s]  6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[9.034s]       |     [01;36m[K^~~~~~~~[m[K
+[9.034s] [01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.034s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.034s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.034s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.034s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.034s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.034s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.034s] [01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[9.034s]  6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+[9.034s]       |     [01;36m[K^~~~~~~~[m[K
+[9.034s] [01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.034s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.035s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.035s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.035s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.035s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.035s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.035s] [01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[9.035s]  6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[9.035s]       |     [01;36m[K^~~~~~~~[m[K
+[9.035s] [01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.035s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.035s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.035s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.035s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.035s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.035s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.035s] [01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[9.035s]  6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[9.036s]       |     [01;36m[K^~~~~~~~[m[K
+[9.036s] [01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.036s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.036s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.036s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.036s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.036s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.036s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.036s] [01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[9.036s]  6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[9.039s]       |     [01;36m[K^~~~~~~~[m[K
+[9.039s] [01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.039s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.040s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.040s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.040s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.040s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.040s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.040s] [01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[9.040s]  6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+[9.040s]       |     [01;36m[K^~~~~~~~[m[K
+[9.042s] [01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.042s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’
+[9.042s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.042s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.042s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.042s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.045s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.046s] [01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+[9.046s]  6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+[9.047s]       |     [01;36m[K^~~~~~~~[m[K
+[9.047s] [01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.047s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.047s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.047s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.047s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.047s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.047s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.047s] [01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+[9.048s]  6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[9.048s]       |     [01;36m[K^~~~~~~~[m[K
+[9.048s] [01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.048s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.048s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.048s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.048s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.048s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:23[m[K,
+[9.048s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.048s] [01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+[9.048s]  6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+[9.049s]       |     [01;36m[K^~~~~~~~[m[K
+[9.049s] [01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.049s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[9.049s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.049s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.049s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[9.049s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[9.049s]                  from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:34[m[K,
+[9.049s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:33[m[K,
+[9.049s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.049s] [01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[9.049s]   332 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[9.049s]       |     [01;36m[K^~~~~~~~[m[K
+[9.049s] [01m[K/usr/include/c++/11/complex:332:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.049s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[9.049s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.049s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.049s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[9.051s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[9.051s]                  from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:34[m[K,
+[9.051s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:33[m[K,
+[9.051s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.051s] [01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)[m[K’
+[9.051s]   341 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x, const _Tp& __y)
+[9.051s]       |     [01;36m[K^~~~~~~~[m[K
+[9.051s] [01m[K/usr/include/c++/11/complex:341:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.051s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[9.051s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.051s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.052s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[9.052s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[9.052s]                  from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:34[m[K,
+[9.052s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:33[m[K,
+[9.052s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.052s] [01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)[m[K’
+[9.052s]   350 |     [01;36m[Koperator[m[K+(const _Tp& __x, const complex<_Tp>& __y)
+[9.052s]       |     [01;36m[K^~~~~~~~[m[K
+[9.052s] [01m[K/usr/include/c++/11/complex:350:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.052s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Duration[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[9.053s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.053s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.053s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[9.054s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:34[m[K,
+[9.054s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:33[m[K,
+[9.054s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.054s] [01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)[m[K’
+[9.054s]   451 |     [01;36m[Koperator[m[K+(const complex<_Tp>& __x)
+[9.054s]       |     [01;36m[K^~~~~~~~[m[K
+[9.054s] [01m[K/usr/include/c++/11/complex:451:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.054s] [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:158:68:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[9.054s]   158 |   rclcpp::Time transform_expiration = (pelvis_pose_.header.stamp + [01;36m[Ktransform_tolerance[m[K);
+[9.054s]       |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.054s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[9.055s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/include/op3_localization/op3_localization.h:26[m[K,
+[9.055s]                  from [01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_localization/src/op3_localization.cpp:19[m[K:
+[9.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:223:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Time rclcpp::operator+(const rclcpp::Duration&, const rclcpp::Time&)[m[K’
+[9.055s]   223 | [01;36m[Koperator[m[K+(const rclcpp::Duration & lhs, const rclcpp::Time & rhs);
+[9.055s]       | [01;36m[K^~~~~~~~[m[K
+[9.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:223:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[9.055s]   223 | operator+([01;36m[Kconst rclcpp::Duration & lhs[m[K, const rclcpp::Time & rhs);
+[9.055s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[18.207s] gmake[2]: *** [CMakeFiles/op3_localization.dir/build.make:90: CMakeFiles/op3_localization.dir/src/op3_localization.cpp.o] Error 1
+[18.210s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/op3_localization.dir/all] Error 2
+[18.210s] gmake: *** [Makefile:146: all] Error 2

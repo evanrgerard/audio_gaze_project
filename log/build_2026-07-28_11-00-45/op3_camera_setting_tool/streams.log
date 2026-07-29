@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool
+[2.353s] -- The C compiler identification is GNU 11.4.0
+[2.353s] -- The CXX compiler identification is GNU 11.4.0
+[2.354s] -- Detecting C compiler ABI info
+[2.354s] -- Detecting C compiler ABI info - done
+[2.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.354s] -- Detecting C compile features
+[2.355s] -- Detecting C compile features - done
+[2.355s] -- Detecting CXX compiler ABI info
+[2.355s] -- Detecting CXX compiler ABI info - done
+[2.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.367s] -- Detecting CXX compile features
+[2.367s] -- Detecting CXX compile features - done
+[2.367s] -- Found usb_cam: 0.8.2 (/home/evan/Documents/algo_gaze_project/install/usb_cam/share/usb_cam/cmake)
+[2.367s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.368s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.368s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.368s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.368s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.372s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.372s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.372s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.372s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.373s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.373s] -- Looking for pthread.h
+[2.373s] -- Looking for pthread.h - found
+[2.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.554s] -- Found Threads: TRUE  
+[3.078s] -- Found op3_camera_setting_tool_msgs: 0.1.0 (/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/share/op3_camera_setting_tool_msgs/cmake)
+[3.121s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.122s] -- Checking for module 'yaml-cpp'
+[3.155s] --   Found yaml-cpp, version 0.7.0
+[3.464s] -- Configuring done
+[3.492s] -- Generating done
+[3.508s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool
+[3.547s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool
+[3.553s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool -- -j12 -l12
+[5.259s] [ 50%] [32mBuilding CXX object CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o[0m
+[29.637s] [100%] [32m[1mLinking CXX executable op3_camera_setting_tool[0m
+[30.481s] [100%] Built target op3_camera_setting_tool

@@ -1,0 +1,27 @@
+[0.051s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_localization': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_localization -- -j12 -l12
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target op3_localization[0m
+[0.167s] [ 33%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/op3_localization.cpp.o[0m
+[15.163s] [ 66%] [32m[1mLinking CXX executable op3_localization[0m
+[15.803s] [100%] Built target op3_localization
+[15.813s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_localization' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_localization -- -j12 -l12
+[15.814s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_localization': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_localization
+[15.821s] -- Install configuration: ""
+[15.821s] -- Execute custom install script
+[15.822s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/lib/op3_localization/op3_localization
+[15.828s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/include/op3_localization/op3_localization.h
+[15.835s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/package_run_dependencies/op3_localization
+[15.843s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/parent_prefix_path/op3_localization
+[15.850s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/ament_prefix_path.sh
+[15.856s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/ament_prefix_path.dsv
+[15.864s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/path.sh
+[15.871s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/path.dsv
+[15.878s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.bash
+[15.884s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.sh
+[15.891s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.zsh
+[15.897s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.dsv
+[15.904s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/package.dsv
+[15.912s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/packages/op3_localization
+[15.920s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig.cmake
+[15.928s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig-version.cmake
+[15.935s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/package.xml
+[15.942s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_localization' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_localization

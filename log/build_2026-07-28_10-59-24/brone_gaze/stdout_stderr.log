@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating brone_gaze.egg-info
+writing brone_gaze.egg-info/PKG-INFO
+writing dependency_links to brone_gaze.egg-info/dependency_links.txt
+writing entry points to brone_gaze.egg-info/entry_points.txt
+writing requirements to brone_gaze.egg-info/requires.txt
+writing top-level names to brone_gaze.egg-info/top_level.txt
+writing manifest file 'brone_gaze.egg-info/SOURCES.txt'
+reading manifest file 'brone_gaze.egg-info/SOURCES.txt'
+writing manifest file 'brone_gaze.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/python3.10/site-packages/brone-gaze.egg-link (link to .)
+Installing fuzzy_gaze script to /home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/brone_gaze
+
+Installed /home/evan/Documents/algo_gaze_project/build/brone_gaze
+running symlink_data
+creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index
+creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index
+creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/resource/brone_gaze -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/package.xml -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze
+creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze/models
+symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/models/yolo11s.pt -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze/models

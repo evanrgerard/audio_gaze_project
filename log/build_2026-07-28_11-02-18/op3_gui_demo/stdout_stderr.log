@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target op3_gui_demo[0m
+[100%] Built target op3_gui_demo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/lib/op3_gui_demo/op3_gui_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/resources/images.qrc
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/resources/images/icon.png
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/launch/op3_demo.launch.py
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/config/gui_config.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/config/gui_motion.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/config/init_pose.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/config/zero_pose.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/ament_index/resource_index/package_run_dependencies/op3_gui_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/ament_index/resource_index/parent_prefix_path/op3_gui_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/ament_index/resource_index/packages/op3_gui_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/cmake/op3_gui_demoConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/cmake/op3_gui_demoConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_gui_demo/share/op3_gui_demo/package.xml

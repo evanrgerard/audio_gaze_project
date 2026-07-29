@@ -1,0 +1,32 @@
+[0.041s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics -- -j12 -l12
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target op3_kinematics_dynamics[0m
+[0.112s] [100%] Built target op3_kinematics_dynamics
+[0.127s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics -- -j12 -l12
+[0.139s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics
+[0.177s] -- Install configuration: ""
+[0.177s] -- Execute custom install script
+[0.177s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
+[0.177s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h
+[0.181s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h
+[0.188s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h
+[0.199s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/library_path.sh
+[0.207s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/library_path.dsv
+[0.215s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/ament_index/resource_index/package_run_dependencies/op3_kinematics_dynamics
+[0.224s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/ament_index/resource_index/parent_prefix_path/op3_kinematics_dynamics
+[0.236s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/ament_prefix_path.sh
+[0.245s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/ament_prefix_path.dsv
+[0.256s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/path.sh
+[0.262s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/environment/path.dsv
+[0.272s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/local_setup.bash
+[0.281s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/local_setup.sh
+[0.290s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/local_setup.zsh
+[0.307s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/local_setup.dsv
+[0.319s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/package.dsv
+[0.330s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/ament_index/resource_index/packages/op3_kinematics_dynamics
+[0.340s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.362s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/cmake/ament_cmake_export_libraries-extras.cmake
+[0.369s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.383s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/cmake/op3_kinematics_dynamicsConfig.cmake
+[0.391s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/cmake/op3_kinematics_dynamicsConfig-version.cmake
+[0.402s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/share/op3_kinematics_dynamics/package.xml
+[0.455s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics

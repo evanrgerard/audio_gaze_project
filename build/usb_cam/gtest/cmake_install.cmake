@@ -1,8 +1,8 @@
-# Install script for directory: /opt/ros/jazzy/src/gtest_vendor
+# Install script for directory: /opt/ros/humble/src/gtest_vendor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/brone-ub/robotis_ws/src/install/usb_cam")
+  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/algo_gaze_project/install/usb_cam")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

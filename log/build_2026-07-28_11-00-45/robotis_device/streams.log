@@ -1,0 +1,74 @@
+[0.034s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_device': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_device -- -j12 -l12
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target robotis_device[0m
+[0.117s] [100%] Built target robotis_device
+[0.189s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_device' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_device -- -j12 -l12
+[0.190s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_device': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_device
+[0.545s] -- Install configuration: ""
+[0.546s] -- Execute custom install script
+[0.546s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
+[0.546s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h
+[0.546s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/device.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/robot.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/GRIPPER.device
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/GRIPPER_TORQUE.device
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H42-20-S300-R(A).device
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H42-20-S300-R.device
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H42P-020-S300-R.device
+[0.547s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-100-B210-R-NR.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-100-S500-R(A).device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-100-S500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-200-B500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-200-S500-R(A).device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54-200-S500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54P-100-S500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54P-200-B500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/H54P-200-S500-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/L42-10-S300-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/L54-30-S400-R.device
+[0.548s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/L54-30-S500-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/L54-50-S290-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/L54-50-S500-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/M42-10-S260-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/M54-40-S250-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/M54-60-S250-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/MX-106.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/MX-28.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/MX-64.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/PH42-020-S300-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/PH54-100-S500-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/PH54-200-S500-R.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/RH-P12-RN(A).device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/RH-P12-RN.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/XM-430.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/XM430-W210.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/XM430-W350.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/XM540-W150.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/dynamixel/XM540-W270.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/sensor/CM-740.device
+[0.549s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/devices/sensor/OPEN-CR.device
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/library_path.sh
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/library_path.dsv
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/ament_index/resource_index/package_run_dependencies/robotis_device
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/ament_index/resource_index/parent_prefix_path/robotis_device
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/ament_prefix_path.sh
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/ament_prefix_path.dsv
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/path.sh
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/environment/path.dsv
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/local_setup.bash
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/local_setup.sh
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/local_setup.zsh
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/local_setup.dsv
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/package.dsv
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/ament_index/resource_index/packages/robotis_device
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake/ament_cmake_export_libraries-extras.cmake
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake/robotis_deviceConfig.cmake
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake/robotis_deviceConfig-version.cmake
+[0.550s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/package.xml
+[0.603s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_device' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_device

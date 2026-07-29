@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/ros_mpg321_player': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player -- -j12 -l12
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target ros_mpg321_player[0m
+[0.142s] [100%] Built target ros_mpg321_player
+[0.195s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/ros_mpg321_player' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player -- -j12 -l12
+[0.195s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/ros_mpg321_player': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player
+[0.537s] -- Install configuration: ""
+[0.537s] -- Execute custom install script
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/lib/ros_mpg321_player/ros_mpg321_player
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/include/ros_mpg321_player/ros_mpg321_player.h
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ament_index/resource_index/package_run_dependencies/ros_mpg321_player
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ament_index/resource_index/parent_prefix_path/ros_mpg321_player
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/environment/ament_prefix_path.sh
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/environment/ament_prefix_path.dsv
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/environment/path.sh
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/environment/path.dsv
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/local_setup.bash
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/local_setup.sh
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/local_setup.zsh
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/local_setup.dsv
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/package.dsv
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ament_index/resource_index/packages/ros_mpg321_player
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/cmake/ros_mpg321_playerConfig.cmake
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/cmake/ros_mpg321_playerConfig-version.cmake
+[0.538s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/ros_mpg321_player/share/ros_mpg321_player/package.xml
+[0.659s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/ros_mpg321_player' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player

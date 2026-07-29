@@ -31,7 +31,7 @@
 #include "op3_ball_detector_msgs/msg/ball_detector_params.hpp"
 #include "op3_ball_detector_msgs/srv/get_parameters.hpp"
 #include "op3_ball_detector_msgs/srv/set_parameters.hpp"
-#include <cv_bridge/cv_bridge.hpp>
+#include <cv_bridge/cv_bridge.h>
 #include <image_transport/image_transport.hpp>
 #include <ament_index_cpp/get_package_share_directory.hpp>
 

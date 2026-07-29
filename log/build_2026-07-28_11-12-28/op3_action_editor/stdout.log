@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target op3_action_editor[0m
+[  0%] Built target ament_cmake_python_symlink_op3_action_editor
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o[0m
+running egg_info
+writing op3_action_editor.egg-info/PKG-INFO
+writing dependency_links to op3_action_editor.egg-info/dependency_links.txt
+writing top-level names to op3_action_editor.egg-info/top_level.txt
+reading manifest file 'op3_action_editor.egg-info/SOURCES.txt'
+writing manifest file 'op3_action_editor.egg-info/SOURCES.txt'
+[ 33%] Built target ament_cmake_python_build_op3_action_editor_egg
+[ 66%] [32m[1mLinking CXX executable op3_action_editor[0m
+[100%] Built target op3_action_editor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/lib/op3_action_editor/op3_action_editor
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/include/op3_action_editor/action_editor.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor//config/config_mirror_joint.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor//config/editor_script.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/__init__.py
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/module_to_import.py
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/lib/op3_action_editor/executor.py
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/package_run_dependencies/op3_action_editor
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/parent_prefix_path/op3_action_editor
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/packages/op3_action_editor
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/package.xml
+Listing '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor'...
+Compiling '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/__init__.py'...
+Compiling '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/module_to_import.py'...

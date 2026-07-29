@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/read_write.dir/src/read_write.cpp.o[0m
+[100%] [32m[1mLinking CXX executable read_write[0m
+[100%] Built target read_write
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/lib/op3_read_write_demo/read_write
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/launch/op3_read_write.launch.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/package_run_dependencies/op3_read_write_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/parent_prefix_path/op3_read_write_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/packages/op3_read_write_demo
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/cmake/op3_read_write_demoConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/cmake/op3_read_write_demoConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/package.xml

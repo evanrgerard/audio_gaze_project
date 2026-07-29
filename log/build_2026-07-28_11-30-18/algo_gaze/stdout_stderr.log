@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing algo_gaze.egg-info/PKG-INFO
+writing dependency_links to algo_gaze.egg-info/dependency_links.txt
+writing entry points to algo_gaze.egg-info/entry_points.txt
+writing requirements to algo_gaze.egg-info/requires.txt
+writing top-level names to algo_gaze.egg-info/top_level.txt
+reading manifest file 'algo_gaze.egg-info/SOURCES.txt'
+writing manifest file 'algo_gaze.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/python3.10/site-packages/algo-gaze.egg-link (link to .)
+Installing algo_gaze script to /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/algo_gaze
+
+Installed /home/evan/Documents/algo_gaze_project/build/algo_gaze
+running symlink_data
+error: can't copy '/home/evan/Documents/algo_gaze_project/build/algo_gaze/launch/algo_gaze_launch.py': doesn't exist or not a regular file

@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target op3_localization[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/op3_localization.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable op3_localization[0m
+[100%] Built target op3_localization
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/lib/op3_localization/op3_localization
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/include/op3_localization/op3_localization.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/package_run_dependencies/op3_localization
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/parent_prefix_path/op3_localization
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/ament_index/resource_index/packages/op3_localization
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_localization/share/op3_localization/package.xml

@@ -1,0 +1,7 @@
+[01m[K/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection/src/face_tracking.cpp:42:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   42 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/face_tracking.dir/build.make:76: CMakeFiles/face_tracking.dir/src/face_tracking.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/face_tracking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

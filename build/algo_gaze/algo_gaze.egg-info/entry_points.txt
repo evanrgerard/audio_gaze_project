@@ -1,0 +1,3 @@
+[console_scripts]
+algo_gaze = algo_gaze.main:main
+

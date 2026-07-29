@@ -1,0 +1,26 @@
+[1.728s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/algo_gaze': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/build/algo_gaze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/python3.10/site-packages:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/evan/Documents/algo_gaze_project/build/algo_gaze/build --no-deps symlink_data
+[7.504s] running develop
+[7.504s] running egg_info
+[7.504s] creating algo_gaze.egg-info
+[7.504s] writing algo_gaze.egg-info/PKG-INFO
+[7.504s] writing dependency_links to algo_gaze.egg-info/dependency_links.txt
+[7.504s] writing entry points to algo_gaze.egg-info/entry_points.txt
+[7.504s] writing requirements to algo_gaze.egg-info/requires.txt
+[7.504s] writing top-level names to algo_gaze.egg-info/top_level.txt
+[7.504s] writing manifest file 'algo_gaze.egg-info/SOURCES.txt'
+[7.505s] reading manifest file 'algo_gaze.egg-info/SOURCES.txt'
+[7.505s] writing manifest file 'algo_gaze.egg-info/SOURCES.txt'
+[7.505s] running build_ext
+[7.505s] Creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/python3.10/site-packages/algo-gaze.egg-link (link to .)
+[7.505s] Installing algo_gaze script to /home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/algo_gaze
+[7.505s] 
+[7.505s] Installed /home/evan/Documents/algo_gaze_project/build/algo_gaze
+[7.505s] running symlink_data
+[7.505s] creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index
+[7.505s] creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index
+[7.505s] creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index/packages
+[7.505s] symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/resource/algo_gaze -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/ament_index/resource_index/packages
+[7.505s] symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/package.xml -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze
+[7.505s] creating /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze/launch
+[7.505s] symbolically linking /home/evan/Documents/algo_gaze_project/build/algo_gaze/launch/algo_gaze.py -> /home/evan/Documents/algo_gaze_project/install/algo_gaze/share/algo_gaze/launch
+[7.546s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/algo_gaze' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/build/algo_gaze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evan/Documents/algo_gaze_project/install/algo_gaze/lib/python3.10/site-packages:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/evan/Documents/algo_gaze_project/build/algo_gaze/build --no-deps symlink_data

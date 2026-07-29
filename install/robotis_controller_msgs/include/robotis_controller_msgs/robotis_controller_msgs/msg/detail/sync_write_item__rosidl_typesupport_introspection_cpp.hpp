@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_cpp.hpp

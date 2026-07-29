@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+brone_gaze/__init__.py
+brone_gaze/fuzzy_model_node.py
+brone_gaze/linear_model_node.py
+brone_gaze.egg-info/PKG-INFO
+brone_gaze.egg-info/SOURCES.txt
+brone_gaze.egg-info/dependency_links.txt
+brone_gaze.egg-info/entry_points.txt
+brone_gaze.egg-info/requires.txt
+brone_gaze.egg-info/top_level.txt
+brone_gaze.egg-info/zip-safe
+models/yolo11s.pt
+resource/brone_gaze

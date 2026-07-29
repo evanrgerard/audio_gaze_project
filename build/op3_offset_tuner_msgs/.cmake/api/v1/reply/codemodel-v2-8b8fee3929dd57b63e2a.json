@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5511d23ba23793219255.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "op3_offset_tuner_msgs__py",
+					"jsonFile" : "directory-op3_offset_tuner_msgs__py-758194c5c6d0b119abb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/op3_offset_tuner_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "op3_offset_tuner_msgs__rs",
+					"jsonFile" : "directory-op3_offset_tuner_msgs__rs-f8e6d97a26ce47af5d85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/op3_offset_tuner_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "op3_offset_tuner_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_op3_offset_tuner_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_op3_offset_tuner_msgs_egg-9930de74234e127d61dd.json",
+					"name" : "ament_cmake_python_build_op3_offset_tuner_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_op3_offset_tuner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_op3_offset_tuner_msgs-bcbab4b2c125fbb70651.json",
+					"name" : "ament_cmake_python_symlink_op3_offset_tuner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs-5b377b4da2938bb0eae1.json",
+					"name" : "op3_offset_tuner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__cpp-4dd59f85d31b86f1c43e.json",
+					"name" : "op3_offset_tuner_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "op3_offset_tuner_msgs__py::@fb08ae6c5aaf9e137371",
+					"jsonFile" : "target-op3_offset_tuner_msgs__py-e845793e8eaf6eaf81aa.json",
+					"name" : "op3_offset_tuner_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_generator_c-e37a987a97b21a0cb39c.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_generator_py-4b92ca109fa1d312a779.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_c-c24d7a1f8c04fde4c3af.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_c__pyext-5b711d5837a5ee25f38e.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_cpp-39b7984095aa40b16550.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c-a5876258d505154f5d9c.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c__pyext-70632c8f86840f0fafd6.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp-c99540f20af844881b2e.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_introspection_c-acb420f01c56d45af899.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_introspection_c__pyext-522acf72b20abfcd3f2c.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp-69d2e1b3250f20a46dba.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "op3_offset_tuner_msgs__rs::@f0cbe0b43e491455fb17",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rs-892d0c1f5d1b844615ba.json",
+					"name" : "op3_offset_tuner_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs_uninstall-5f89c5e4dfcfca297834.json",
+					"name" : "op3_offset_tuner_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-46e89b1a92b49d9ad064.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs",
+		"source" : "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

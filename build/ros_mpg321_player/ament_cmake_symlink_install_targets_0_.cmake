@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/ros_mpg321_player/ros_mpg321_player" "TARGETS" "ros_mpg321_player" "DESTINATION" "lib/ros_mpg321_player")

@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/op3_extern_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/extern_controller_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable op3_extern_controller[0m
+[100%] Built target op3_extern_controller

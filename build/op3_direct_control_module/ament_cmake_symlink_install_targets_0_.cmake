@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/op3_direct_control_module/libop3_direct_control_module.a" "TARGETS" "op3_direct_control_module" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

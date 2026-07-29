@@ -1,0 +1,9 @@
+source;share/brone_gaze/hook/pythonpath.ps1
+source;share/brone_gaze/hook/pythonpath.dsv
+source;share/brone_gaze/hook/pythonpath.sh
+source;share/brone_gaze/hook/ament_prefix_path.ps1
+source;share/brone_gaze/hook/ament_prefix_path.dsv
+source;share/brone_gaze/hook/ament_prefix_path.sh
+source;../../build/brone_gaze/share/brone_gaze/hook/pythonpath_develop.ps1
+source;../../build/brone_gaze/share/brone_gaze/hook/pythonpath_develop.dsv
+source;../../build/brone_gaze/share/brone_gaze/hook/pythonpath_develop.sh

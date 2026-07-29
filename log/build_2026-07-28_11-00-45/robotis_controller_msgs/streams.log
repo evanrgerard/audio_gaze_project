@@ -1,0 +1,288 @@
+[0.036s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs -- -j12 -l12
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_generator_c[0m
+[0.100s] [  1%] Built target robotis_controller_msgs__rs
+[0.115s] [ 13%] Built target robotis_controller_msgs__cpp
+[0.116s] [ 12%] Built target robotis_controller_msgs__rosidl_generator_c
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_introspection_c[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_c[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.149s] [ 13%] Built target ament_cmake_python_symlink_robotis_controller_msgs
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.177s] [ 25%] Built target robotis_controller_msgs__rosidl_typesupport_introspection_c
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_cpp[0m
+[0.189s] [ 36%] Built target robotis_controller_msgs__rosidl_typesupport_c
+[0.199s] [ 47%] Built target robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[0.218s] [ 59%] Built target robotis_controller_msgs__rosidl_typesupport_cpp
+[0.219s] [ 70%] Built target robotis_controller_msgs__rosidl_typesupport_fastrtps_c
+[0.241s] [ 81%] Built target robotis_controller_msgs__rosidl_typesupport_introspection_cpp
+[0.280s] [ 81%] Built target robotis_controller_msgs
+[0.326s] [ 82%] Built target robotis_controller_msgs__py
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_generator_py[0m
+[0.403s] [ 93%] Built target robotis_controller_msgs__rosidl_generator_py
+[0.431s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.432s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target robotis_controller_msgs__rosidl_typesupport_c__pyext[0m
+[0.458s] [ 95%] Built target robotis_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[0.460s] [ 97%] Built target robotis_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.471s] [100%] Built target robotis_controller_msgs__rosidl_typesupport_c__pyext
+[0.598s] running egg_info
+[0.599s] writing robotis_controller_msgs.egg-info/PKG-INFO
+[0.599s] writing dependency_links to robotis_controller_msgs.egg-info/dependency_links.txt
+[0.600s] writing top-level names to robotis_controller_msgs.egg-info/top_level.txt
+[0.607s] reading manifest file 'robotis_controller_msgs.egg-info/SOURCES.txt'
+[0.609s] writing manifest file 'robotis_controller_msgs.egg-info/SOURCES.txt'
+[0.664s] [100%] Built target ament_cmake_python_build_robotis_controller_msgs_egg
+[0.726s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs -- -j12 -l12
+[0.729s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs
+[0.745s] -- Install configuration: ""
+[0.745s] -- Execute custom install script
+[0.745s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/robotis_controller_msgs
+[0.760s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__functions.h
+[0.776s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.h
+[0.792s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.h
+[0.806s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__functions.h
+[0.828s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__struct.h
+[0.858s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__type_support.h
+[0.870s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__functions.h
+[0.887s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__struct.h
+[0.907s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__type_support.h
+[0.925s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__functions.h
+[0.936s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__struct.h
+[0.959s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__type_support.h
+[0.977s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/joint_ctrl_module.h
+[0.996s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.003s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/status_msg.h
+[1.040s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/sync_write_item.h
+[1.042s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/write_control_table.h
+[1.063s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__functions.h
+[1.076s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__struct.h
+[1.094s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__type_support.h
+[1.111s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__functions.h
+[1.129s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__struct.h
+[1.149s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__type_support.h
+[1.155s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__functions.h
+[1.166s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__struct.h
+[1.176s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__type_support.h
+[1.190s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__functions.h
+[1.203s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__struct.h
+[1.218s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__type_support.h
+[1.227s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/get_joint_module.h
+[1.242s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/load_offset.h
+[1.264s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_joint_module.h
+[1.286s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_module.h
+[1.310s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/library_path.sh
+[1.329s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/library_path.dsv
+[1.340s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_fastrtps_c.h
+[1.352s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_fastrtps_c.h
+[1.363s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_fastrtps_c.h
+[1.375s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_fastrtps_c.h
+[1.403s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.423s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_fastrtps_c.h
+[1.438s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_fastrtps_c.h
+[1.450s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_fastrtps_c.h
+[1.468s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_fastrtps_c.h
+[1.490s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp
+[1.509s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp
+[1.536s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp
+[1.557s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp
+[1.569s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__builder.hpp
+[1.577s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__struct.hpp
+[1.588s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__traits.hpp
+[1.600s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp
+[1.612s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp
+[1.637s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp
+[1.650s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp
+[1.666s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp
+[1.681s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp
+[1.707s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp
+[1.724s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp
+[1.733s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp
+[1.755s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/joint_ctrl_module.hpp
+[1.767s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.778s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/status_msg.hpp
+[1.789s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/sync_write_item.hpp
+[1.812s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/write_control_table.hpp
+[1.834s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp
+[1.852s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp
+[1.867s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp
+[1.893s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp
+[1.913s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__builder.hpp
+[1.928s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__struct.hpp
+[1.936s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__traits.hpp
+[1.946s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp
+[1.969s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp
+[1.980s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp
+[1.991s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp
+[2.016s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp
+[2.042s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__builder.hpp
+[2.066s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__struct.hpp
+[2.095s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__traits.hpp
+[2.118s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__type_support.hpp
+[2.152s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/get_joint_module.hpp
+[2.180s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/load_offset.hpp
+[2.202s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_joint_module.hpp
+[2.218s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_module.hpp
+[2.233s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_fastrtps_cpp.hpp
+[2.257s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.268s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_fastrtps_cpp.hpp
+[2.279s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_fastrtps_cpp.hpp
+[2.297s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.326s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_fastrtps_cpp.hpp
+[2.353s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_fastrtps_cpp.hpp
+[2.365s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_fastrtps_cpp.hpp
+[2.384s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_fastrtps_cpp.hpp
+[2.405s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_introspection_c.h
+[2.426s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_introspection_c.h
+[2.447s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_c.h
+[2.470s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_introspection_c.h
+[2.485s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.503s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_introspection_c.h
+[2.518s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_introspection_c.h
+[2.540s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_introspection_c.h
+[2.556s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_introspection_c.h
+[2.575s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_introspection_cpp.hpp
+[2.593s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.609s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_cpp.hpp
+[2.632s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_introspection_cpp.hpp
+[2.655s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_introspection_cpp.hpp
+[2.674s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_introspection_cpp.hpp
+[2.691s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_introspection_cpp.hpp
+[2.720s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_introspection_cpp.hpp
+[2.745s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/pythonpath.sh
+[2.765s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/pythonpath.dsv
+[2.780s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs-0.1.4-py3.10.egg-info/PKG-INFO
+[2.793s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs-0.1.4-py3.10.egg-info/SOURCES.txt
+[2.804s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs-0.1.4-py3.10.egg-info/dependency_links.txt
+[2.814s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs-0.1.4-py3.10.egg-info/top_level.txt
+[2.826s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/__init__.py
+[2.838s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_c.c
+[2.850s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.862s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.874s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/librobotis_controller_msgs__rosidl_generator_py.so
+[2.888s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/__init__.py
+[2.898s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_joint_ctrl_module.py
+[2.916s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_joint_ctrl_module_s.c
+[2.931s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_status_msg.py
+[2.943s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_status_msg_s.c
+[2.956s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_sync_write_item.py
+[2.977s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_sync_write_item_s.c
+[3.001s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_write_control_table.py
+[3.016s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_write_control_table_s.c
+[3.041s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.066s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.100s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.113s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/__init__.py
+[3.135s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_get_joint_module.py
+[3.165s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_get_joint_module_s.c
+[3.250s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_load_offset.py
+[3.410s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_load_offset_s.c
+[3.504s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_joint_module.py
+[3.525s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_joint_module_s.c
+[3.564s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_module.py
+[3.585s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_module_s.c
+[3.602s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.602s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.603s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.603s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/ament_index/resource_index/rust_packages/robotis_controller_msgs
+[3.640s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/Cargo.toml
+[3.672s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/build.rs
+[3.701s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/src/lib.rs
+[3.726s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/src/msg.rs
+[3.755s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/src/msg/rmw.rs
+[3.779s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/src/srv.rs
+[3.804s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/rust/src/srv/rmw.rs
+[3.825s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/SyncWriteItem.idl
+[3.837s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/JointCtrlModule.idl
+[3.865s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/StatusMsg.idl
+[3.885s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/WriteControlTable.idl
+[3.908s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule.idl
+[3.924s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule.idl
+[3.945s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule.idl
+[3.978s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset.idl
+[3.995s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/SyncWriteItem.msg
+[4.005s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/JointCtrlModule.msg
+[4.016s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/StatusMsg.msg
+[4.026s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/WriteControlTable.msg
+[4.041s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule.srv
+[4.061s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule_Request.msg
+[4.071s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule_Response.msg
+[4.088s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule.srv
+[4.100s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule_Request.msg
+[4.112s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule_Response.msg
+[4.133s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule.srv
+[4.155s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule_Request.msg
+[4.175s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule_Response.msg
+[4.197s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset.srv
+[4.221s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset_Request.msg
+[4.244s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset_Response.msg
+[4.264s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/ament_index/resource_index/package_run_dependencies/robotis_controller_msgs
+[4.285s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/ament_index/resource_index/parent_prefix_path/robotis_controller_msgs
+[4.315s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/ament_prefix_path.sh
+[4.338s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/ament_prefix_path.dsv
+[4.363s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/path.sh
+[4.385s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/path.dsv
+[4.422s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.bash
+[4.452s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.sh
+[4.479s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.zsh
+[4.501s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.dsv
+[4.517s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/package.dsv
+[4.532s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/ament_index/resource_index/packages/robotis_controller_msgs
+[4.544s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[4.556s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.568s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.580s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.593s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.606s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.622s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.634s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgsConfig.cmake
+[4.653s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgsConfig-version.cmake
+[4.680s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/package.xml
+[4.694s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+[4.695s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so" to ""
+[4.695s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[4.696s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.697s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.698s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.698s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+[4.700s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.701s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+[4.701s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so" to ""
+[4.701s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[4.701s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.701s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+[4.701s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[4.862s] Listing '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs'...
+[4.862s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/__init__.py'...
+[4.862s] Listing '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg'...
+[4.862s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/__init__.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_joint_ctrl_module.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_status_msg.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_sync_write_item.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/msg/_write_control_table.py'...
+[4.863s] Listing '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/__init__.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_get_joint_module.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_load_offset.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_joint_module.py'...
+[4.863s] Compiling '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages/robotis_controller_msgs/srv/_set_module.py'...
+[4.870s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+[4.872s] -- Set runtime path of "/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so" to ""
+[4.872s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cExport.cmake
+[4.872s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cppExport.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.873s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cExport.cmake
+[4.877s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.877s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.877s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.877s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cppExport.cmake
+[4.878s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.878s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_pyExport.cmake
+[4.878s] -- Installing: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.887s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs

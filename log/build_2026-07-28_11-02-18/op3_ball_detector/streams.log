@@ -1,0 +1,5 @@
+[0.038s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_ball_detector': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_ball_detector -- -j12 -l12
+[0.089s] [ 33%] [32mBuilding CXX object CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o[0m
+[0.090s] [ 66%] [32mBuilding CXX object CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o[0m
+[34.468s] [100%] [32m[1mLinking CXX executable ball_detector_node[0m
+[36.089s] [100%] Built target ball_detector_node

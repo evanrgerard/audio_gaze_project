@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ros_madplay_player" "TARGETS" "ros_madplay_player" "DESTINATION" "lib/ros_madplay_player")

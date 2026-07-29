@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target ball_detector_node[0m
+[100%] Built target ball_detector_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/lib/op3_ball_detector/ball_detector_node
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/include/op3_ball_detector/ball_detector.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/include/op3_ball_detector/ball_detector_config.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/include/op3_ball_detector/detector_params_config.h
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params_default.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params_op.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/config/camera_info.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/config/camera_param.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/launch/ball_detector_from_usb_cam.launch.py
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/rviz/ball_detector.rviz
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/ament_index/resource_index/package_run_dependencies/op3_ball_detector
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/ament_index/resource_index/parent_prefix_path/op3_ball_detector
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/ament_index/resource_index/packages/op3_ball_detector
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/cmake/op3_ball_detectorConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/cmake/op3_ball_detectorConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector/share/op3_ball_detector/package.xml

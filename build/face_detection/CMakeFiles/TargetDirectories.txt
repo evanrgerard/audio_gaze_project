@@ -1,0 +1,10 @@
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/uninstall.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/face_detection_uninstall.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/face_tracking.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/test.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/edit_cache.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/rebuild_cache.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/list_install_components.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/install.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/install/local.dir
+/home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/install/strip.dir

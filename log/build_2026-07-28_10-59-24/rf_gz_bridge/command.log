@@ -1,0 +1,1 @@
+Invoking command in '/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target rf_gz_bridge_node[0m
+[100%] Built target rf_gz_bridge_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/lib/rf_gz_bridge/rf_gz_bridge_node
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/include/rf_gz_bridge/rf_gz_bridge.hpp
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/config/op3_joint_list.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/ament_index/resource_index/package_run_dependencies/rf_gz_bridge
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/ament_index/resource_index/parent_prefix_path/rf_gz_bridge
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/ament_index/resource_index/packages/rf_gz_bridge
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/cmake/rf_gz_bridgeConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/cmake/rf_gz_bridgeConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/share/rf_gz_bridge/package.xml

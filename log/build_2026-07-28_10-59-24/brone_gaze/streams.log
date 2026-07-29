@@ -1,0 +1,26 @@
+[1.151s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/brone_gaze': PYTHONPATH=/home/evan/Documents/algo_gaze_project/build/brone_gaze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/evan/Documents/algo_gaze_project/build/brone_gaze/build --no-deps symlink_data
+[2.600s] running develop
+[2.600s] running egg_info
+[2.600s] creating brone_gaze.egg-info
+[2.600s] writing brone_gaze.egg-info/PKG-INFO
+[2.600s] writing dependency_links to brone_gaze.egg-info/dependency_links.txt
+[2.600s] writing entry points to brone_gaze.egg-info/entry_points.txt
+[2.600s] writing requirements to brone_gaze.egg-info/requires.txt
+[2.600s] writing top-level names to brone_gaze.egg-info/top_level.txt
+[2.600s] writing manifest file 'brone_gaze.egg-info/SOURCES.txt'
+[2.600s] reading manifest file 'brone_gaze.egg-info/SOURCES.txt'
+[2.600s] writing manifest file 'brone_gaze.egg-info/SOURCES.txt'
+[2.600s] running build_ext
+[2.600s] Creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/python3.10/site-packages/brone-gaze.egg-link (link to .)
+[2.600s] Installing fuzzy_gaze script to /home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/brone_gaze
+[2.600s] 
+[2.600s] Installed /home/evan/Documents/algo_gaze_project/build/brone_gaze
+[2.600s] running symlink_data
+[2.600s] creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index
+[2.601s] creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index
+[2.601s] creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index/packages
+[2.601s] symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/resource/brone_gaze -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/ament_index/resource_index/packages
+[2.601s] symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/package.xml -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze
+[2.601s] creating /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze/models
+[2.601s] symbolically linking /home/evan/Documents/algo_gaze_project/build/brone_gaze/models/yolo11s.pt -> /home/evan/Documents/algo_gaze_project/install/brone_gaze/share/brone_gaze/models
+[2.610s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/brone_gaze' returned '0': PYTHONPATH=/home/evan/Documents/algo_gaze_project/build/brone_gaze/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/evan/Documents/algo_gaze_project/install/brone_gaze/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/evan/Documents/algo_gaze_project/build/brone_gaze/build --no-deps symlink_data

@@ -1,2 +1,1 @@
-source;share/op3_web_setting_tool/environment/ament_prefix_path.sh
-source;share/op3_web_setting_tool/environment/path.sh
+/home/evan/Documents/algo_gaze_project/build/op3_web_setting_tool/ament_cmake_environment_hooks/local_setup.dsv

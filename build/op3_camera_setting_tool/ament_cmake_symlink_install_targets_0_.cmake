@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool/op3_camera_setting_tool" "TARGETS" "op3_camera_setting_tool" "DESTINATION" "lib/op3_camera_setting_tool")

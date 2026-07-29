@@ -1,0 +1,51 @@
+[0.052s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_gui_demo': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_gui_demo
+[6.405s] -- The C compiler identification is GNU 11.4.0
+[6.405s] -- The CXX compiler identification is GNU 11.4.0
+[6.405s] -- Detecting C compiler ABI info
+[6.405s] -- Detecting C compiler ABI info - done
+[6.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.406s] -- Detecting C compile features
+[6.406s] -- Detecting C compile features - done
+[6.406s] -- Detecting CXX compiler ABI info
+[6.406s] -- Detecting CXX compiler ABI info - done
+[6.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.406s] -- Detecting CXX compile features
+[6.406s] -- Detecting CXX compile features - done
+[6.406s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.406s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[6.406s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[6.406s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.406s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.406s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.407s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.407s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.407s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.407s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.407s] -- Looking for pthread.h
+[6.407s] -- Looking for pthread.h - found
+[6.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.407s] -- Found Threads: TRUE  
+[6.407s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.407s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.407s] -- Found robotis_controller_msgs: 0.1.4 (/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake)
+[6.407s] -- Found op3_walking_module_msgs: 0.1.1 (/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/share/op3_walking_module_msgs/cmake)
+[6.408s] -- Found op3_online_walking_module_msgs: 0.1.1 (/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake)
+[6.408s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[6.408s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.408s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.408s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.408s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.408s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.408s] -- Checking for module 'yaml-cpp'
+[6.408s] --   Found yaml-cpp, version 0.7.0
+[6.408s] -- Configuring done
+[6.408s] -- Generating done
+[6.408s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/op3_gui_demo
+[6.438s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_gui_demo' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_gui_demo
+[6.442s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_gui_demo': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_gui_demo -- -j12 -l12

@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs
+# Build directory: /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("op3_offset_tuner_msgs__py")
+subdirs("op3_offset_tuner_msgs__rs")

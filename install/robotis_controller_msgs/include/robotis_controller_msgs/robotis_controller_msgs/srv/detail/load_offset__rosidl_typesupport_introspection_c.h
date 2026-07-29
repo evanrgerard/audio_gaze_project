@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_typesupport_introspection_c/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_introspection_c.h

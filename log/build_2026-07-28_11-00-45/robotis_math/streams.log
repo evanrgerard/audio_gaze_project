@@ -1,0 +1,42 @@
+[0.034s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_math': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_math -- -j12 -l12
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target robotis_math[0m
+[0.155s] [100%] Built target robotis_math
+[0.225s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_math' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/robotis_math -- -j12 -l12
+[0.226s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/robotis_math': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_math
+[0.554s] -- Install configuration: ""
+[0.555s] -- Execute custom install script
+[0.555s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h
+[0.555s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h
+[0.555s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/library_path.sh
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/library_path.dsv
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/ament_index/resource_index/package_run_dependencies/robotis_math
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/ament_index/resource_index/parent_prefix_path/robotis_math
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/ament_prefix_path.sh
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/ament_prefix_path.dsv
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/path.sh
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/environment/path.dsv
+[0.556s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/local_setup.bash
+[0.557s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/local_setup.sh
+[0.557s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/local_setup.zsh
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/local_setup.dsv
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/package.dsv
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/ament_index/resource_index/packages/robotis_math
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_targets-extras.cmake
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/robotis_mathConfig.cmake
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/robotis_mathConfig-version.cmake
+[0.558s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/package.xml
+[0.559s] -- Up-to-date: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+[0.559s] -- Up-to-date: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport.cmake
+[0.559s] -- Up-to-date: /home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport-noconfig.cmake
+[0.651s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/robotis_math' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/robotis_math

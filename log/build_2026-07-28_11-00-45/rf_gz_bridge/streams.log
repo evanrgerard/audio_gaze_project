@@ -1,0 +1,5 @@
+[0.045s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge -- -j12 -l12
+[0.188s] [ 33%] [32mBuilding CXX object CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o[0m
+[0.189s] [ 66%] [32mBuilding CXX object CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o[0m
+[14.386s] [100%] [32m[1mLinking CXX executable rf_gz_bridge_node[0m
+[15.069s] [100%] Built target rf_gz_bridge_node

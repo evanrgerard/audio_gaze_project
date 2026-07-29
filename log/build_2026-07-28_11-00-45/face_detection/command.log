@@ -1,0 +1,1 @@
+Invoking command in '/home/evan/Documents/algo_gaze_project/build/face_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/face_detection -- -j12 -l12

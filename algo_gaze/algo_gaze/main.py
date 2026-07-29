@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image, JointState
-from std_msgs.msg import Header, Bool 
+from std_msgs.msg import Header, Bool, Float64
 from cv_bridge import CvBridge
 import cv2
 import mediapipe as mp
@@ -40,7 +40,14 @@ class FuzzyGazeNode(Node):
         self.get_logger().info('Fuzzy Gaze Node: AGGRESSIVE MODE + STRONG NODDING + BRIO WIDE FOV.')
 
         # --- [BARU] Setup Kamera Brio FOV ---
-        self.setup_logitech_brio_fov()
+        # (Skipped entirely in simulation_mode further below via early parameter read,
+        #  handled inside setup_logitech_brio_fov itself.)
+        self.declare_parameter('simulation_mode', False)
+        self.simulation_mode = self.get_parameter('simulation_mode').value
+        if not self.simulation_mode:
+            self.setup_logitech_brio_fov()
+        else:
+            self.get_logger().info('SIMULATION MODE: skipping real-webcam v4l2 FOV setup.')
 
         # --- [BARU] Parameter Brightness Visualisasi (Untuk RQT) ---
         # Default ditingkatkan ke 60 agar lebih terang di RQT
@@ -49,8 +56,18 @@ class FuzzyGazeNode(Node):
 
         # --- Load Model YOLO ---
         self.declare_parameter('yolo_model_path', 'yolo11s.pt')
-        yolo_model_path = '/home/brone-ub/robotis_ws/src/algo_gaze/algo_gaze/models/yolo11s.pt'
-        
+        yolo_model_path = self.get_parameter('yolo_model_path').get_parameter_value().string_value
+
+        if not os.path.isabs(yolo_model_path):
+            # Fall back to the models/ dir next to this source file (works with --symlink-install
+            # even before setup.py's data_files/share install is wired up for the models folder).
+            local_model_path = os.path.join(os.path.dirname(__file__), 'models', os.path.basename(yolo_model_path))
+            if os.path.exists(local_model_path):
+                yolo_model_path = local_model_path
+            else:
+                pkg_share = get_package_share_directory('algo_gaze')
+                yolo_model_path = os.path.join(pkg_share, 'models', os.path.basename(yolo_model_path))
+
         if not os.path.exists(yolo_model_path):
             self.get_logger().error(f'File model tidak ditemukan: {yolo_model_path}')
             raise FileNotFoundError()
@@ -102,7 +119,11 @@ class FuzzyGazeNode(Node):
 
         # --- ARAH SERVO ---
         self.pan_dir = -1 
-        self.tilt_dir = 1    
+        # tilt_dir was tuned for the REAL OP3's head_tilt joint direction.
+        # Webots' simulated head_tilt joint rotates the opposite way for the same
+        # commanded sign, so flip it automatically when running against the sim
+        # (this covers both 'sim' and 'hybrid' modes, since both set simulation_mode=True).
+        self.tilt_dir = -1 if self.simulation_mode else 1
 
         # --- VARIABEL PEREKAMAN DATA ---
         self.is_recording = False
@@ -137,6 +158,19 @@ class FuzzyGazeNode(Node):
             JointState,
             '/robotis/head_control/set_joint_states',
             10)
+
+        # --- [WEBOTS SIM] Optional per-joint Float64 command publishers ---
+        # The op3_webots_ros2 controller does NOT accept a combined JointState on
+        # /robotis/head_control/set_joint_states like the real hardware's head_control_module
+        # does. Instead it expects two separate std_msgs/Float64 topics, one per joint:
+        #   /robotis_op3/head_pan_position/command
+        #   /robotis_op3/head_tilt_position/command
+        # Enable with: ros2 run algo_gaze algo_gaze --ros-args -p simulation_mode:=true
+        # (self.simulation_mode was already read earlier in __init__.)
+        if self.simulation_mode:
+            self.get_logger().info('SIMULATION MODE: publishing head commands as Webots Float64 topics.')
+            self.sim_pan_pub = self.create_publisher(Float64, '/robotis_op3/head_pan_position/command', 10)
+            self.sim_tilt_pub = self.create_publisher(Float64, '/robotis_op3/head_tilt_position/command', 10)
 
         self.joint_sub = self.create_subscription(
             JointState,
@@ -270,7 +304,7 @@ class FuzzyGazeNode(Node):
         self.pixel_deadband = 0.10 * self.frame_center_x 
 
         image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        yolo_results = self.yolo_model.track(image_rgb, classes=0, conf=0.5, persist=True, verbose=False)
+        yolo_results = self.yolo_model.track(image_rgb, classes=0, conf=0.1, persist=True, verbose=False)
         
         detected_people = []
         metric_pixel_error = -1
@@ -471,12 +505,7 @@ class FuzzyGazeNode(Node):
             self.current_tilt = self.target_tilt 
             
             # Kirim ke motor
-            msg = JointState()
-            msg.header = Header()
-            msg.header.stamp = self.get_clock().now().to_msg()
-            msg.name = ['head_pan', 'head_tilt']
-            msg.position = [float(self.current_pan), float(self.current_tilt)]
-            self.head_pub.publish(msg)
+            self.publish_head_command(self.current_pan, self.current_tilt)
         else:
             self.is_nodding = False
             self.current_tilt = self.nod_base_tilt # Kembalikan ke posisi awal
@@ -522,13 +551,20 @@ class FuzzyGazeNode(Node):
         self.target_pan = self.current_pan
         self.target_tilt = self.current_tilt
 
+        self.publish_head_command(self.current_pan, self.current_tilt)
+
+    def publish_head_command(self, pan, tilt):
+        """Publish head pan/tilt to whichever backend is active (real robot or Webots sim)."""
         joint_msg = JointState()
         joint_msg.header = Header()
         joint_msg.header.stamp = self.get_clock().now().to_msg()
         joint_msg.name = ['head_pan', 'head_tilt']
-        joint_msg.position = [float(self.current_pan), float(self.current_tilt)]
-        
+        joint_msg.position = [float(pan), float(tilt)]
         self.head_pub.publish(joint_msg)
+
+        if self.simulation_mode:
+            self.sim_pan_pub.publish(Float64(data=float(pan)))
+            self.sim_tilt_pub.publish(Float64(data=float(tilt)))
 
     def publish_coordinates(self, x, y, z, header):
         msg = CircleSetStamped()

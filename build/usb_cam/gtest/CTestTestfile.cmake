@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /opt/ros/jazzy/src/gtest_vendor
-# Build directory: /home/brone-ub/robotis_ws/src/build/usb_cam/gtest
+# Source directory: /opt/ros/humble/src/gtest_vendor
+# Build directory: /home/evan/Documents/algo_gaze_project/build/usb_cam/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

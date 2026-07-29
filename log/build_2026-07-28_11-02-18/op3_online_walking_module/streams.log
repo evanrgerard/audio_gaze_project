@@ -1,0 +1,56 @@
+[0.106s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_online_walking_module': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.296s] -- Detecting C compiler ABI info
+[0.434s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.837s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.929s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.982s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.991s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.056s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.179s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.614s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.621s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.811s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.916s] -- Looking for pthread.h
+[2.031s] -- Looking for pthread.h - found
+[2.031s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.157s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.158s] -- Found Threads: TRUE  
+[2.277s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.345s] -- Found robotis_controller_msgs: 0.1.4 (/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake)
+[2.371s] -- Found op3_online_walking_module_msgs: 0.1.1 (/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake)
+[2.418s] -- Found dynamixel_sdk: 3.8.4 (/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.419s] -- Found robotis_framework_common: 0.2.9 (/home/evan/Documents/algo_gaze_project/install/robotis_framework_common/share/robotis_framework_common/cmake)
+[2.421s] -- Found robotis_device: 0.2.9 (/home/evan/Documents/algo_gaze_project/install/robotis_device/share/robotis_device/cmake)
+[2.436s] -- Found robotis_math: 0.2.6 (/home/evan/Documents/algo_gaze_project/install/robotis_math/share/robotis_math/cmake)
+[2.465s] -- Found op3_balance_control: 0.2.1 (/home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake)
+[2.498s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.499s] -- Checking for module 'yaml-cpp'
+[2.541s] --   Found yaml-cpp, version 0.7.0
+[2.884s] -- Configuring done
+[2.904s] -- Generating done
+[2.915s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module
+[2.946s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_online_walking_module' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module
+[2.952s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_online_walking_module': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module -- -j12 -l12
+[13.815s] [ 16%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module.dir/src/online_walking_module.cpp.o[0m
+[13.815s] [ 33%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o[0m
+[13.815s] [ 50%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o[0m
+[13.815s] [ 66%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o[0m
+[13.815s] [ 83%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module.dir/src/walking_control.cpp.o[0m
+[45.936s] [100%] [32m[1mLinking CXX shared library libop3_online_walking_module.so[0m
+[48.053s] [100%] Built target op3_online_walking_module

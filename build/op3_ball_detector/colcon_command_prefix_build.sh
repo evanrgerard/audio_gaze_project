@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/package.sh"
+. "/home/evan/Documents/algo_gaze_project/install/usb_cam/share/usb_cam/package.sh"

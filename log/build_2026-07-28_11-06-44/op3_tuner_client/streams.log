@@ -1,0 +1,82 @@
+[0.024s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_tuner_client
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.639s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.715s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.757s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.760s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.826s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.831s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.844s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.956s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.961s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.083s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.119s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.183s] -- Looking for pthread.h
+[1.274s] -- Looking for pthread.h - found
+[1.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.362s] -- Found Threads: TRUE  
+[1.441s] -- Found op3_tuning_module_msgs: 0.0.1 (/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/share/op3_tuning_module_msgs/cmake)
+[1.485s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.487s] -- Checking for module 'yaml-cpp'
+[1.502s] --   Found yaml-cpp, version 0.7.0
+[1.697s] -- Configuring done
+[1.707s] -- Generating done
+[1.710s] -- Build files have been written to: /home/evan/Documents/algo_gaze_project/build/op3_tuner_client
+[1.721s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/algo_gaze_project/install/op3_tuner_client
+[1.722s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_tuner_client -- -j12 -l12
+[1.769s] [ 18%] [34m[1mGenerating ui_main_window.h[0m
+[1.769s] [ 18%] [34m[1mGenerating include/op3_tuner_client/moc_qnode.cpp[0m
+[1.769s] [ 27%] [34m[1mGenerating include/op3_tuner_client/moc_main_window.cpp[0m
+[1.772s] [ 36%] [34m[1mGenerating qrc_images.cpp[0m
+[1.801s] [ 45%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/src/main_window.cpp.o[0m
+[1.801s] [ 54%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/src/main.cpp.o[0m
+[1.802s] [ 63%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_main_window.cpp.o[0m
+[1.803s] [ 72%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/src/qnode.cpp.o[0m
+[1.810s] [ 81%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_qnode.cpp.o[0m
+[1.811s] [ 90%] [32mBuilding CXX object CMakeFiles/op3_tuner_client.dir/qrc_images.cpp.o[0m
+[10.923s] [100%] [32m[1mLinking CXX executable op3_tuner_client[0m
+[11.510s] [100%] Built target op3_tuner_client
+[11.558s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_tuner_client -- -j12 -l12
+[11.559s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_tuner_client
+[11.567s] -- Install configuration: ""
+[11.567s] -- Execute custom install script
+[11.568s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/lib/op3_tuner_client/op3_tuner_client
+[11.575s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/resources/images.qrc
+[11.582s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/resources/images/icon.png
+[11.590s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/resources/images/robotis_icon.png
+[11.598s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/launch/op3_tuner.launch.xml
+[11.605s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/launch/op3_tuner_client.launch.xml
+[11.612s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/config/joint_data.yaml
+[11.618s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/config/r_ank_pitch.perspective
+[11.626s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/ament_index/resource_index/package_run_dependencies/op3_tuner_client
+[11.633s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/ament_index/resource_index/parent_prefix_path/op3_tuner_client
+[11.641s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/environment/ament_prefix_path.sh
+[11.649s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/environment/ament_prefix_path.dsv
+[11.656s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/environment/path.sh
+[11.664s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/environment/path.dsv
+[11.673s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/local_setup.bash
+[11.680s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/local_setup.sh
+[11.689s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/local_setup.zsh
+[11.698s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/local_setup.dsv
+[11.705s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/package.dsv
+[11.712s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/ament_index/resource_index/packages/op3_tuner_client
+[11.720s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/cmake/op3_tuner_clientConfig.cmake
+[11.727s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/cmake/op3_tuner_clientConfig-version.cmake
+[11.733s] -- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_tuner_client/share/op3_tuner_client/package.xml
+[11.741s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_tuner_client' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_tuner_client

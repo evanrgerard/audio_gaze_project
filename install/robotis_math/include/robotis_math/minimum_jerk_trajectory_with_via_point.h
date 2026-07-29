@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h

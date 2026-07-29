@@ -1,0 +1,1 @@
+/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_py/robotis_controller_msgs/msg/_sync_write_item.py

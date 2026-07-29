@@ -1,0 +1,35 @@
+[  9%] [34m[1mGenerating ui_main_window.h[0m
+[ 18%] [34m[1mGenerating include/op3_offset_tuner_client/moc_main_window.cpp[0m
+[ 27%] [34m[1mGenerating include/op3_offset_tuner_client/moc_qnode.cpp[0m
+[ 36%] [34m[1mGenerating qrc_images.cpp[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o[0m
+[100%] [32m[1mLinking CXX executable op3_offset_tuner_client[0m
+[100%] Built target op3_offset_tuner_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/lib/op3_offset_tuner_client/op3_offset_tuner_client
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/resources/images.qrc
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/resources/images/icon.png
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/launch/client_only.launch.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/launch/op3_offset_tuner.launch.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/config/joint_data.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/package_run_dependencies/op3_offset_tuner_client
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/parent_prefix_path/op3_offset_tuner_client
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/ament_index/resource_index/packages/op3_offset_tuner_client
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/cmake/op3_offset_tuner_clientConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/cmake/op3_offset_tuner_clientConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_client/share/op3_offset_tuner_client/package.xml

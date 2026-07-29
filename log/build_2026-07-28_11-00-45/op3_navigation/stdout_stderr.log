@@ -1,0 +1,35 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/ament_index/resource_index/package_run_dependencies/op3_navigation
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/ament_index/resource_index/parent_prefix_path/op3_navigation
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/environment/path.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/environment/path.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.bash
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.sh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.zsh
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/package.dsv
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/ament_index/resource_index/packages/op3_navigation
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/cmake/op3_navigationConfig.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/cmake/op3_navigationConfig-version.cmake
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/package.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/footsteps_robotis_op3.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/footsteps_thormang3.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/navigation_params.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params_robotis_op3.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params_thormang3.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/launch/map_server_empty.launch.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/launch/op3_footstep_planner.launch.xml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/empty.gif
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/empty.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/nao_map.gif
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/nao_map.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample.gif
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample2.gif
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample2.yaml
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/thor.gif
+-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_navigation/share/op3_navigation/maps/thor.yaml

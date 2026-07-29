@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/librobotis_framework_common.a" "TARGETS" "robotis_framework_common" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

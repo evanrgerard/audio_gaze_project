@@ -1,0 +1,5 @@
+[0.046s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_webots_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_webots_ros2 -- -j12 -l12
+[0.162s] [ 33%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/op3_extern_controller.cpp.o[0m
+[0.162s] [ 66%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/extern_controller_main.cpp.o[0m
+[16.898s] [100%] [32m[1mLinking CXX executable op3_extern_controller[0m
+[19.186s] [100%] Built target op3_extern_controller

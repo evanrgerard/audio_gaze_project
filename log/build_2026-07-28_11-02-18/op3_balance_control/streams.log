@@ -1,0 +1,30 @@
+[0.039s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_balance_control': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_balance_control -- -j12 -l12
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target op3_balance_control[0m
+[0.117s] [100%] Built target op3_balance_control
+[0.143s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_balance_control' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/Documents/algo_gaze_project/build/op3_balance_control -- -j12 -l12
+[0.143s] Invoking command in '/home/evan/Documents/algo_gaze_project/build/op3_balance_control': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_balance_control
+[0.373s] -- Install configuration: ""
+[0.374s] -- Execute custom install script
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib/libop3_balance_control.so
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/include/op3_balance_control/op3_balance_control.h
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/library_path.sh
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/library_path.dsv
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/ament_index/resource_index/package_run_dependencies/op3_balance_control
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/ament_index/resource_index/parent_prefix_path/op3_balance_control
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/ament_prefix_path.sh
+[0.375s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/ament_prefix_path.dsv
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/path.sh
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/environment/path.dsv
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/local_setup.bash
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/local_setup.sh
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/local_setup.zsh
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/local_setup.dsv
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/package.dsv
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/ament_index/resource_index/packages/op3_balance_control
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake/op3_balance_controlConfig.cmake
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/cmake/op3_balance_controlConfig-version.cmake
+[0.376s] -- Up-to-date symlink: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/share/op3_balance_control/package.xml
+[0.410s] Invoked command in '/home/evan/Documents/algo_gaze_project/build/op3_balance_control' returned '0': AMENT_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/Documents/algo_gaze_project/build/op3_balance_control

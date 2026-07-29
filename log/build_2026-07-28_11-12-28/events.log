@@ -1,0 +1,755 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (-) JobUnselected: {'identifier': 'algo_gaze'}
+[0.000265] (-) JobUnselected: {'identifier': 'brone_gaze'}
+[0.000278] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000288] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000298] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000311] (-) JobUnselected: {'identifier': 'face_detection'}
+[0.000324] (-) JobUnselected: {'identifier': 'op3_action_module'}
+[0.000336] (-) JobUnselected: {'identifier': 'op3_action_module_msgs'}
+[0.000350] (-) JobUnselected: {'identifier': 'op3_balance_control'}
+[0.000364] (-) JobUnselected: {'identifier': 'op3_ball_detector'}
+[0.000377] (-) JobUnselected: {'identifier': 'op3_ball_detector_msgs'}
+[0.000387] (-) JobUnselected: {'identifier': 'op3_base_module'}
+[0.000397] (-) JobUnselected: {'identifier': 'op3_bringup'}
+[0.000407] (-) JobUnselected: {'identifier': 'op3_camera_setting_tool'}
+[0.000417] (-) JobUnselected: {'identifier': 'op3_camera_setting_tool_msgs'}
+[0.000426] (-) JobUnselected: {'identifier': 'op3_description'}
+[0.000436] (-) JobUnselected: {'identifier': 'op3_direct_control_module'}
+[0.000453] (-) JobUnselected: {'identifier': 'op3_gui_demo'}
+[0.000463] (-) JobUnselected: {'identifier': 'op3_head_control_module'}
+[0.000474] (-) JobUnselected: {'identifier': 'op3_kinematics_dynamics'}
+[0.000484] (-) JobUnselected: {'identifier': 'op3_localization'}
+[0.000505] (-) JobUnselected: {'identifier': 'op3_manager'}
+[0.000689] (-) JobUnselected: {'identifier': 'op3_navigation'}
+[0.000713] (-) JobUnselected: {'identifier': 'op3_offset_tuner_client'}
+[0.000728] (-) JobUnselected: {'identifier': 'op3_offset_tuner_msgs'}
+[0.000744] (-) JobUnselected: {'identifier': 'op3_offset_tuner_server'}
+[0.000760] (-) JobUnselected: {'identifier': 'op3_online_walking_module'}
+[0.000773] (-) JobUnselected: {'identifier': 'op3_online_walking_module_msgs'}
+[0.000785] (-) JobUnselected: {'identifier': 'op3_tuner_client'}
+[0.000799] (-) JobUnselected: {'identifier': 'op3_tuning_module'}
+[0.000813] (-) JobUnselected: {'identifier': 'op3_tuning_module_msgs'}
+[0.000826] (-) JobUnselected: {'identifier': 'op3_walking_module'}
+[0.000840] (-) JobUnselected: {'identifier': 'op3_walking_module_msgs'}
+[0.000854] (-) JobUnselected: {'identifier': 'op3_web_setting_tool'}
+[0.000869] (-) JobUnselected: {'identifier': 'op3_webots_ros2'}
+[0.000882] (-) JobUnselected: {'identifier': 'open_cr_module'}
+[0.000896] (-) JobUnselected: {'identifier': 'rf_gz_bridge'}
+[0.000910] (-) JobUnselected: {'identifier': 'robotis_controller'}
+[0.000925] (-) JobUnselected: {'identifier': 'robotis_controller_msgs'}
+[0.000939] (-) JobUnselected: {'identifier': 'robotis_device'}
+[0.000952] (-) JobUnselected: {'identifier': 'robotis_framework_common'}
+[0.000965] (-) JobUnselected: {'identifier': 'robotis_math'}
+[0.000975] (-) JobUnselected: {'identifier': 'ros_madplay_player'}
+[0.000985] (-) JobUnselected: {'identifier': 'ros_mpg321_player'}
+[0.000995] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.001008] (op3_action_editor) JobQueued: {'identifier': 'op3_action_editor', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk'), ('op3_action_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs'), ('op3_online_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs'), ('op3_tuning_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs'), ('op3_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs'), ('robotis_controller_msgs', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs'), ('robotis_math', '/home/evan/Documents/algo_gaze_project/install/robotis_math'), ('ros_mpg321_player', '/home/evan/Documents/algo_gaze_project/install/ros_mpg321_player'), ('op3_balance_control', '/home/evan/Documents/algo_gaze_project/install/op3_balance_control'), ('op3_kinematics_dynamics', '/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics'), ('op3_localization', '/home/evan/Documents/algo_gaze_project/install/op3_localization'), ('robotis_device', '/home/evan/Documents/algo_gaze_project/install/robotis_device'), ('robotis_framework_common', '/home/evan/Documents/algo_gaze_project/install/robotis_framework_common'), ('op3_action_module', '/home/evan/Documents/algo_gaze_project/install/op3_action_module'), ('op3_base_module', '/home/evan/Documents/algo_gaze_project/install/op3_base_module'), ('op3_direct_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module'), ('op3_head_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_head_control_module'), ('op3_online_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module'), ('op3_tuning_module', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module'), ('op3_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module'), ('open_cr_module', '/home/evan/Documents/algo_gaze_project/install/open_cr_module'), ('robotis_controller', '/home/evan/Documents/algo_gaze_project/install/robotis_controller'), ('op3_manager', '/home/evan/Documents/algo_gaze_project/install/op3_manager')])}
+[0.001394] (op3_demo) JobQueued: {'identifier': 'op3_demo', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk'), ('op3_action_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs'), ('op3_ball_detector_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs'), ('op3_camera_setting_tool_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs'), ('op3_online_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs'), ('op3_tuning_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs'), ('op3_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs'), ('op3_web_setting_tool', '/home/evan/Documents/algo_gaze_project/install/op3_web_setting_tool'), ('robotis_controller_msgs', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs'), ('robotis_math', '/home/evan/Documents/algo_gaze_project/install/robotis_math'), ('ros_madplay_player', '/home/evan/Documents/algo_gaze_project/install/ros_madplay_player'), ('usb_cam', '/home/evan/Documents/algo_gaze_project/install/usb_cam'), ('op3_balance_control', '/home/evan/Documents/algo_gaze_project/install/op3_balance_control'), ('op3_ball_detector', '/home/evan/Documents/algo_gaze_project/install/op3_ball_detector'), ('op3_camera_setting_tool', '/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool'), ('op3_kinematics_dynamics', '/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics'), ('op3_localization', '/home/evan/Documents/algo_gaze_project/install/op3_localization'), ('robotis_device', '/home/evan/Documents/algo_gaze_project/install/robotis_device'), ('robotis_framework_common', '/home/evan/Documents/algo_gaze_project/install/robotis_framework_common'), ('op3_action_module', '/home/evan/Documents/algo_gaze_project/install/op3_action_module'), ('op3_base_module', '/home/evan/Documents/algo_gaze_project/install/op3_base_module'), ('op3_direct_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module'), ('op3_head_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_head_control_module'), ('op3_online_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module'), ('op3_tuning_module', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module'), ('op3_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module'), ('open_cr_module', '/home/evan/Documents/algo_gaze_project/install/open_cr_module'), ('robotis_controller', '/home/evan/Documents/algo_gaze_project/install/robotis_controller'), ('op3_manager', '/home/evan/Documents/algo_gaze_project/install/op3_manager')])}
+[0.001433] (op3_read_write_demo) JobQueued: {'identifier': 'op3_read_write_demo', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk'), ('op3_action_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs'), ('op3_online_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs'), ('op3_tuning_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs'), ('op3_walking_module_msgs', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs'), ('robotis_controller_msgs', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs'), ('robotis_math', '/home/evan/Documents/algo_gaze_project/install/robotis_math'), ('op3_balance_control', '/home/evan/Documents/algo_gaze_project/install/op3_balance_control'), ('op3_kinematics_dynamics', '/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics'), ('op3_localization', '/home/evan/Documents/algo_gaze_project/install/op3_localization'), ('robotis_device', '/home/evan/Documents/algo_gaze_project/install/robotis_device'), ('robotis_framework_common', '/home/evan/Documents/algo_gaze_project/install/robotis_framework_common'), ('op3_action_module', '/home/evan/Documents/algo_gaze_project/install/op3_action_module'), ('op3_base_module', '/home/evan/Documents/algo_gaze_project/install/op3_base_module'), ('op3_direct_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module'), ('op3_head_control_module', '/home/evan/Documents/algo_gaze_project/install/op3_head_control_module'), ('op3_online_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module'), ('op3_tuning_module', '/home/evan/Documents/algo_gaze_project/install/op3_tuning_module'), ('op3_walking_module', '/home/evan/Documents/algo_gaze_project/install/op3_walking_module'), ('open_cr_module', '/home/evan/Documents/algo_gaze_project/install/open_cr_module'), ('robotis_controller', '/home/evan/Documents/algo_gaze_project/install/robotis_controller'), ('op3_manager', '/home/evan/Documents/algo_gaze_project/install/op3_manager')])}
+[0.001455] (op3_action_editor) JobStarted: {'identifier': 'op3_action_editor'}
+[0.021170] (op3_demo) JobStarted: {'identifier': 'op3_demo'}
+[0.029947] (op3_read_write_demo) JobStarted: {'identifier': 'op3_read_write_demo'}
+[0.099741] (-) TimerEvent: {}
+[0.107916] (op3_read_write_demo) JobProgress: {'identifier': 'op3_read_write_demo', 'progress': 'cmake'}
+[0.109193] (op3_read_write_demo) JobProgress: {'identifier': 'op3_read_write_demo', 'progress': 'build'}
+[0.109736] (op3_read_write_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo', '--', '-j12', '-l12'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[0.114234] (op3_demo) JobProgress: {'identifier': 'op3_demo', 'progress': 'cmake'}
+[0.115755] (op3_demo) JobProgress: {'identifier': 'op3_demo', 'progress': 'build'}
+[0.116063] (op3_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/Documents/algo_gaze_project/build/op3_demo', '--', '-j12', '-l12'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/ros_madplay_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_web_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/ros_madplay_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_web_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[0.119639] (op3_action_editor) JobProgress: {'identifier': 'op3_action_editor', 'progress': 'cmake'}
+[0.120879] (op3_action_editor) JobProgress: {'identifier': 'op3_action_editor', 'progress': 'build'}
+[0.121242] (op3_action_editor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/Documents/algo_gaze_project/build/op3_action_editor', '--', '-j12', '-l12'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_action_editor', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/ros_mpg321_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_action_editor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/ros_mpg321_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[0.199853] (-) TimerEvent: {}
+[0.222653] (op3_action_editor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target op3_action_editor\x1b[0m\n'}
+[0.237166] (op3_demo) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/test_node.cpp.o\x1b[0m\n'}
+[0.237477] (op3_demo) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/soccer/ball_follower.cpp.o\x1b[0m\n'}
+[0.237608] (op3_demo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/soccer/ball_tracker.cpp.o\x1b[0m\n'}
+[0.241999] (op3_demo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/demo_node.cpp.o\x1b[0m\n'}
+[0.242220] (op3_demo) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/soccer/soccer_demo.cpp.o\x1b[0m\n'}
+[0.242696] (op3_demo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o\x1b[0m\n'}
+[0.243108] (op3_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o\x1b[0m\n'}
+[0.244029] (op3_demo) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/action/action_demo.cpp.o\x1b[0m\n'}
+[0.250302] (op3_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o\x1b[0m\n'}
+[0.254482] (op3_demo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/vision/face_tracker.cpp.o\x1b[0m\n'}
+[0.255237] (op3_demo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/op_demo_node.dir/src/vision/vision_demo.cpp.o\x1b[0m\n'}
+[0.261852] (op3_action_editor) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_op3_action_editor\n'}
+[0.262187] (op3_read_write_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/read_write.dir/src/read_write.cpp.o\x1b[0m\n'}
+[0.262702] (op3_demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o\x1b[0m\n'}
+[0.300585] (-) TimerEvent: {}
+[0.342179] (op3_action_editor) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o\x1b[0m\n'}
+[0.400693] (-) TimerEvent: {}
+[0.501041] (-) TimerEvent: {}
+[0.601356] (-) TimerEvent: {}
+[0.701781] (-) TimerEvent: {}
+[0.802133] (-) TimerEvent: {}
+[0.873874] (op3_action_editor) StdoutLine: {'line': b'running egg_info\n'}
+[0.875404] (op3_action_editor) StdoutLine: {'line': b'writing op3_action_editor.egg-info/PKG-INFO\n'}
+[0.875801] (op3_action_editor) StdoutLine: {'line': b'writing dependency_links to op3_action_editor.egg-info/dependency_links.txt\n'}
+[0.876100] (op3_action_editor) StdoutLine: {'line': b'writing top-level names to op3_action_editor.egg-info/top_level.txt\n'}
+[0.892980] (op3_action_editor) StdoutLine: {'line': b"reading manifest file 'op3_action_editor.egg-info/SOURCES.txt'\n"}
+[0.899664] (op3_action_editor) StdoutLine: {'line': b"writing manifest file 'op3_action_editor.egg-info/SOURCES.txt'\n"}
+[0.902630] (-) TimerEvent: {}
+[1.000622] (op3_action_editor) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_build_op3_action_editor_egg\n'}
+[1.002750] (-) TimerEvent: {}
+[1.110559] (-) TimerEvent: {}
+[1.210908] (-) TimerEvent: {}
+[1.311269] (-) TimerEvent: {}
+[1.411620] (-) TimerEvent: {}
+[1.514562] (-) TimerEvent: {}
+[1.616972] (-) TimerEvent: {}
+[1.717403] (-) TimerEvent: {}
+[1.817830] (-) TimerEvent: {}
+[1.918194] (-) TimerEvent: {}
+[2.018707] (-) TimerEvent: {}
+[2.124566] (-) TimerEvent: {}
+[2.224937] (-) TimerEvent: {}
+[2.325319] (-) TimerEvent: {}
+[2.428566] (-) TimerEvent: {}
+[2.530573] (-) TimerEvent: {}
+[2.633572] (-) TimerEvent: {}
+[2.733956] (-) TimerEvent: {}
+[2.834429] (-) TimerEvent: {}
+[2.934817] (-) TimerEvent: {}
+[3.039614] (-) TimerEvent: {}
+[3.141568] (-) TimerEvent: {}
+[3.242902] (-) TimerEvent: {}
+[3.343263] (-) TimerEvent: {}
+[3.443629] (-) TimerEvent: {}
+[3.544002] (-) TimerEvent: {}
+[3.646708] (-) TimerEvent: {}
+[3.750589] (-) TimerEvent: {}
+[3.851010] (-) TimerEvent: {}
+[3.951535] (-) TimerEvent: {}
+[4.051915] (-) TimerEvent: {}
+[4.152312] (-) TimerEvent: {}
+[4.254570] (-) TimerEvent: {}
+[4.354953] (-) TimerEvent: {}
+[4.457578] (-) TimerEvent: {}
+[4.561368] (-) TimerEvent: {}
+[4.665582] (-) TimerEvent: {}
+[4.766009] (-) TimerEvent: {}
+[4.866396] (-) TimerEvent: {}
+[4.968092] (-) TimerEvent: {}
+[5.071175] (-) TimerEvent: {}
+[5.174570] (-) TimerEvent: {}
+[5.274920] (-) TimerEvent: {}
+[5.378203] (-) TimerEvent: {}
+[5.478563] (-) TimerEvent: {}
+[5.580617] (-) TimerEvent: {}
+[5.681224] (-) TimerEvent: {}
+[5.781565] (-) TimerEvent: {}
+[5.881921] (-) TimerEvent: {}
+[5.984585] (-) TimerEvent: {}
+[6.084961] (-) TimerEvent: {}
+[6.185339] (-) TimerEvent: {}
+[6.286691] (-) TimerEvent: {}
+[6.387040] (-) TimerEvent: {}
+[6.487427] (-) TimerEvent: {}
+[6.587826] (-) TimerEvent: {}
+[6.688315] (-) TimerEvent: {}
+[6.788682] (-) TimerEvent: {}
+[6.889596] (-) TimerEvent: {}
+[6.989977] (-) TimerEvent: {}
+[7.090355] (-) TimerEvent: {}
+[7.192681] (-) TimerEvent: {}
+[7.293023] (-) TimerEvent: {}
+[7.393394] (-) TimerEvent: {}
+[7.493871] (-) TimerEvent: {}
+[7.594324] (-) TimerEvent: {}
+[7.694739] (-) TimerEvent: {}
+[7.795278] (-) TimerEvent: {}
+[7.895662] (-) TimerEvent: {}
+[7.997301] (-) TimerEvent: {}
+[8.098445] (-) TimerEvent: {}
+[8.198912] (-) TimerEvent: {}
+[8.299384] (-) TimerEvent: {}
+[8.399810] (-) TimerEvent: {}
+[8.503988] (-) TimerEvent: {}
+[8.606577] (-) TimerEvent: {}
+[8.708562] (-) TimerEvent: {}
+[8.808920] (-) TimerEvent: {}
+[8.909282] (-) TimerEvent: {}
+[9.012115] (-) TimerEvent: {}
+[9.112461] (-) TimerEvent: {}
+[9.212850] (-) TimerEvent: {}
+[9.313432] (-) TimerEvent: {}
+[9.415123] (-) TimerEvent: {}
+[9.518566] (-) TimerEvent: {}
+[9.618953] (-) TimerEvent: {}
+[9.719815] (-) TimerEvent: {}
+[9.820186] (-) TimerEvent: {}
+[9.920596] (-) TimerEvent: {}
+[10.020956] (-) TimerEvent: {}
+[10.121308] (-) TimerEvent: {}
+[10.224010] (-) TimerEvent: {}
+[10.324359] (-) TimerEvent: {}
+[10.424731] (-) TimerEvent: {}
+[10.525242] (-) TimerEvent: {}
+[10.626857] (-) TimerEvent: {}
+[10.732559] (-) TimerEvent: {}
+[10.832920] (-) TimerEvent: {}
+[10.933290] (-) TimerEvent: {}
+[11.033658] (-) TimerEvent: {}
+[11.134005] (-) TimerEvent: {}
+[11.234504] (-) TimerEvent: {}
+[11.334861] (-) TimerEvent: {}
+[11.436571] (-) TimerEvent: {}
+[11.537413] (-) TimerEvent: {}
+[11.638405] (-) TimerEvent: {}
+[11.738800] (-) TimerEvent: {}
+[11.841567] (-) TimerEvent: {}
+[11.941933] (-) TimerEvent: {}
+[12.042405] (-) TimerEvent: {}
+[12.142837] (-) TimerEvent: {}
+[12.243289] (-) TimerEvent: {}
+[12.345556] (-) TimerEvent: {}
+[12.445922] (-) TimerEvent: {}
+[12.546282] (-) TimerEvent: {}
+[12.653564] (-) TimerEvent: {}
+[12.755584] (-) TimerEvent: {}
+[12.855975] (-) TimerEvent: {}
+[12.959563] (-) TimerEvent: {}
+[13.060771] (-) TimerEvent: {}
+[13.161152] (-) TimerEvent: {}
+[13.261536] (-) TimerEvent: {}
+[13.363575] (-) TimerEvent: {}
+[13.463980] (-) TimerEvent: {}
+[13.564316] (-) TimerEvent: {}
+[13.666561] (-) TimerEvent: {}
+[13.766912] (-) TimerEvent: {}
+[13.867272] (-) TimerEvent: {}
+[13.967809] (-) TimerEvent: {}
+[14.071602] (-) TimerEvent: {}
+[14.175450] (-) TimerEvent: {}
+[14.275866] (-) TimerEvent: {}
+[14.376233] (-) TimerEvent: {}
+[14.478576] (-) TimerEvent: {}
+[14.578979] (-) TimerEvent: {}
+[14.679356] (-) TimerEvent: {}
+[14.779733] (-) TimerEvent: {}
+[14.881570] (-) TimerEvent: {}
+[14.986570] (-) TimerEvent: {}
+[15.089562] (-) TimerEvent: {}
+[15.192560] (-) TimerEvent: {}
+[15.292900] (-) TimerEvent: {}
+[15.393252] (-) TimerEvent: {}
+[15.493558] (-) TimerEvent: {}
+[15.593904] (-) TimerEvent: {}
+[15.696560] (-) TimerEvent: {}
+[15.796935] (-) TimerEvent: {}
+[15.897337] (-) TimerEvent: {}
+[15.997740] (-) TimerEvent: {}
+[16.100564] (-) TimerEvent: {}
+[16.200923] (-) TimerEvent: {}
+[16.301289] (-) TimerEvent: {}
+[16.401649] (-) TimerEvent: {}
+[16.502000] (-) TimerEvent: {}
+[16.602352] (-) TimerEvent: {}
+[16.702887] (-) TimerEvent: {}
+[16.803252] (-) TimerEvent: {}
+[16.905170] (-) TimerEvent: {}
+[17.005587] (-) TimerEvent: {}
+[17.108561] (-) TimerEvent: {}
+[17.212559] (-) TimerEvent: {}
+[17.312997] (-) TimerEvent: {}
+[17.413350] (-) TimerEvent: {}
+[17.513715] (-) TimerEvent: {}
+[17.614085] (-) TimerEvent: {}
+[17.714439] (-) TimerEvent: {}
+[17.814809] (-) TimerEvent: {}
+[17.915180] (-) TimerEvent: {}
+[18.015725] (-) TimerEvent: {}
+[18.116078] (-) TimerEvent: {}
+[18.159845] (op3_action_editor) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable op3_action_editor\x1b[0m\n'}
+[18.216208] (-) TimerEvent: {}
+[18.316571] (-) TimerEvent: {}
+[18.416958] (-) TimerEvent: {}
+[18.523401] (-) TimerEvent: {}
+[18.623799] (-) TimerEvent: {}
+[18.724162] (-) TimerEvent: {}
+[18.824559] (-) TimerEvent: {}
+[18.924959] (-) TimerEvent: {}
+[19.029737] (-) TimerEvent: {}
+[19.130122] (-) TimerEvent: {}
+[19.232478] (-) TimerEvent: {}
+[19.332884] (-) TimerEvent: {}
+[19.433301] (-) TimerEvent: {}
+[19.536147] (-) TimerEvent: {}
+[19.636569] (-) TimerEvent: {}
+[19.739566] (-) TimerEvent: {}
+[19.839954] (-) TimerEvent: {}
+[19.940335] (-) TimerEvent: {}
+[20.040764] (-) TimerEvent: {}
+[20.141162] (-) TimerEvent: {}
+[20.243567] (-) TimerEvent: {}
+[20.343979] (-) TimerEvent: {}
+[20.444433] (-) TimerEvent: {}
+[20.544944] (-) TimerEvent: {}
+[20.646714] (-) TimerEvent: {}
+[20.747513] (-) TimerEvent: {}
+[20.847956] (-) TimerEvent: {}
+[20.948340] (-) TimerEvent: {}
+[21.051762] (-) TimerEvent: {}
+[21.152185] (-) TimerEvent: {}
+[21.252734] (-) TimerEvent: {}
+[21.353166] (-) TimerEvent: {}
+[21.456952] (-) TimerEvent: {}
+[21.562570] (-) TimerEvent: {}
+[21.662971] (-) TimerEvent: {}
+[21.763562] (-) TimerEvent: {}
+[21.864070] (-) TimerEvent: {}
+[21.964697] (-) TimerEvent: {}
+[22.065138] (-) TimerEvent: {}
+[22.166819] (-) TimerEvent: {}
+[22.267300] (-) TimerEvent: {}
+[22.368725] (-) TimerEvent: {}
+[22.470757] (-) TimerEvent: {}
+[22.571155] (-) TimerEvent: {}
+[22.673691] (-) TimerEvent: {}
+[22.775292] (-) TimerEvent: {}
+[22.879580] (-) TimerEvent: {}
+[22.980022] (-) TimerEvent: {}
+[23.080399] (-) TimerEvent: {}
+[23.180810] (-) TimerEvent: {}
+[23.281191] (-) TimerEvent: {}
+[23.381570] (-) TimerEvent: {}
+[23.483566] (-) TimerEvent: {}
+[23.586575] (-) TimerEvent: {}
+[23.614421] (op3_action_editor) StdoutLine: {'line': b'[100%] Built target op3_action_editor\n'}
+[23.652416] (op3_action_editor) CommandEnded: {'returncode': 0}
+[23.658642] (op3_action_editor) JobProgress: {'identifier': 'op3_action_editor', 'progress': 'install'}
+[23.676533] (op3_action_editor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/evan/Documents/algo_gaze_project/build/op3_action_editor'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_action_editor', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/ros_mpg321_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_action_editor'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/ros_mpg321_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[23.690560] (-) TimerEvent: {}
+[23.701733] (op3_action_editor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.703071] (op3_action_editor) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.705859] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/lib/op3_action_editor/op3_action_editor\n'}
+[23.733967] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/include/op3_action_editor/action_editor.h\n'}
+[23.762505] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor//config/config_mirror_joint.yaml\n'}
+[23.788056] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor//config/editor_script.yaml\n'}
+[23.790687] (-) TimerEvent: {}
+[23.812705] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.sh\n'}
+[23.837967] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.dsv\n'}
+[23.860380] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/PKG-INFO\n'}
+[23.880001] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/SOURCES.txt\n'}
+[23.892570] (-) TimerEvent: {}
+[23.910601] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/dependency_links.txt\n'}
+[23.948621] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor-0.2.2-py3.10.egg-info/top_level.txt\n'}
+[23.980314] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/__init__.py\n'}
+[23.992688] (-) TimerEvent: {}
+[24.006565] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/module_to_import.py\n'}
+[24.032513] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/lib/op3_action_editor/executor.py\n'}
+[24.060811] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/package_run_dependencies/op3_action_editor\n'}
+[24.085151] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/parent_prefix_path/op3_action_editor\n'}
+[24.092810] (-) TimerEvent: {}
+[24.113313] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.sh\n'}
+[24.130859] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.dsv\n'}
+[24.149322] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/path.sh\n'}
+[24.164941] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/environment/path.dsv\n'}
+[24.183207] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.bash\n'}
+[24.192918] (-) TimerEvent: {}
+[24.220595] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.sh\n'}
+[24.251561] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.zsh\n'}
+[24.273095] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/local_setup.dsv\n'}
+[24.288953] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/package.dsv\n'}
+[24.293034] (-) TimerEvent: {}
+[24.302459] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/ament_index/resource_index/packages/op3_action_editor\n'}
+[24.315137] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig.cmake\n'}
+[24.328958] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig-version.cmake\n'}
+[24.359031] (op3_action_editor) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_action_editor/share/op3_action_editor/package.xml\n'}
+[24.393298] (-) TimerEvent: {}
+[24.494622] (-) TimerEvent: {}
+[24.506659] (op3_action_editor) StdoutLine: {'line': b"Listing '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor'...\n"}
+[24.506847] (op3_action_editor) StdoutLine: {'line': b"Compiling '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/__init__.py'...\n"}
+[24.506927] (op3_action_editor) StdoutLine: {'line': b"Compiling '/home/evan/Documents/algo_gaze_project/install/op3_action_editor/local/lib/python3.10/dist-packages/op3_action_editor/module_to_import.py'...\n"}
+[24.517255] (op3_action_editor) CommandEnded: {'returncode': 0}
+[24.565471] (op3_action_editor) JobEnded: {'identifier': 'op3_action_editor', 'rc': 0}
+[24.594925] (-) TimerEvent: {}
+[24.695340] (-) TimerEvent: {}
+[24.796678] (-) TimerEvent: {}
+[24.897046] (-) TimerEvent: {}
+[24.997369] (-) TimerEvent: {}
+[25.097722] (-) TimerEvent: {}
+[25.199818] (-) TimerEvent: {}
+[25.303570] (-) TimerEvent: {}
+[25.403915] (-) TimerEvent: {}
+[25.504241] (-) TimerEvent: {}
+[25.604577] (-) TimerEvent: {}
+[25.704910] (-) TimerEvent: {}
+[25.806630] (-) TimerEvent: {}
+[25.907043] (-) TimerEvent: {}
+[26.007365] (-) TimerEvent: {}
+[26.107707] (-) TimerEvent: {}
+[26.208053] (-) TimerEvent: {}
+[26.216628] (op3_read_write_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable read_write\x1b[0m\n'}
+[26.308229] (-) TimerEvent: {}
+[26.408584] (-) TimerEvent: {}
+[26.510267] (-) TimerEvent: {}
+[26.610562] (-) TimerEvent: {}
+[26.713550] (-) TimerEvent: {}
+[26.813863] (-) TimerEvent: {}
+[26.914548] (-) TimerEvent: {}
+[26.975579] (op3_read_write_demo) StdoutLine: {'line': b'[100%] Built target read_write\n'}
+[26.987136] (op3_read_write_demo) CommandEnded: {'returncode': 0}
+[26.988355] (op3_read_write_demo) JobProgress: {'identifier': 'op3_read_write_demo', 'progress': 'install'}
+[26.988869] (op3_read_write_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[26.997517] (op3_read_write_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.998207] (op3_read_write_demo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.998737] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/lib/op3_read_write_demo/read_write\n'}
+[27.008263] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/launch/op3_read_write.launch.xml\n'}
+[27.017560] (-) TimerEvent: {}
+[27.022389] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/package_run_dependencies/op3_read_write_demo\n'}
+[27.031661] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/parent_prefix_path/op3_read_write_demo\n'}
+[27.040132] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/ament_prefix_path.sh\n'}
+[27.050198] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/ament_prefix_path.dsv\n'}
+[27.059371] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/path.sh\n'}
+[27.067656] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/environment/path.dsv\n'}
+[27.077241] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.bash\n'}
+[27.085820] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.sh\n'}
+[27.094174] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.zsh\n'}
+[27.104208] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/local_setup.dsv\n'}
+[27.117938] (-) TimerEvent: {}
+[27.118739] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/package.dsv\n'}
+[27.131528] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/ament_index/resource_index/packages/op3_read_write_demo\n'}
+[27.140170] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/cmake/op3_read_write_demoConfig.cmake\n'}
+[27.148517] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/cmake/op3_read_write_demoConfig-version.cmake\n'}
+[27.156764] (op3_read_write_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_read_write_demo/share/op3_read_write_demo/package.xml\n'}
+[27.166689] (op3_read_write_demo) CommandEnded: {'returncode': 0}
+[27.177767] (op3_read_write_demo) JobEnded: {'identifier': 'op3_read_write_demo', 'rc': 0}
+[27.218066] (-) TimerEvent: {}
+[27.318349] (-) TimerEvent: {}
+[27.418663] (-) TimerEvent: {}
+[27.518943] (-) TimerEvent: {}
+[27.619226] (-) TimerEvent: {}
+[27.719506] (-) TimerEvent: {}
+[27.819769] (-) TimerEvent: {}
+[27.920045] (-) TimerEvent: {}
+[28.020323] (-) TimerEvent: {}
+[28.120626] (-) TimerEvent: {}
+[28.220924] (-) TimerEvent: {}
+[28.321252] (-) TimerEvent: {}
+[28.421548] (-) TimerEvent: {}
+[28.521837] (-) TimerEvent: {}
+[28.622112] (-) TimerEvent: {}
+[28.722374] (-) TimerEvent: {}
+[28.822631] (-) TimerEvent: {}
+[28.922910] (-) TimerEvent: {}
+[29.023216] (-) TimerEvent: {}
+[29.123550] (-) TimerEvent: {}
+[29.223921] (-) TimerEvent: {}
+[29.324262] (-) TimerEvent: {}
+[29.424620] (-) TimerEvent: {}
+[29.524921] (-) TimerEvent: {}
+[29.625253] (-) TimerEvent: {}
+[29.725536] (-) TimerEvent: {}
+[29.825861] (-) TimerEvent: {}
+[29.927555] (-) TimerEvent: {}
+[30.027868] (-) TimerEvent: {}
+[30.128157] (-) TimerEvent: {}
+[30.228433] (-) TimerEvent: {}
+[30.329260] (-) TimerEvent: {}
+[30.429641] (-) TimerEvent: {}
+[30.529955] (-) TimerEvent: {}
+[30.630258] (-) TimerEvent: {}
+[30.687018] (op3_demo) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable op_demo_node\x1b[0m\n'}
+[30.730352] (-) TimerEvent: {}
+[30.830698] (-) TimerEvent: {}
+[30.930989] (-) TimerEvent: {}
+[31.031329] (-) TimerEvent: {}
+[31.131659] (-) TimerEvent: {}
+[31.231765] (op3_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o\x1b[0m\n'}
+[31.232021] (-) TimerEvent: {}
+[31.332270] (-) TimerEvent: {}
+[31.432573] (-) TimerEvent: {}
+[31.534198] (-) TimerEvent: {}
+[31.634543] (-) TimerEvent: {}
+[31.734845] (-) TimerEvent: {}
+[31.835121] (-) TimerEvent: {}
+[31.935382] (-) TimerEvent: {}
+[32.035680] (-) TimerEvent: {}
+[32.135976] (-) TimerEvent: {}
+[32.236261] (-) TimerEvent: {}
+[32.336553] (-) TimerEvent: {}
+[32.436887] (-) TimerEvent: {}
+[32.537226] (-) TimerEvent: {}
+[32.637544] (-) TimerEvent: {}
+[32.737832] (-) TimerEvent: {}
+[32.838172] (-) TimerEvent: {}
+[32.921939] (op3_demo) StdoutLine: {'line': b'[ 77%] Built target op_demo_node\n'}
+[32.938273] (-) TimerEvent: {}
+[33.038537] (-) TimerEvent: {}
+[33.138777] (-) TimerEvent: {}
+[33.239031] (-) TimerEvent: {}
+[33.339270] (-) TimerEvent: {}
+[33.439562] (-) TimerEvent: {}
+[33.539940] (-) TimerEvent: {}
+[33.640206] (-) TimerEvent: {}
+[33.740507] (-) TimerEvent: {}
+[33.840759] (-) TimerEvent: {}
+[33.941084] (-) TimerEvent: {}
+[34.041357] (-) TimerEvent: {}
+[34.141646] (-) TimerEvent: {}
+[34.241915] (-) TimerEvent: {}
+[34.342214] (-) TimerEvent: {}
+[34.442525] (-) TimerEvent: {}
+[34.542793] (-) TimerEvent: {}
+[34.643098] (-) TimerEvent: {}
+[34.743407] (-) TimerEvent: {}
+[34.843714] (-) TimerEvent: {}
+[34.944054] (-) TimerEvent: {}
+[35.044340] (-) TimerEvent: {}
+[35.144625] (-) TimerEvent: {}
+[35.244912] (-) TimerEvent: {}
+[35.345189] (-) TimerEvent: {}
+[35.445479] (-) TimerEvent: {}
+[35.545774] (-) TimerEvent: {}
+[35.646025] (-) TimerEvent: {}
+[35.746253] (-) TimerEvent: {}
+[35.846562] (-) TimerEvent: {}
+[35.946787] (-) TimerEvent: {}
+[36.047017] (-) TimerEvent: {}
+[36.147292] (-) TimerEvent: {}
+[36.247609] (-) TimerEvent: {}
+[36.347833] (-) TimerEvent: {}
+[36.448082] (-) TimerEvent: {}
+[36.548343] (-) TimerEvent: {}
+[36.648656] (-) TimerEvent: {}
+[36.748951] (-) TimerEvent: {}
+[36.849278] (-) TimerEvent: {}
+[36.949542] (-) TimerEvent: {}
+[37.049873] (-) TimerEvent: {}
+[37.150440] (-) TimerEvent: {}
+[37.250812] (-) TimerEvent: {}
+[37.351120] (-) TimerEvent: {}
+[37.451425] (-) TimerEvent: {}
+[37.551719] (-) TimerEvent: {}
+[37.651994] (-) TimerEvent: {}
+[37.752270] (-) TimerEvent: {}
+[37.852609] (-) TimerEvent: {}
+[37.952871] (-) TimerEvent: {}
+[38.053174] (-) TimerEvent: {}
+[38.153450] (-) TimerEvent: {}
+[38.253764] (-) TimerEvent: {}
+[38.354072] (-) TimerEvent: {}
+[38.454384] (-) TimerEvent: {}
+[38.554673] (-) TimerEvent: {}
+[38.654971] (-) TimerEvent: {}
+[38.755267] (-) TimerEvent: {}
+[38.855595] (-) TimerEvent: {}
+[38.955832] (-) TimerEvent: {}
+[39.056089] (-) TimerEvent: {}
+[39.156364] (-) TimerEvent: {}
+[39.256606] (-) TimerEvent: {}
+[39.356897] (-) TimerEvent: {}
+[39.457157] (-) TimerEvent: {}
+[39.557436] (-) TimerEvent: {}
+[39.650310] (op3_demo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o\x1b[0m\n'}
+[39.652467] (op3_demo) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o\x1b[0m\n'}
+[39.653018] (op3_demo) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o\x1b[0m\n'}
+[39.657525] (-) TimerEvent: {}
+[39.757908] (-) TimerEvent: {}
+[39.858176] (-) TimerEvent: {}
+[39.958467] (-) TimerEvent: {}
+[40.058803] (-) TimerEvent: {}
+[40.159149] (-) TimerEvent: {}
+[40.259441] (-) TimerEvent: {}
+[40.359771] (-) TimerEvent: {}
+[40.460091] (-) TimerEvent: {}
+[40.560530] (-) TimerEvent: {}
+[40.660816] (-) TimerEvent: {}
+[40.761242] (-) TimerEvent: {}
+[40.861579] (-) TimerEvent: {}
+[40.961988] (-) TimerEvent: {}
+[41.062307] (-) TimerEvent: {}
+[41.162722] (-) TimerEvent: {}
+[41.263076] (-) TimerEvent: {}
+[41.363506] (-) TimerEvent: {}
+[41.463862] (-) TimerEvent: {}
+[41.564297] (-) TimerEvent: {}
+[41.664663] (-) TimerEvent: {}
+[41.765023] (-) TimerEvent: {}
+[41.865385] (-) TimerEvent: {}
+[41.965712] (-) TimerEvent: {}
+[42.066011] (-) TimerEvent: {}
+[42.166323] (-) TimerEvent: {}
+[42.266640] (-) TimerEvent: {}
+[42.366986] (-) TimerEvent: {}
+[42.467293] (-) TimerEvent: {}
+[42.567587] (-) TimerEvent: {}
+[42.667878] (-) TimerEvent: {}
+[42.768183] (-) TimerEvent: {}
+[42.868723] (-) TimerEvent: {}
+[42.969015] (-) TimerEvent: {}
+[43.069335] (-) TimerEvent: {}
+[43.169673] (-) TimerEvent: {}
+[43.269992] (-) TimerEvent: {}
+[43.370357] (-) TimerEvent: {}
+[43.470677] (-) TimerEvent: {}
+[43.570991] (-) TimerEvent: {}
+[43.671276] (-) TimerEvent: {}
+[43.771556] (-) TimerEvent: {}
+[43.871853] (-) TimerEvent: {}
+[43.972179] (-) TimerEvent: {}
+[44.072518] (-) TimerEvent: {}
+[44.172878] (-) TimerEvent: {}
+[44.273165] (-) TimerEvent: {}
+[44.373451] (-) TimerEvent: {}
+[44.473823] (-) TimerEvent: {}
+[44.574112] (-) TimerEvent: {}
+[44.674407] (-) TimerEvent: {}
+[44.774833] (-) TimerEvent: {}
+[44.875078] (-) TimerEvent: {}
+[44.975333] (-) TimerEvent: {}
+[45.075638] (-) TimerEvent: {}
+[45.175925] (-) TimerEvent: {}
+[45.276196] (-) TimerEvent: {}
+[45.376454] (-) TimerEvent: {}
+[45.476768] (-) TimerEvent: {}
+[45.577053] (-) TimerEvent: {}
+[45.677309] (-) TimerEvent: {}
+[45.777563] (-) TimerEvent: {}
+[45.877853] (-) TimerEvent: {}
+[45.978108] (-) TimerEvent: {}
+[46.078362] (-) TimerEvent: {}
+[46.178617] (-) TimerEvent: {}
+[46.278898] (-) TimerEvent: {}
+[46.379140] (-) TimerEvent: {}
+[46.479405] (-) TimerEvent: {}
+[46.579666] (-) TimerEvent: {}
+[46.680167] (-) TimerEvent: {}
+[46.780553] (-) TimerEvent: {}
+[46.880814] (-) TimerEvent: {}
+[46.981114] (-) TimerEvent: {}
+[47.081490] (-) TimerEvent: {}
+[47.181794] (-) TimerEvent: {}
+[47.282078] (-) TimerEvent: {}
+[47.382426] (-) TimerEvent: {}
+[47.482703] (-) TimerEvent: {}
+[47.582981] (-) TimerEvent: {}
+[47.683260] (-) TimerEvent: {}
+[47.783546] (-) TimerEvent: {}
+[47.883817] (-) TimerEvent: {}
+[47.984087] (-) TimerEvent: {}
+[48.084361] (-) TimerEvent: {}
+[48.184635] (-) TimerEvent: {}
+[48.284906] (-) TimerEvent: {}
+[48.385168] (-) TimerEvent: {}
+[48.485439] (-) TimerEvent: {}
+[48.585732] (-) TimerEvent: {}
+[48.685975] (-) TimerEvent: {}
+[48.786232] (-) TimerEvent: {}
+[48.886527] (-) TimerEvent: {}
+[48.986811] (-) TimerEvent: {}
+[49.087138] (-) TimerEvent: {}
+[49.187425] (-) TimerEvent: {}
+[49.287657] (-) TimerEvent: {}
+[49.292755] (op3_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable self_test_node\x1b[0m\n'}
+[49.387747] (-) TimerEvent: {}
+[49.487980] (-) TimerEvent: {}
+[49.588238] (-) TimerEvent: {}
+[49.688547] (-) TimerEvent: {}
+[49.788848] (-) TimerEvent: {}
+[49.889156] (-) TimerEvent: {}
+[49.989472] (-) TimerEvent: {}
+[50.089772] (-) TimerEvent: {}
+[50.190028] (-) TimerEvent: {}
+[50.290292] (-) TimerEvent: {}
+[50.390570] (-) TimerEvent: {}
+[50.490829] (-) TimerEvent: {}
+[50.591089] (-) TimerEvent: {}
+[50.691328] (-) TimerEvent: {}
+[50.791603] (-) TimerEvent: {}
+[50.891828] (-) TimerEvent: {}
+[50.992059] (-) TimerEvent: {}
+[51.092321] (-) TimerEvent: {}
+[51.192536] (-) TimerEvent: {}
+[51.292777] (-) TimerEvent: {}
+[51.294611] (op3_demo) StdoutLine: {'line': b'[100%] Built target self_test_node\n'}
+[51.346274] (op3_demo) CommandEnded: {'returncode': 0}
+[51.349245] (op3_demo) JobProgress: {'identifier': 'op3_demo', 'progress': 'install'}
+[51.351476] (op3_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/evan/Documents/algo_gaze_project/build/op3_demo'], 'cwd': '/home/evan/Documents/algo_gaze_project/build/op3_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'evan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('BUN_INSTALL', '/home/evan/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller/lib:/home/evan/Documents/algo_gaze_project/install/open_cr_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_base_module/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module/lib:/home/evan/Documents/algo_gaze_project/install/robotis_device/lib:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib:/home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib:/home/evan/Documents/algo_gaze_project/install/usb_cam/lib:/home/evan/Documents/algo_gaze_project/install/robotis_math/lib:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('OLDPWD', '/home/evan'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/evan/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/evan/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '2338'), ('SYSTEMD_EXEC_PID', '2523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4339'), ('NVM_DIR', '/home/evan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/brone_ws/install:/home/evan/brone_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('JOURNAL_STREAM', '8:23581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/evan/.nvm/versions/node/v20.20.2/bin:/home/evan/.bun/bin:/opt/ros/humble/bin:/home/evan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evan/.local/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin'), ('SESSION_MANAGER', 'local/re:@/tmp/.ICE-unix/2492,unix/re:/tmp/.ICE-unix/2492'), ('INVOCATION_ID', '04f0b466424940e2970e53509037db6b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5VEET3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/ros_madplay_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_web_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bfcdc178-e43e-48bc-93a4-fba309e554ef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/evan/Documents/algo_gaze_project/build/op3_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/local/lib/python3.10/dist-packages:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/Documents/algo_gaze_project/install/op3_manager:/home/evan/Documents/algo_gaze_project/install/robotis_controller:/home/evan/Documents/algo_gaze_project/install/open_cr_module:/home/evan/Documents/algo_gaze_project/install/op3_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module:/home/evan/Documents/algo_gaze_project/install/op3_head_control_module:/home/evan/Documents/algo_gaze_project/install/op3_direct_control_module:/home/evan/Documents/algo_gaze_project/install/op3_base_module:/home/evan/Documents/algo_gaze_project/install/op3_action_module:/home/evan/Documents/algo_gaze_project/install/robotis_framework_common:/home/evan/Documents/algo_gaze_project/install/robotis_device:/home/evan/Documents/algo_gaze_project/install/op3_localization:/home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector:/home/evan/Documents/algo_gaze_project/install/op3_balance_control:/home/evan/Documents/algo_gaze_project/install/usb_cam:/home/evan/Documents/algo_gaze_project/install/ros_madplay_player:/home/evan/Documents/algo_gaze_project/install/robotis_math:/home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs:/home/evan/Documents/algo_gaze_project/install/op3_web_setting_tool:/home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs:/home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs:/home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs:/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs:/home/evan/Documents/algo_gaze_project/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[51.362092] (op3_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.362549] (op3_demo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[51.362753] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/lib/op3_demo/op_demo_node\n'}
+[51.371666] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/lib/op3_demo/self_test_node\n'}
+[51.381761] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/action_demo.h\n'}
+[51.388245] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/ball_follower.h\n'}
+[51.392912] (-) TimerEvent: {}
+[51.396038] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/ball_tracker.h\n'}
+[51.402845] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/button_test.h\n'}
+[51.410432] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/face_tracker.h\n'}
+[51.419003] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/mic_test.h\n'}
+[51.426942] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/op_demo.h\n'}
+[51.433991] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/soccer_demo.h\n'}
+[51.440787] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/include/op3_demo/vision_demo.h\n'}
+[51.450401] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Autonomous soccer mode.mp3\n'}
+[51.457933] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Bye bye.mp3\n'}
+[51.465333] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Clap please.mp3\n'}
+[51.474044] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Demonstration ready mode.mp3\n'}
+[51.481904] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Headstand.mp3\n'}
+[51.489936] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Interactive motion mode.mp3\n'}
+[51.492994] (-) TimerEvent: {}
+[51.496533] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Intro01.mp3\n'}
+[51.503730] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Intro02.mp3\n'}
+[51.510089] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Intro03.mp3\n'}
+[51.518672] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Introduction.mp3\n'}
+[51.525555] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Left kick.mp3\n'}
+[51.532841] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/No.mp3\n'}
+[51.541215] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Oops.mp3\n'}
+[51.547671] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Right kick.mp3\n'}
+[51.555527] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Sensor calibration complete.mp3\n'}
+[51.563646] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Sensor calibration fail.mp3\n'}
+[51.570697] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Shoot.mp3\n'}
+[51.579651] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Sit down.mp3\n'}
+[51.588292] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Stand up.mp3\n'}
+[51.593100] (-) TimerEvent: {}
+[51.594853] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Start motion demonstration.mp3\n'}
+[51.601454] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Start soccer demonstration.mp3\n'}
+[51.612520] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Start vision processing demonstration.mp3\n'}
+[51.619820] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/System shutdown.mp3\n'}
+[51.626381] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Thank you.mp3\n'}
+[51.632629] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Vision processing mode.mp3\n'}
+[51.640089] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Wow.mp3\n'}
+[51.647655] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Yes go.mp3\n'}
+[51.656371] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/Yes.mp3\n'}
+[51.663228] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/intro_test.mp3\n'}
+[51.670857] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Announce mic test.mp3\n'}
+[51.678857] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Button test mode.mp3\n'}
+[51.687539] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Mic test mode.mp3\n'}
+[51.693201] (-) TimerEvent: {}
+[51.695973] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Mode button long pressed.mp3\n'}
+[51.703361] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Mode button pressed.mp3\n'}
+[51.709123] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Self test ready mode.mp3\n'}
+[51.716024] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start button long pressed.mp3\n'}
+[51.723733] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start button pressed.mp3\n'}
+[51.729985] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start button test mode.mp3\n'}
+[51.738891] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start mic test mode.mp3\n'}
+[51.744769] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start playing.mp3\n'}
+[51.755888] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/Start recording.mp3\n'}
+[51.763416] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/User button long pressed.mp3\n'}
+[51.769884] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/data/mp3/test/User button pressed.mp3\n'}
+[51.776625] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/launch/demo.launch.xml\n'}
+[51.783561] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/launch/face_detection_op3.launch.xml\n'}
+[51.790227] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/launch/self_test.launch.xml\n'}
+[51.793307] (-) TimerEvent: {}
+[51.797557] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/list/action_script.yaml\n'}
+[51.806206] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/list/action_script_bk.yaml\n'}
+[51.814158] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/ament_index/resource_index/package_run_dependencies/op3_demo\n'}
+[51.821385] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/ament_index/resource_index/parent_prefix_path/op3_demo\n'}
+[51.830032] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/environment/ament_prefix_path.sh\n'}
+[51.838224] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/environment/ament_prefix_path.dsv\n'}
+[51.845894] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/environment/path.sh\n'}
+[51.854729] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/environment/path.dsv\n'}
+[51.863517] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/local_setup.bash\n'}
+[51.869782] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/local_setup.sh\n'}
+[51.879009] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/local_setup.zsh\n'}
+[51.886169] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/local_setup.dsv\n'}
+[51.893441] (-) TimerEvent: {}
+[51.894109] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/package.dsv\n'}
+[51.900519] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/ament_index/resource_index/packages/op3_demo\n'}
+[51.907429] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/cmake/op3_demoConfig.cmake\n'}
+[51.913939] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/cmake/op3_demoConfig-version.cmake\n'}
+[51.921583] (op3_demo) StdoutLine: {'line': b'-- Symlinking: /home/evan/Documents/algo_gaze_project/install/op3_demo/share/op3_demo/package.xml\n'}
+[51.932849] (op3_demo) CommandEnded: {'returncode': 0}
+[51.940260] (op3_demo) JobEnded: {'identifier': 'op3_demo', 'rc': 0}
+[51.941254] (-) EventReactorShutdown: {}
