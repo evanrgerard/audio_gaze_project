@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: audio-gaze
+Version: 0.0.1
+Summary: Audio perception nodes (mock + future real mic-array driver) for vision-audio fusion attention.
+Home-page: UNKNOWN
+Maintainer: evan
+Maintainer-email: evan@todo.todo
+License: TODO: License declaration
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

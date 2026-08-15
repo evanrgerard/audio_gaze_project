@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_tuning_module
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_tuning_module.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/op3_tuning_module.dir/progress.make
 include CMakeFiles/op3_tuning_module.dir/flags.make
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o: CMakeFiles/op3_tuning_module.dir/flags.make
-CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp
+CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp
 CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o: CMakeFiles/op3_tuning_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.i
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.s
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o: CMakeFiles/op3_tuning_module.dir/flags.make
-CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp
+CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp
 CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o: CMakeFiles/op3_tuning_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.i
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.s
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o: CMakeFiles/op3_tuning_module.dir/flags.make
-CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp
+CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp
 CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o: CMakeFiles/op3_tuning_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o -MF CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o.d -o CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp > CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.i
 
 CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp -o CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.s
 
 # Object files for target op3_tuning_module
 op3_tuning_module_OBJECTS = \
@@ -125,7 +125,7 @@ libop3_tuning_module.a: CMakeFiles/op3_tuning_module.dir/src/tuning_module_state
 libop3_tuning_module.a: CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o
 libop3_tuning_module.a: CMakeFiles/op3_tuning_module.dir/build.make
 libop3_tuning_module.a: CMakeFiles/op3_tuning_module.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libop3_tuning_module.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libop3_tuning_module.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/op3_tuning_module.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_tuning_module.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/op3_tuning_module.dir/clean:
 .PHONY : CMakeFiles/op3_tuning_module.dir/clean
 
 CMakeFiles/op3_tuning_module.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_tuning_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module /home/evan/Documents/algo_gaze_project/build/op3_tuning_module /home/evan/Documents/algo_gaze_project/build/op3_tuning_module /home/evan/Documents/algo_gaze_project/build/op3_tuning_module/CMakeFiles/op3_tuning_module.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module/CMakeFiles/op3_tuning_module.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_tuning_module.dir/depend
 

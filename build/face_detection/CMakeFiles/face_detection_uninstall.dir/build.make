@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/face_detection
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection
 
 # Utility rule file for face_detection_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/face_detection_uninstall.dir/compiler_depend.make
 include CMakeFiles/face_detection_uninstall.dir/progress.make
 
 CMakeFiles/face_detection_uninstall:
-	/usr/bin/cmake -P /home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 face_detection_uninstall: CMakeFiles/face_detection_uninstall
 face_detection_uninstall: CMakeFiles/face_detection_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/face_detection_uninstall.dir/clean:
 .PHONY : CMakeFiles/face_detection_uninstall.dir/clean
 
 CMakeFiles/face_detection_uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/face_detection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection /home/evan/Documents/algo_gaze_project/build/face_detection /home/evan/Documents/algo_gaze_project/build/face_detection /home/evan/Documents/algo_gaze_project/build/face_detection/CMakeFiles/face_detection_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection /home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/CMakeFiles/face_detection_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/face_detection_uninstall.dir/depend
 

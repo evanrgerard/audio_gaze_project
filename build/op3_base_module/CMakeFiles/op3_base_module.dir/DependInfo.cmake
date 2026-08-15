@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module.cpp" "CMakeFiles/op3_base_module.dir/src/base_module.cpp.o" "gcc" "CMakeFiles/op3_base_module.dir/src/base_module.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module_state.cpp" "CMakeFiles/op3_base_module.dir/src/base_module_state.cpp.o" "gcc" "CMakeFiles/op3_base_module.dir/src/base_module_state.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module.cpp" "CMakeFiles/op3_base_module.dir/src/base_module.cpp.o" "gcc" "CMakeFiles/op3_base_module.dir/src/base_module.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module_state.cpp" "CMakeFiles/op3_base_module.dir/src/base_module_state.cpp.o" "gcc" "CMakeFiles/op3_base_module.dir/src/base_module_state.cpp.o.d"
   )
 
 # Targets to which this target links.

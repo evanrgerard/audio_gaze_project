@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/robotis_controller/ament_cmake_core/robotis_controllerConfig-version.cmake
+/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller/ament_cmake_core/robotis_controllerConfig-version.cmake

@@ -1,0 +1,6 @@
+setup.py
+audio_gaze_msgs/__init__.py
+audio_gaze_msgs.egg-info/PKG-INFO
+audio_gaze_msgs.egg-info/SOURCES.txt
+audio_gaze_msgs.egg-info/dependency_links.txt
+audio_gaze_msgs.egg-info/top_level.txt

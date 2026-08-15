@@ -1,7 +1,7 @@
 CMakeFiles/op_demo_node.dir/src/soccer/ball_follower.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/ball_follower.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/ball_follower.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -669,26 +669,26 @@ CMakeFiles/op_demo_node.dir/src/soccer/ball_follower.cpp.o: \
  /usr/include/yaml-cpp/node/convert.h \
  /usr/include/yaml-cpp/node/detail/impl.h \
  /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/circle_set_stamped.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/circle_set_stamped.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_ball_detector_msgs/rosidl_generator_cpp/op3_ball_detector_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp

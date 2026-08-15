@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/ros_madplay_player/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/evan/Documents/algo_gaze_project/install/ros_madplay_player/${destination}")
+      set(destination "/home/evan/Documents/BRONE_audio_gaze_project/install/ros_madplay_player/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,49 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "ros_madplay_player" "DESTINATION" "lib/ros_madplay_player")
-include("/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/ros_madplay_player/" "DESTINATION" "include/ros_madplay_player")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" DIRECTORY "include/ros_madplay_player/" "DESTINATION" "include/ros_madplay_player")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" DIRECTORY "include/ros_madplay_player/" "DESTINATION" "include/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros_madplay_player/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros_madplay_player/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros_madplay_player/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros_madplay_player/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros_madplay_player/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ros_madplay_player/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ros_madplay_player/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ros_madplay_player")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/packages/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/packages/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/packages/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_index/share/ament_index/resource_index/packages/ros_madplay_player" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake" "DESTINATION" "share/ros_madplay_player/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake" "DESTINATION" "share/ros_madplay_player/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake" "DESTINATION" "share/ros_madplay_player/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake" "DESTINATION" "share/ros_madplay_player/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player/package.xml" "DESTINATION" "share/ros_madplay_player")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player/package.xml" "DESTINATION" "share/ros_madplay_player")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player/package.xml" "DESTINATION" "share/ros_madplay_player")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player" FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player/package.xml" "DESTINATION" "share/ros_madplay_player")

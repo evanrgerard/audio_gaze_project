@@ -1,14 +1,14 @@
 {
   "package_name": "op3_action_module_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_rs/op3_action_module_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_rs/op3_action_module_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:srv/IsRunning.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:srv/IsRunning.idl"
   ],
   "ros_interface_files": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -57,10 +57,10 @@
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_camera_setting_tool.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/op3_camera_setting_tool.dir/progress.make
 include CMakeFiles/op3_camera_setting_tool.dir/flags.make
 
 CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o: CMakeFiles/op3_camera_setting_tool.dir/flags.make
-CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp
+CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp
 CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o: CMakeFiles/op3_camera_setting_tool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o -MF CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o.d -o CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o -MF CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o.d -o CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp
 
 CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp > CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp > CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.i
 
 CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp -o CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp -o CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.s
 
 # Object files for target op3_camera_setting_tool
 op3_camera_setting_tool_OBJECTS = \
@@ -93,12 +93,12 @@ op3_camera_setting_tool_EXTERNAL_OBJECTS =
 op3_camera_setting_tool: CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o
 op3_camera_setting_tool: CMakeFiles/op3_camera_setting_tool.dir/build.make
 op3_camera_setting_tool: /opt/ros/humble/lib/librclcpp.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_fastrtps_c.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_introspection_c.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_introspection_cpp.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_cpp.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_generator_py.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_fastrtps_c.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_introspection_c.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_introspection_cpp.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_cpp.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_generator_py.so
 op3_camera_setting_tool: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 op3_camera_setting_tool: /opt/ros/humble/lib/liblibstatistics_collector.so
 op3_camera_setting_tool: /opt/ros/humble/lib/librcl.so
@@ -151,9 +151,9 @@ op3_camera_setting_tool: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp
 op3_camera_setting_tool: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 op3_camera_setting_tool: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 op3_camera_setting_tool: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_c.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_typesupport_c.so
 op3_camera_setting_tool: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-op3_camera_setting_tool: /home/evan/Documents/algo_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_generator_c.so
+op3_camera_setting_tool: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_camera_setting_tool_msgs/lib/libop3_camera_setting_tool_msgs__rosidl_generator_c.so
 op3_camera_setting_tool: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 op3_camera_setting_tool: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 op3_camera_setting_tool: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -164,7 +164,7 @@ op3_camera_setting_tool: /opt/ros/humble/lib/librosidl_runtime_c.so
 op3_camera_setting_tool: /opt/ros/humble/lib/librcutils.so
 op3_camera_setting_tool: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 op3_camera_setting_tool: CMakeFiles/op3_camera_setting_tool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable op3_camera_setting_tool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable op3_camera_setting_tool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_camera_setting_tool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/op3_camera_setting_tool.dir/clean:
 .PHONY : CMakeFiles/op3_camera_setting_tool.dir/clean
 
 CMakeFiles/op3_camera_setting_tool.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool /home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool/CMakeFiles/op3_camera_setting_tool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool /home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool /home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool /home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool/CMakeFiles/op3_camera_setting_tool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_camera_setting_tool.dir/depend
 

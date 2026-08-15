@@ -1,5 +1,5 @@
 CMakeFiles/face_tracking.dir/src/face_tracking.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection/src/face_tracking.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection/src/face_tracking.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

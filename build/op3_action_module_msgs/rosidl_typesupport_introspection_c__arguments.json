@@ -1,10 +1,10 @@
 {
   "package_name": "op3_action_module_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_typesupport_introspection_c/op3_action_module_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_typesupport_introspection_c/op3_action_module_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:srv/IsRunning.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs:srv/IsRunning.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/msg/StartAction.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_adapter/op3_action_module_msgs/srv/IsRunning.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

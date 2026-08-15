@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_controller/src/robotis_controller/robotis_controller.cpp" "CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.o" "gcc" "CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_controller/src/robotis_controller/robotis_controller.cpp" "CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.o" "gcc" "CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

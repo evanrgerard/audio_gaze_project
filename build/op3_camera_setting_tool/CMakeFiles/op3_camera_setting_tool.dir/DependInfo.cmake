@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp" "CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o" "gcc" "CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_camera_setting_tool/src/main.cpp" "CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o" "gcc" "CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

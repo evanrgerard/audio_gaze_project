@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_ball_detector/src/ball_detector.cpp" "CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o" "gcc" "CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_ball_detector/src/ball_detector_node.cpp" "CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o" "gcc" "CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_ball_detector/src/ball_detector.cpp" "CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o" "gcc" "CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_ball_detector/src/ball_detector_node.cpp" "CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o" "gcc" "CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o.d"
   )
 
 # Targets to which this target links.

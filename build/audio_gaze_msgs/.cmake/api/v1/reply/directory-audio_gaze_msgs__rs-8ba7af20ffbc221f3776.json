@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "audio_gaze_msgs__rs",
+		"source" : "/home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze_msgs/audio_gaze_msgs__rs"
+	}
+}

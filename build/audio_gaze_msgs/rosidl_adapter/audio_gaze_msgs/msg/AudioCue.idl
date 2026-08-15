@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from audio_gaze_msgs/msg/AudioCue.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module audio_gaze_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A single audio perception event: is someone speaking right now, and from" "\n"
+      "what direction relative to the robot's forward/camera-center axis?")
+    struct AudioCue {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Voice Activity Detection result: true if speech energy detected")
+      boolean is_speech;
+
+      @verbatim (language="comment", text=
+        "Direction of Arrival, degrees. 0 = straight ahead (camera center)." "\n"
+        "Negative = to the robot's left, positive = to the robot's right." "\n"
+        "Range: -180 to 180 (mic arrays like ReSpeaker report 0-360;" "\n"
+        "convert to this convention in the driver/adapter node).")
+      float direction_deg;
+
+      @verbatim (language="comment", text=
+        "0.0-1.0, VAD/DOA confidence. Mock node can just send 1.0.")
+      float confidence;
+    };
+  };
+};

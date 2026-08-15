@@ -1,0 +1,1 @@
+/home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze_msgs/rosidl_typesupport_introspection_c/audio_gaze_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

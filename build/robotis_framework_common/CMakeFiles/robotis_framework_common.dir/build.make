@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_framework_common
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robotis_framework_common.dir/depend.make
@@ -77,7 +77,7 @@ robotis_framework_common_EXTERNAL_OBJECTS =
 
 librobotis_framework_common.a: CMakeFiles/robotis_framework_common.dir/build.make
 librobotis_framework_common.a: CMakeFiles/robotis_framework_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library librobotis_framework_common.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library librobotis_framework_common.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/robotis_framework_common.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robotis_framework_common.dir/link.txt --verbose=$(VERBOSE)
 
@@ -90,6 +90,6 @@ CMakeFiles/robotis_framework_common.dir/clean:
 .PHONY : CMakeFiles/robotis_framework_common.dir/clean
 
 CMakeFiles/robotis_framework_common.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_framework_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common/CMakeFiles/robotis_framework_common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/CMakeFiles/robotis_framework_common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robotis_framework_common.dir/depend
 

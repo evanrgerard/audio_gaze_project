@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-622ed74673a2d56a2c2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "op3_walking_module_msgs__py",
+					"jsonFile" : "directory-op3_walking_module_msgs__py-c90da5222a8018bb5e38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/op3_walking_module_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "op3_walking_module_msgs__rs",
+					"jsonFile" : "directory-op3_walking_module_msgs__rs-cf24d56d3396653b1da6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/op3_walking_module_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "op3_walking_module_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_op3_walking_module_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_op3_walking_module_msgs_egg-36b03b5a1c105e35b0bb.json",
+					"name" : "ament_cmake_python_build_op3_walking_module_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_op3_walking_module_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_op3_walking_module_msgs-0e3820e4deea85aa4ac8.json",
+					"name" : "ament_cmake_python_symlink_op3_walking_module_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs-d14ba086e04c91d66c99.json",
+					"name" : "op3_walking_module_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__cpp-6313ca4ad2fb6b470acd.json",
+					"name" : "op3_walking_module_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "op3_walking_module_msgs__py::@15f63a2d48751c1af8ba",
+					"jsonFile" : "target-op3_walking_module_msgs__py-4ee0d1ad5f0eac19d617.json",
+					"name" : "op3_walking_module_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_generator_c-1647a89588b424b910ba.json",
+					"name" : "op3_walking_module_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_generator_py-1a40fbcc5d9049d16dd3.json",
+					"name" : "op3_walking_module_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_c-44a34fff4bbec75e0fd0.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_c__pyext-2b0295f1b312ed8e3f16.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_cpp-30119a983c0c7d0db2bf.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_fastrtps_c-edc8d676883cbd7cbaf3.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_fastrtps_c__pyext-53da1798e636c4e910db.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp-4bcbf966a2a09cc61761.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_introspection_c-121f0c24e7df8c735418.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_introspection_c__pyext-d8fa899acc62c42277ac.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_introspection_cpp-ed44268041381c2467a5.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "op3_walking_module_msgs__rs::@68875dd3622f7636f04a",
+					"jsonFile" : "target-op3_walking_module_msgs__rs-10f7eb43e6715dfdef07.json",
+					"name" : "op3_walking_module_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs_uninstall-7e26d32f0b0a4f56b3e4.json",
+					"name" : "op3_walking_module_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c4bf8c7ba61c005217d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs",
+		"source" : "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_walking_module_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

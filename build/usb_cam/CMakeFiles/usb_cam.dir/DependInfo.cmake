@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/usb_cam/src/usb_cam.cpp" "CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o" "gcc" "CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/usb_cam/src/usb_cam.cpp" "CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o" "gcc" "CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_mpg321_player
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_mpg321_player
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/ros_mpg321_player
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player/CMakeFiles /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/evan/Documents/BRONE_audio_gaze_project/build/ros_mpg321_player/CMakeFiles /home/evan/Documents/BRONE_audio_gaze_project/build/ros_mpg321_player//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/evan/Documents/algo_gaze_project/build/ros_mpg321_player/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/evan/Documents/BRONE_audio_gaze_project/build/ros_mpg321_player/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

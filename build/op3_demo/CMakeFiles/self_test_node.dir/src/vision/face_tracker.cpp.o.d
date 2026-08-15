@@ -1,7 +1,7 @@
 CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/face_tracker.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/face_tracker.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

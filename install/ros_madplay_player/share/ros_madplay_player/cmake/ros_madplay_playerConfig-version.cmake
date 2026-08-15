@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake
+/home/evan/Documents/BRONE_audio_gaze_project/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake

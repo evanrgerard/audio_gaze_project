@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/op3_bringup/ament_cmake_environment_hooks/local_setup.sh
+/home/evan/Documents/BRONE_audio_gaze_project/build/op3_bringup/ament_cmake_environment_hooks/local_setup.sh

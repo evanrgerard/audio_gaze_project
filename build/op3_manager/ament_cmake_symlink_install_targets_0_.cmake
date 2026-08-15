@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/algo_gaze_project/build/op3_manager/op3_manager" "TARGETS" "op3_manager" "DESTINATION" "lib/op3_manager")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager/op3_manager" "TARGETS" "op3_manager" "DESTINATION" "lib/op3_manager")

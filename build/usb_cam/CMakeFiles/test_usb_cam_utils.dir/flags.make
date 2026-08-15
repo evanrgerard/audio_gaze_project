@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/usb_cam/include -isystem /opt/ros/humble/src/gtest_vendor/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/usb_cam/include -isystem /opt/ros/humble/src/gtest_vendor/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic -Werror
 

@@ -1,5 +1,5 @@
 CMakeFiles/robotis_math.dir/src/simple_trapezoidal_velocity_profile.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/src/simple_trapezoidal_velocity_profile.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/src/simple_trapezoidal_velocity_profile.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -146,8 +146,8 @@ CMakeFiles/robotis_math.dir/src/simple_trapezoidal_velocity_profile.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -400,5 +400,5 @@ CMakeFiles/robotis_math.dir/src/simple_trapezoidal_velocity_profile.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h

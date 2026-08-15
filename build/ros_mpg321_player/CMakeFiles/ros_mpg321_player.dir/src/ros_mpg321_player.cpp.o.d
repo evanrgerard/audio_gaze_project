@@ -1,7 +1,7 @@
 CMakeFiles/ros_mpg321_player.dir/src/ros_mpg321_player.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_mpg321_player/src/ros_mpg321_player.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_mpg321_player/src/ros_mpg321_player.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_mpg321_player/include/ros_mpg321_player/ros_mpg321_player.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_mpg321_player/include/ros_mpg321_player/ros_mpg321_player.h \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

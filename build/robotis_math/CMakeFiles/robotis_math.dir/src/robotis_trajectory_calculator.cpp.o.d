@@ -1,8 +1,8 @@
 CMakeFiles/robotis_math.dir/src/robotis_trajectory_calculator.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/src/robotis_trajectory_calculator.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/src/robotis_trajectory_calculator.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -401,8 +401,8 @@ CMakeFiles/robotis_math.dir/src/robotis_trajectory_calculator.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
  /usr/include/c++/11/iostream \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h

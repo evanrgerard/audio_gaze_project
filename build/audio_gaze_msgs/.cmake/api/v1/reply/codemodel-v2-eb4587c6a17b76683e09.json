@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-715dee52dc8b3960da89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "audio_gaze_msgs__py",
+					"jsonFile" : "directory-audio_gaze_msgs__py-291daa1b45845dc0f13d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze_msgs/audio_gaze_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "audio_gaze_msgs__rs",
+					"jsonFile" : "directory-audio_gaze_msgs__rs-8ba7af20ffbc221f3776.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze_msgs/audio_gaze_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "audio_gaze_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_audio_gaze_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_audio_gaze_msgs_egg-562d29a7aa139f54185b.json",
+					"name" : "ament_cmake_python_build_audio_gaze_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_audio_gaze_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_audio_gaze_msgs-315ef4e440a8b2f2984a.json",
+					"name" : "ament_cmake_python_symlink_audio_gaze_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs-f557432440311656bc29.json",
+					"name" : "audio_gaze_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__cpp-fb80a0425dc2d6953f6d.json",
+					"name" : "audio_gaze_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audio_gaze_msgs__py::@d3497c7195c19383e630",
+					"jsonFile" : "target-audio_gaze_msgs__py-797148d53d5edae98034.json",
+					"name" : "audio_gaze_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_generator_c-c3f8e7d030a0eca41d0a.json",
+					"name" : "audio_gaze_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_generator_py-f0b4fda09ff7c4d835a8.json",
+					"name" : "audio_gaze_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_c-ce80395a843189924076.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_c__pyext-8eecf8f2b1b5e131a8e5.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_cpp-4ab7fe0c711ee0e1a804.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_fastrtps_c-82a8c4197ea9f1547227.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_fastrtps_c__pyext-037c50d065e6a3eac9cd.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_fastrtps_cpp-c1f4bec0d8a041eef996.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_introspection_c-2ff01cf0cdd935fe369a.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_introspection_c__pyext-15387d99aaa8025f7cf4.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs__rosidl_typesupport_introspection_cpp-bc37c795ec6b40676799.json",
+					"name" : "audio_gaze_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "audio_gaze_msgs__rs::@c936fc91e286912706d8",
+					"jsonFile" : "target-audio_gaze_msgs__rs-474007dd11c30a31cdf7.json",
+					"name" : "audio_gaze_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_gaze_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_gaze_msgs_uninstall-5ea30e9c7c217c2a991d.json",
+					"name" : "audio_gaze_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d41ca5a2bb72a066ca5d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze_msgs",
+		"source" : "/home/evan/Documents/BRONE_audio_gaze_project/audio_gaze_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

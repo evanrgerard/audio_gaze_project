@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp" "CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o" "gcc" "CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp" "CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o" "gcc" "CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o.d"
   )
 
 # Targets to which this target links.

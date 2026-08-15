@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp" "CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o" "gcc" "CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp" "CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o" "gcc" "CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o.d"
   )
 
 # Targets to which this target links.

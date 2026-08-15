@@ -1,5 +1,5 @@
 CMakeFiles/op3_base_module.dir/src/base_module.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_base_module/src/base_module.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -625,19 +625,19 @@ CMakeFiles/op3_base_module.dir/src/base_module.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
  /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
  /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
  /usr/include/c++/11/cstddef /usr/include/yaml-cpp/binary.h \
@@ -860,7 +860,7 @@ CMakeFiles/op3_base_module.dir/src/base_module.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_base_module/include/op3_base_module/base_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_base_module/include/op3_base_module/base_module.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int16.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__builder.hpp \
@@ -883,36 +883,36 @@ CMakeFiles/op3_base_module.dir/src/base_module.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/robot.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/robot.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -986,6 +986,6 @@ CMakeFiles/op3_base_module.dir/src/base_module.cpp.o: \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_base_module/include/op3_base_module/base_module_state.h
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_base_module/include/op3_base_module/base_module_state.h

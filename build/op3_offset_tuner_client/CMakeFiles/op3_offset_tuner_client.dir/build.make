@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_offset_tuner_client.dir/depend.make
@@ -69,107 +69,107 @@ include CMakeFiles/op3_offset_tuner_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/op3_offset_tuner_client.dir/flags.make
 
-include/op3_offset_tuner_client/moc_main_window.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/include/op3_offset_tuner_client/main_window.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/op3_offset_tuner_client/moc_main_window.cpp"
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client && /usr/lib/qt5/bin/moc @/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp_parameters
+include/op3_offset_tuner_client/moc_main_window.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/include/op3_offset_tuner_client/main_window.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/op3_offset_tuner_client/moc_main_window.cpp"
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client && /usr/lib/qt5/bin/moc @/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp_parameters
 
-include/op3_offset_tuner_client/moc_qnode.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/include/op3_offset_tuner_client/qnode.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/op3_offset_tuner_client/moc_qnode.cpp"
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client && /usr/lib/qt5/bin/moc @/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp_parameters
+include/op3_offset_tuner_client/moc_qnode.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/include/op3_offset_tuner_client/qnode.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/op3_offset_tuner_client/moc_qnode.cpp"
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client && /usr/lib/qt5/bin/moc @/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp_parameters
 
-ui_main_window.h: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_main_window.h"
-	/usr/lib/qt5/bin/uic -o /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/ui_main_window.h /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/ui/main_window.ui
+ui_main_window.h: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_main_window.h"
+	/usr/lib/qt5/bin/uic -o /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/ui_main_window.h /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/ui/main_window.ui
 
-qrc_images.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images/icon.png
+qrc_images.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images/icon.png
 qrc_images.cpp: resources/images.qrc.depends
-qrc_images.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating qrc_images.cpp"
-	/usr/lib/qt5/bin/rcc --name images --output /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images.qrc
+qrc_images.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating qrc_images.cpp"
+	/usr/lib/qt5/bin/rcc --name images --output /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/resources/images.qrc
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
-CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp
+CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp
 CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/main.cpp.s
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
-CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp
+CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp
 CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/main_window.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/main_window.cpp.s
 
 CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
-CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp
+CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp
 CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp > CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp -o CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.s
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o: include/op3_offset_tuner_client/moc_main_window.cpp
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp > CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp > CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_main_window.cpp -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_main_window.cpp.s
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o: include/op3_offset_tuner_client/moc_qnode.cpp
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp > CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp > CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/include/op3_offset_tuner_client/moc_qnode.cpp -o CMakeFiles/op3_offset_tuner_client.dir/include/op3_offset_tuner_client/moc_qnode.cpp.s
 
 CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/flags.make
 CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o: qrc_images.cpp
 CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o: CMakeFiles/op3_offset_tuner_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o -MF CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o.d -o CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp
 
 CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp > CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp > CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.i
 
 CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp -o CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/qrc_images.cpp -o CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.s
 
 # Object files for target op3_offset_tuner_client
 op3_offset_tuner_client_OBJECTS = \
@@ -191,12 +191,12 @@ op3_offset_tuner_client: CMakeFiles/op3_offset_tuner_client.dir/include/op3_offs
 op3_offset_tuner_client: CMakeFiles/op3_offset_tuner_client.dir/qrc_images.cpp.o
 op3_offset_tuner_client: CMakeFiles/op3_offset_tuner_client.dir/build.make
 op3_offset_tuner_client: /opt/ros/humble/lib/libcomponent_manager.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so
 op3_offset_tuner_client: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 op3_offset_tuner_client: /opt/ros/humble/lib/librclcpp.so
 op3_offset_tuner_client: /opt/ros/humble/lib/liblibstatistics_collector.so
@@ -259,8 +259,8 @@ op3_offset_tuner_client: /opt/ros/humble/lib/librosidl_typesupport_introspection
 op3_offset_tuner_client: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 op3_offset_tuner_client: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 op3_offset_tuner_client: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so
-op3_offset_tuner_client: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so
+op3_offset_tuner_client: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so
 op3_offset_tuner_client: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 op3_offset_tuner_client: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 op3_offset_tuner_client: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
@@ -275,7 +275,7 @@ op3_offset_tuner_client: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 op3_offset_tuner_client: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 op3_offset_tuner_client: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 op3_offset_tuner_client: CMakeFiles/op3_offset_tuner_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable op3_offset_tuner_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable op3_offset_tuner_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_offset_tuner_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,6 +290,6 @@ CMakeFiles/op3_offset_tuner_client.dir/depend: include/op3_offset_tuner_client/m
 CMakeFiles/op3_offset_tuner_client.dir/depend: include/op3_offset_tuner_client/moc_qnode.cpp
 CMakeFiles/op3_offset_tuner_client.dir/depend: qrc_images.cpp
 CMakeFiles/op3_offset_tuner_client.dir/depend: ui_main_window.h
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_client/CMakeFiles/op3_offset_tuner_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_client/CMakeFiles/op3_offset_tuner_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_offset_tuner_client.dir/depend
 

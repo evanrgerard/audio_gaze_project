@@ -1,5 +1,5 @@
 CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_controller/src/robotis_controller/robotis_controller.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_controller/src/robotis_controller/robotis_controller.cpp \
  /usr/include/stdc-predef.h /usr/include/yaml-cpp/yaml.h \
  /usr/include/yaml-cpp/parser.h /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
@@ -234,7 +234,7 @@ CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_controller/include/robotis_controller/robotis_controller.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_controller/include/robotis_controller/robotis_controller.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -668,57 +668,57 @@ CMakeFiles/robotis_controller.dir/src/robotis_controller/robotis_controller.cpp.
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/write_control_table.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/get_joint_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_joint_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/load_offset.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/robot.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/sensor_module.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/write_control_table.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/get_joint_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_joint_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/load_offset.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/robot.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/sensor_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h

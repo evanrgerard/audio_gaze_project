@@ -1,13 +1,13 @@
 {
   "package_name": "op3_camera_setting_tool_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_typesupport_introspection_cpp/op3_camera_setting_tool_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_typesupport_introspection_cpp/op3_camera_setting_tool_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/CameraParams.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/V4lParameter.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/V4lParameters.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:srv/GetParameters.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:srv/SetParameters.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/CameraParams.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/V4lParameter.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:msg/V4lParameters.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:srv/GetParameters.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs:srv/SetParameters.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -52,11 +52,11 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/CameraParams.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/V4lParameter.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/V4lParameters.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/srv/GetParameters.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/srv/SetParameters.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/CameraParams.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/V4lParameter.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/msg/V4lParameters.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/srv/GetParameters.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_adapter/op3_camera_setting_tool_msgs/srv/SetParameters.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

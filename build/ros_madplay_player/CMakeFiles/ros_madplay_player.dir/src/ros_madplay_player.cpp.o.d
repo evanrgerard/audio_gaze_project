@@ -1,7 +1,7 @@
 CMakeFiles/ros_madplay_player.dir/src/ros_madplay_player.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player/src/ros_madplay_player.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player/src/ros_madplay_player.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_madplay_player/include/ros_madplay_player/ros_madplay_player.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_madplay_player/include/ros_madplay_player/ros_madplay_player.h \
  /usr/include/signal.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

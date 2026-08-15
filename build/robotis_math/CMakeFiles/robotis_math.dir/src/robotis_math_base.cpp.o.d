@@ -1,7 +1,7 @@
 CMakeFiles/robotis_math.dir/src/robotis_math_base.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/src/robotis_math_base.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/src/robotis_math_base.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

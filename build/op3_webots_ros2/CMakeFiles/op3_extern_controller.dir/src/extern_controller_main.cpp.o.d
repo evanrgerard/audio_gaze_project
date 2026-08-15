@@ -1,5 +1,5 @@
 CMakeFiles/op3_extern_controller.dir/src/extern_controller_main.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/src/extern_controller_main.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/src/extern_controller_main.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /usr/include/c++/11/string \
@@ -131,7 +131,7 @@ CMakeFiles/op3_extern_controller.dir/src/extern_controller_main.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/include/op3_webots_ros2/op3_extern_controller.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/include/op3_webots_ros2/op3_extern_controller.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \

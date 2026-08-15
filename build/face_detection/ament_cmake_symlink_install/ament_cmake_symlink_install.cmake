@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/face_detection/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/face_detection/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/face_detection/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/face_detection/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/face_detection/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/face_detection/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/evan/Documents/algo_gaze_project/install/face_detection/${destination}")
+      set(destination "/home/evan/Documents/BRONE_audio_gaze_project/install/face_detection/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,52 +316,52 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "face_tracking" "DESTINATION" "lib/face_detection")
-include("/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/face_detection/" "DESTINATION" "include/face_detection")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" DIRECTORY "include/face_detection/" "DESTINATION" "include/face_detection")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" DIRECTORY "include/face_detection/" "DESTINATION" "include/face_detection")
 
 # install(DIRECTORY "launch" "include" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" DIRECTORY "launch" "include" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" DIRECTORY "launch" "include" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/face_detection" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/face_detection" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/face_detection" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/face_detection" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/face_detection" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/face_detection" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/face_detection" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/face_detection" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/face_detection/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/face_detection/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/face_detection/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/face_detection/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/face_detection/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/face_detection/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/face_detection/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/face_detection/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/face_detection/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/face_detection/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/face_detection/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/face_detection/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/face_detection/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/face_detection/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/face_detection")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/packages/face_detection" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/packages/face_detection" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/packages/face_detection" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_index/share/ament_index/resource_index/packages/face_detection" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig-version.cmake" "DESTINATION" "share/face_detection/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig-version.cmake" "DESTINATION" "share/face_detection/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig-version.cmake" "DESTINATION" "share/face_detection/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/face_detection/ament_cmake_core/face_detectionConfig-version.cmake" "DESTINATION" "share/face_detection/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection/package.xml" "DESTINATION" "share/face_detection")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-ETC/face_detection/package.xml" "DESTINATION" "share/face_detection")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection/package.xml" "DESTINATION" "share/face_detection")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection" FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-ETC/face_detection/package.xml" "DESTINATION" "share/face_detection")

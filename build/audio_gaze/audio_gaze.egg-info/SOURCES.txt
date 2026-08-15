@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+audio_gaze/__init__.py
+audio_gaze/mock_audio_node.py
+audio_gaze.egg-info/PKG-INFO
+audio_gaze.egg-info/SOURCES.txt
+audio_gaze.egg-info/dependency_links.txt
+audio_gaze.egg-info/entry_points.txt
+audio_gaze.egg-info/requires.txt
+audio_gaze.egg-info/top_level.txt
+audio_gaze.egg-info/zip-safe
+launch/audio_mock.launch.py
+resource/audio_gaze

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_math
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_math && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math /home/evan/Documents/algo_gaze_project/build/robotis_math /home/evan/Documents/algo_gaze_project/build/robotis_math /home/evan/Documents/algo_gaze_project/build/robotis_math/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_framework_common
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common
 
 # Utility rule file for robotis_framework_common_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robotis_framework_common_uninstall.dir/compiler_depend.make
 include CMakeFiles/robotis_framework_common_uninstall.dir/progress.make
 
 CMakeFiles/robotis_framework_common_uninstall:
-	/usr/bin/cmake -P /home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robotis_framework_common_uninstall: CMakeFiles/robotis_framework_common_uninstall
 robotis_framework_common_uninstall: CMakeFiles/robotis_framework_common_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robotis_framework_common_uninstall.dir/clean:
 .PHONY : CMakeFiles/robotis_framework_common_uninstall.dir/clean
 
 CMakeFiles/robotis_framework_common_uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_framework_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common /home/evan/Documents/algo_gaze_project/build/robotis_framework_common/CMakeFiles/robotis_framework_common_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/CMakeFiles/robotis_framework_common_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robotis_framework_common_uninstall.dir/depend
 

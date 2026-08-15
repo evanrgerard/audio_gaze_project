@@ -1,13 +1,13 @@
 {
   "package_name": "op3_offset_tuner_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_py/op3_offset_tuner_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_py/op3_offset_tuner_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointOffsetData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointOffsetPositionData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointTorqueOnOff.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointTorqueOnOffArray.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:srv/GetPresentJointOffsetData.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointOffsetPositionData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointTorqueOnOff.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:msg/JointTorqueOnOffArray.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs:srv/GetPresentJointOffsetData.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -57,11 +57,11 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointOffsetData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointOffsetPositionData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointTorqueOnOff.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointOffsetPositionData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointTorqueOnOff.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_adapter/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

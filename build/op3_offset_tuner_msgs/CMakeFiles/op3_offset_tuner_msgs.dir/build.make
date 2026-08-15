@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs
 
 # Utility rule file for op3_offset_tuner_msgs.
 
@@ -66,11 +66,11 @@ include CMakeFiles/op3_offset_tuner_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/op3_offset_tuner_msgs.dir/progress.make
 
-CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointOffsetData.msg
-CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointOffsetPositionData.msg
-CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointTorqueOnOff.msg
-CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.msg
-CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.srv
+CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointOffsetData.msg
+CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointOffsetPositionData.msg
+CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointTorqueOnOff.msg
+CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.msg
+CMakeFiles/op3_offset_tuner_msgs: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.srv
 CMakeFiles/op3_offset_tuner_msgs: rosidl_cmake/srv/GetPresentJointOffsetData_Request.msg
 CMakeFiles/op3_offset_tuner_msgs: rosidl_cmake/srv/GetPresentJointOffsetData_Response.msg
 CMakeFiles/op3_offset_tuner_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -117,6 +117,6 @@ CMakeFiles/op3_offset_tuner_msgs.dir/clean:
 .PHONY : CMakeFiles/op3_offset_tuner_msgs.dir/clean
 
 CMakeFiles/op3_offset_tuner_msgs.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/CMakeFiles/op3_offset_tuner_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/CMakeFiles/op3_offset_tuner_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_offset_tuner_msgs.dir/depend
 

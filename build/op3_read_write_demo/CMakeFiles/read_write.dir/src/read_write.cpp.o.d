@@ -1,5 +1,5 @@
 CMakeFiles/read_write.dir/src/read_write.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -633,14 +633,14 @@ CMakeFiles/read_write.dir/src/read_write.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp

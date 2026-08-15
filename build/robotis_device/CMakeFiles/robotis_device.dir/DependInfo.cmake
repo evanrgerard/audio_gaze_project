@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp" "CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o" "gcc" "CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_math/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_math/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_math/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/evan/Documents/algo_gaze_project/install/robotis_math/${destination}")
+      set(destination "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,61 +316,61 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "include/robotis_math/" "DESTINATION" "include/robotis_math")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" DIRECTORY "include/robotis_math/" "DESTINATION" "include/robotis_math")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" DIRECTORY "include/robotis_math/" "DESTINATION" "include/robotis_math")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/robotis_math/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/robotis_math/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/robotis_math/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_math" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_math" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_math" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_math" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_math" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_math" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_math" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_math" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_math/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_math/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_math/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_math/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_math/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_math/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_math/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_math/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_math")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_math")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_math")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_math")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_math")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/packages/robotis_math" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/packages/robotis_math" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/packages/robotis_math" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_index/share/ament_index/resource_index/packages/robotis_math" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/robotis_math/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig-version.cmake" "DESTINATION" "share/robotis_math/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig-version.cmake" "DESTINATION" "share/robotis_math/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig-version.cmake" "DESTINATION" "share/robotis_math/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_core/robotis_mathConfig-version.cmake" "DESTINATION" "share/robotis_math/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/package.xml" "DESTINATION" "share/robotis_math")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/package.xml" "DESTINATION" "share/robotis_math")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/package.xml" "DESTINATION" "share/robotis_math")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math" FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/package.xml" "DESTINATION" "share/robotis_math")

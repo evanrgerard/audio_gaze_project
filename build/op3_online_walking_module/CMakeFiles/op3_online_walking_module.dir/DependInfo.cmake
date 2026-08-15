@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/joint_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/online_walking_module.cpp" "CMakeFiles/op3_online_walking_module.dir/src/online_walking_module.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/online_walking_module.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/op3_kdl.cpp" "CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/walking_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/walking_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/walking_control.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/wholebody_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/joint_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/online_walking_module.cpp" "CMakeFiles/op3_online_walking_module.dir/src/online_walking_module.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/online_walking_module.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/op3_kdl.cpp" "CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/walking_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/walking_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/walking_control.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/wholebody_control.cpp" "CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o" "gcc" "CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o.d"
   )
 
 # Targets to which this target links.

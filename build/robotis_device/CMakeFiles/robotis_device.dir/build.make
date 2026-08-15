@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_device
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robotis_device.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/robotis_device.dir/progress.make
 include CMakeFiles/robotis_device.dir/flags.make
 
 CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: CMakeFiles/robotis_device.dir/flags.make
-CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp
+CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp
 CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: CMakeFiles/robotis_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp
 
 CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.i
 
 CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.s
 
 CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o: CMakeFiles/robotis_device.dir/flags.make
-CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp
+CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp
 CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o: CMakeFiles/robotis_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp
 
 CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.i
 
 CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/sensor.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cpp.s
 
 CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: CMakeFiles/robotis_device.dir/flags.make
-CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp
+CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp
 CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: CMakeFiles/robotis_device.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o -MF CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o.d -o CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp
 
 CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp > CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.i
 
 CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp -o CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.s
 
 # Object files for target robotis_device
 robotis_device_OBJECTS = \
@@ -125,7 +125,7 @@ librobotis_device.so: CMakeFiles/robotis_device.dir/src/robotis_device/sensor.cp
 librobotis_device.so: CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o
 librobotis_device.so: CMakeFiles/robotis_device.dir/build.make
 librobotis_device.so: /opt/ros/humble/lib/librclcpp.so
-librobotis_device.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+librobotis_device.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 librobotis_device.so: /opt/ros/humble/lib/librclcpp.so
 librobotis_device.so: /opt/ros/humble/lib/libament_index_cpp.so
 librobotis_device.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -482,7 +482,7 @@ librobotis_device.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport
 librobotis_device.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 librobotis_device.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 librobotis_device.so: /opt/ros/humble/lib/libtracetools.so
-librobotis_device.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+librobotis_device.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 librobotis_device.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 librobotis_device.so: /opt/ros/humble/lib/librcl.so
 librobotis_device.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -541,7 +541,7 @@ librobotis_device.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 librobotis_device.so: /opt/ros/humble/lib/librcl.so
 librobotis_device.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 librobotis_device.so: /opt/ros/humble/lib/libtracetools.so
-librobotis_device.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+librobotis_device.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 librobotis_device.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 librobotis_device.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 librobotis_device.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
@@ -550,7 +550,7 @@ librobotis_device.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generato
 librobotis_device.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librobotis_device.so: /opt/ros/humble/lib/librcutils.so
 librobotis_device.so: CMakeFiles/robotis_device.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library librobotis_device.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library librobotis_device.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robotis_device.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -562,6 +562,6 @@ CMakeFiles/robotis_device.dir/clean:
 .PHONY : CMakeFiles/robotis_device.dir/clean
 
 CMakeFiles/robotis_device.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_device && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles/robotis_device.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles/robotis_device.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robotis_device.dir/depend
 

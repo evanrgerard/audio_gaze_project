@@ -1,188 +1,173 @@
-# algo_gaze_project
+# algo_gaze / BRONE Audio-Visual Attention Project — Checkpoint
 
-A ROS 2 (Humble) workspace for a **social attention system on the ROBOTIS OP3 humanoid robot**.
-The robot watches a scene through a camera, detects the people in it, decides *who* it
-should look at right now (based on proximity, gestures, gaze direction, and speech), and
-physically drives its head servos to track that person — including a "nod" gesture once
-it's locked on for a couple of seconds.
-
-The system can run against the **real OP3 hardware**, a **Webots simulation**, or a
-**hybrid** of the two (simulated robot body + your real laptop webcam). A **Phase 2**
-extension is in progress to fuse in real microphone-array audio (voice direction +
-activity detection) alongside vision — see [Roadmap](#roadmap-audiovision-fusion) below.
+**Date:** August 3, 2026
+**Workspace:** `~/Documents/BRONE_audio_gaze_project`
+**Environment:** ROS 2 Humble, Webots R2025a (`ros-humble-webots-ros2` 2025.0.0)
 
 ---
 
-## 1. Repository map — what's ROBOTIS stock code vs. custom project code
+## 1. Baseline system (starting point)
 
-This workspace is a mix of **imported, unmodified ROBOTIS OP3 framework packages**
-(the robot's "body" — drivers, kinematics, controllers) and a **small set of custom
-packages that are the actual project** (the "brain" — what to look at, and why).
+A ROS 2 workspace built around the ROBOTIS OP3 humanoid robot stack, with two
+custom vision-based attention packages layered on top:
 
-| Folder | What it is | Did we write it? |
+- **`algo_gaze`** — main/production node. YOLOv11 (person detection) + MediaPipe
+  Holistic (face/hand/pose landmarks) + a `skfuzzy` fuzzy-logic controller that
+  scores every visible person on: proximity, angle-from-center, pointing gesture,
+  waving gesture, body orientation, direct gaze, and speech status (originally a
+  **visual proxy** — lip-landmark distance variance). Highest-scoring person
+  becomes the tracking target; the robot's head pan/tilt servos smoothly track
+  them, with a "nod" gesture triggered after 2s of stable lock-on.
+- **`brone_gaze`** — earlier experimental variants (linear-model and fuzzy-model
+  scoring), not wired to head control, kept for reference/comparison.
+
+---
+
+## 2. Infrastructure fixes (getting it running at all)
+
+- Fixed a hardcoded model path in `main.py` (was pointing to the original
+  author's home directory) — now resolves via ROS parameter + package share dir.
+- Fixed stale `build/`/`install/` CMake caches after the workspace was moved
+  between machines/paths (`CMakeCache.txt` path mismatches) — resolved by wiping
+  and doing clean rebuilds.
+- Fixed a Jazzy→Humble C++ API drift: `cv_bridge/cv_bridge.hpp` doesn't exist on
+  Humble (only `.h`) — patched in `face_detection` and `op3_ball_detector`.
+- Fixed a Humble-specific `rclcpp::Time`/`Duration` addition operator error in
+  `op3_localization` (needed explicit `rclcpp::Time(...)` wrapping).
+
+---
+
+## 3. Three run modes (one unified launch file)
+
+`algo_gaze/launch/algo_gaze_launch.py`, selected via `mode:=`:
+
+| Mode | What runs | Use case |
 |---|---|---|
-| `ROBOTIS-OP3/` | Core robot stack: `op3_manager` (hardware bring-up), `robotis_controller`, `op3_head_control_module`, `op3_walking_module`, `op3_kinematics_dynamics`, `op3_localization`, etc. | **No** — stock ROBOTIS packages, ported to ROS 2. Only touched to fix ROS 2 Humble build errors (see [Known Fixes](#known-portingbuild-fixes-already-applied)). |
-| `ROBOTIS-OP3-Demo/` | Demo packages bundled with the stock robot, e.g. `op3_ball_detector` (a color-blob ball tracker — **not** used by our gaze logic, but its message package `op3_ball_detector_msgs` is repurposed, see below). | No |
-| `ROBOTIS-OP3-ETC/` | Misc. extras: `usb_cam` (camera driver), `face_detection` (a separate, unrelated Haar-cascade face tracker demo), audio players. | No |
-| `ROBOTIS-OP3-Simulations/op3_webots_ros2/` | The Webots simulation bridge: spawns the OP3 in a 3D world and exposes its camera/joints/servos over ROS 2 topics as an "extern controller." | No (stock), only the **world file** (`worlds/robotis_op3_extern.wbt`) is edited by us to add pedestrian test subjects. |
-| `DynamixelSDK/`, `robotis_framework_common/`, `robotis_math/`, msg packages (`*_msgs`) | Low-level servo communication and shared message/service types the framework depends on. | No |
-| **`algo_gaze/`** | **★ The main project.** Vision detection (YOLO + MediaPipe), fuzzy-logic attention scoring, head-tracking control, nodding behavior, CSV experiment logging. | **Yes — this is the thesis/project code.** |
-| **`brone_gaze/`** | Two earlier/experimental variants of the same idea: `linear_model_node.py` (simple weighted-sum scoring instead of fuzzy logic) and `fuzzy_model_node.py` (fuzzy scoring, but without head-servo output — detection/visualization only). Kept for comparison. | **Yes** |
-| **`audio_gaze_msgs/`, `audio_gaze/`** | Phase 2 in progress: custom `AudioCue` message + a mock audio node (no mic hardware yet) for building/testing the vision-audio fusion logic ahead of the real microphone array arriving. | **Yes** |
-
-**In one sentence:** everything under `ROBOTIS-OP3*` and `DynamixelSDK`/`robotis_*` is
-"the robot's body," imported wholesale from ROBOTIS; `algo_gaze` (and its `brone_gaze`
-siblings and the new `audio_gaze*` packages) is "the robot's decision-making," and is
-the actual contribution of this project.
-
----
-
-## 2. How the vision/attention algorithm works (`algo_gaze/algo_gaze/main.py`)
-
-This is the file that matters most. Per camera frame, it does:
-
-1. **Detect people** — YOLOv11 (`yolo11s.pt`, bundled in `algo_gaze/algo_gaze/models/`)
-   runs person detection + tracking (`classes=0` = person only, `conf=0.5` confidence
-   threshold) to get a bounding box + persistent ID per person in frame.
-2. **Extract per-person cues** — for each detected person, MediaPipe Holistic (pose +
-   face landmarks) estimates:
-   - `proximity` — how large their bounding box is relative to the largest person in frame (closer = bigger = higher score)
-   - `angle` — how far off-center they are horizontally
-   - `pointing_gesture` — are they pointing at the robot/camera?
-   - `waving_gesture` — are they waving?
-   - `body_orientation` — are they facing the robot?
-   - `direct_gaze` — are they looking at the camera?
-   - `speech_status` — **currently a visual proxy**: variance of mouth-landmark distance over the last 10 frames (high variance ≈ mouth moving ≈ probably talking). This is the exact piece Phase 2 replaces/augments with real audio.
-3. **Fuzzy inference** (`skfuzzy`) — all six cues feed a Mamdani fuzzy controller that
-   outputs a single `priority` score per person. Scores are smoothed frame-to-frame
-   (exponential moving average, `alpha_score`) to avoid target-switching on noisy
-   single-frame spikes.
-4. **Pick a target & track it** — the highest-scoring person becomes the gaze target.
-   `track_face_smooth()` converts their pixel position into a pan/tilt correction
-   (with a 10% dead-zone near center to avoid jitter), applies a smoothing gain, and
-   calls `publish_head_command()` to send it to the servos.
-5. **Nod on lock-on** — if the same target is held for ~2 seconds, `process_nodding_animation()`
-   plays a sinusoidal nod gesture on the tilt joint.
-6. **Publish results** — an annotated debug image (`/gaze_model/annotated_image`, boxes +
-   face mesh + target label), and (repurposed) `op3_ball_detector_msgs/CircleSetStamped`
-   messages broadcasting the target's pixel coordinates on `/ball_detector_node/circle_set`
-   (this reuses the ball-detector's message type as a convenient existing "point of
-   interest" message — it's not doing ball detection).
-7. **Optional CSV logging** — toggled via `/experiment/trigger` (`std_msgs/Bool`), records
-   per-frame latency, FPS, pixel error, on-target flag, and pan/tilt angle for later analysis.
-
-### `head_pub` vs. Webots output (`simulation_mode`)
-`publish_head_command()` always publishes the real-hardware message
-(`sensor_msgs/JointState` on `/robotis/head_control/set_joint_states`). When the
-`simulation_mode` ROS parameter is `true`, it **additionally** publishes two
-`std_msgs/Float64` topics (`/robotis_op3/head_pan_position/command`,
-`/robotis_op3/head_tilt_position/command`) — the format Webots' extern controller
-expects, since it doesn't understand the combined `JointState` message the real
-hardware's head-control module does.
-
-### `brone_gaze` — the earlier experiments
-- **`linear_model_node.py`** — same cues, but combined with a hand-tuned weighted sum
-  instead of fuzzy logic. Useful as a simpler baseline to compare against.
-- **`fuzzy_model_node.py`** — fuzzy scoring like `algo_gaze`, but only publishes an
-  annotated debug image; it does **not** send head-servo commands, so running it
-  alone won't move the robot.
-
----
-
-## 3. Running the project
-
-Three modes, selected by one launch argument (`mode:=real|sim|hybrid`), plus an
-audio-perception node that runs alongside all of them.
+| `real` | `usb_cam` + `algo_gaze`, `simulation_mode:=false` | Physical OP3 hardware |
+| `sim` | Webots (`op3_webots_ros2`) + `algo_gaze`, image/joint-state topics remapped to Webots' naming, `simulation_mode:=true` | No hardware needed, but YOLO sees Webots' CGI-rendered scene (domain-gap risk for vision accuracy) |
+| `hybrid` | Webots (physics/head movement only) + **real laptop webcam** for vision + `algo_gaze` | Best of both — real-world detection accuracy, simulated robot body, no hardware required |
 
 ```bash
+ros2 launch algo_gaze algo_gaze_launch.py mode:=sim      # or real / hybrid
+ros2 launch algo_gaze algo_gaze_launch.py mode:=real video_device:=/dev/video1
+```
+
+Key fixes made for `sim`/`hybrid` to actually work correctly:
+- `op3_webots_ros2`'s extern controller uses **different topic names/types** than
+  real hardware (`/robotis_op3/camera/image_raw` vs `/image_raw`; per-joint
+  `std_msgs/Float64` head commands vs one combined `JointState`) — handled via
+  launch-time remaps for the input side, and a `publish_head_command()` helper
+  in `main.py` that emits both formats when `simulation_mode:=true`.
+- **Tilt direction was inverted in simulation**: the robot panned to the correct
+  person but tilted the wrong way (looked down instead of up). Root cause: a
+  `tilt_dir` sign multiplier tuned for the real robot's joint convention, wrong
+  for Webots' joint convention. Fixed by auto-flipping it based on
+  `simulation_mode`.
+- Confirmed via Webots console (`extern controller: connected`) and
+  `ros2 topic hz` that the full camera → detection → fuzzy decision → head
+  movement loop is live end-to-end in both `sim` and `hybrid` modes.
+- Added pedestrian(s) to the Webots world (`RobotisOp3.proto`'s scene) via
+  `File → Save World As...` overwriting the actual source `.wbt` (not the
+  temp file Webots regenerates on each launch) so they persist across runs.
+
+---
+
+## 4. Phase 1 of the new research direction: vision-audio fusion
+
+**Thesis title:** *"Pengambilan Keputusan Atensi Dinamis Terhadap Kerumunan
+Manusia pada Robot Sosial Melalui Fusi Multimodal Visi dan Audio"* — dynamic
+crowd-attention decision-making via multimodal vision + audio fusion.
+
+**Key framing:** the existing vision-only system (with its lip-variance speech
+*proxy*) is the thesis's own baseline for an ablation study. The contribution is
+replacing/augmenting that proxy with real audio: Voice Activity Detection (VAD)
++ Sound Source Localization (SSL), eventually from a multi-mic array (ReSpeaker
+Mic Array v2.0 planned, not yet acquired).
+
+**Phase 1 goal:** build and validate the full ROS interface + fusion logic
+*before* the hardware arrives, using a controllable mock audio source.
+
+### New packages built
+- **`audio_gaze_msgs`** — custom interface package. `AudioCue.msg`:
+  `header`, `bool is_speech`, `float32 direction_deg` (0=center, −=left, +=right),
+  `float32 confidence`.
+- **`audio_gaze`** — `mock_audio_node.py`. Publishes `AudioCue` on `/audio/cue`
+  at 10 Hz. Listens on `/audio/mock_trigger` (`std_msgs/Float32`) — publishing a
+  direction simulates a 3-second speech burst from that angle, then
+  auto-returns to silence (mimics a real, finite utterance).
+
+### Fusion logic added to `algo_gaze/main.py`
+- Subscribes to `/audio/cue`; tracks staleness (`audio_cue_timeout_sec`, default
+  0.5s) so old cues don't linger.
+- `pixel_x_to_azimuth_deg()` converts each tracked person's screen position to
+  an approximate azimuth using `camera_hfov_deg` (default 78°, tunable param).
+- Per person, per frame: if the audio direction is within
+  `audio_match_tolerance_deg` (default 15°) of that person's azimuth, their
+  `speech_status` fuzzy input is confirmed via audio (`audio_speech` cue),
+  fused with the original visual lip-variance proxy (`visual_speech` cue) —
+  either one alone is enough to flag "may be speaking." Both signals are kept
+  separately in `p['cues']` for later ablation analysis.
+- **Off-camera speech detection** (the key new capability vision-only cannot
+  have at all): if audio detects speech that matches no currently-tracked
+  person — including when *nobody* is visually detected — it's logged via
+  `[FUSION]`-tagged messages, for future reactive behavior (e.g. pan-search)
+  and for the thesis's ablation writeup.
+- CSV experiment logging (`/experiment/trigger`) extended with
+  `Audio_Active`, `Audio_Direction_Deg`, `Audio_Matched_Person` columns.
+
+### Verified working
+- `ros2 topic echo /audio/cue` confirms mock triggers correctly flip
+  `is_speech` true/false with the right direction and timing.
+- `[FUSION]` log lines confirmed printing for both "matched to a visible
+  person" and "no match" cases once tested with a trigger angle roughly
+  matching the pedestrian's actual on-screen position.
+
+---
+
+## 5. Known limitations / open items
+
+- **CGI domain gap**: YOLO trained on real photos may under-detect Webots'
+  rendered pedestrians at the default `conf=0.5` threshold — `hybrid` mode
+  (real webcam + simulated robot body) is the practical workaround.
+- **Azimuth mapping is a simple linear FOV approximation**, not a
+  lens-calibrated projection — fine for tolerance-based matching, not
+  precise angle measurement.
+- **`AudioCue` represents one speaker/direction at a time.** If multi-speaker
+  SSL (e.g. MUSIC-based) is wanted later, this should become an `AudioCueArray`
+  — not yet built, flagged as a future decision point.
+- **No reactive behavior yet** for off-camera speech (e.g. auto pan-search
+  toward an unmatched voice) — currently logged only, not acted on.
+- **SSL method not yet chosen/implemented for real hardware** — mock node
+  only. Because everything routes through the same `AudioCue` message and
+  `/audio/cue` topic, swapping in a real method (ReSpeaker onboard DOA,
+  GCC-PHAT, SRP-PHAT, MUSIC, etc.) later requires only a new node + one
+  launch-file line change, no changes to `algo_gaze`'s fusion logic.
+
+---
+
+## 6. Quick reference: running everything
+
+```bash
+# Every new terminal:
 source /opt/ros/humble/setup.bash
-source ~/Documents/algo_gaze_project/install/setup.bash
+source ~/Documents/BRONE_audio_gaze_project/install/setup.bash
 
-ros2 launch algo_gaze algo_gaze_launch.py mode:=real     # physical OP3 + usb_cam
-ros2 launch algo_gaze algo_gaze_launch.py mode:=sim       # Webots + Webots' own rendered camera
-ros2 launch algo_gaze algo_gaze_launch.py mode:=hybrid    # Webots physics + your REAL laptop/USB camera
+# Launch (mock audio node comes up automatically, disable with use_audio:=false):
+cd ~/Documents/BRONE_audio_gaze_project
+ros2 launch algo_gaze algo_gaze_launch.py mode:=sim      # or real / hybrid
+
+# Simulate a speech event from a given angle (deg, 0=center, - =left, + =right):
+ros2 topic pub --once /audio/mock_trigger std_msgs/msg/Float32 "{data: -20.0}"
+
+# Watch it directly:
+ros2 topic echo /audio/cue
+ros2 run rqt_image_view rqt_image_view      # select /gaze_model/annotated_image
+
+# Rebuild after any source change:
+colcon build --symlink-install --packages-select <changed_package>
+source install/setup.bash
 ```
 
-| Mode | Camera source | Head commands go to | Notes |
-|---|---|---|---|
-| `real` | `usb_cam` on `video_device` (default `/dev/video0`) | Real servos via `JointState` | Requires `op3_manager` running separately with the robot's serial connection configured — not started by this launch file. |
-| `sim` | Webots' rendered camera (`/robotis_op3/camera/image_raw`) | Webots via `Float64` topics | **CGI domain-gap caveat**: YOLO was trained on real photos and may not confidently detect Webots' flat-shaded CGI pedestrians — good for testing the control loop, weaker for testing raw detection accuracy. |
-| `hybrid` | Real `usb_cam` feed (`/image_raw`, unremapped) | Webots via `Float64` topics | Best of both — real-world detection accuracy, simulated robot body, no physical OP3 needed. Recommended for most development/testing. |
-
-Extra launch args: `video_device:=/dev/videoN` (real/hybrid), `use_audio:=false`
-(disable the audio node entirely).
-
-### Viewing it live
-```bash
-ros2 run rqt_image_view rqt_image_view    # select /gaze_model/annotated_image
-```
-
-### Recording an experiment run
-```bash
-ros2 topic pub /experiment/trigger std_msgs/msg/Bool "{data: true}"   # start
-# ...
-ros2 topic pub /experiment/trigger std_msgs/msg/Bool "{data: false}"  # stop, saves CSV to cwd
-```
-
----
-
-## 4. Known porting/build fixes already applied
-
-This workspace was originally authored against **ROS 2 Jazzy**; running it on
-**ROS 2 Humble** required a few source-level fixes (already applied in this repo):
-
-1. **`cv_bridge/cv_bridge.hpp` → `cv_bridge/cv_bridge.h`** in `face_detection` and
-   `op3_ball_detector` — Humble's `cv_bridge` doesn't ship the `.hpp`-suffixed header
-   that later distros introduced.
-2. **`op3_localization`**: `pelvis_pose_.header.stamp + transform_tolerance` needed an
-   explicit `rclcpp::Time(...)` wrap — Humble doesn't implicitly convert a
-   `builtin_interfaces::msg::Time` to `rclcpp::Time` in that arithmetic context.
-3. **Hardcoded YOLO model path** in `algo_gaze/main.py` (was hardcoded to the original
-   author's home directory) — now resolves via the `yolo_model_path` ROS parameter,
-   falling back to the package's bundled `models/` directory.
-4. **`tilt_dir` sign flip for simulation** — the real OP3's `head_tilt` joint needs the
-   opposite sign convention from Webots' simulated one. `tilt_dir` now auto-flips based
-   on `simulation_mode` (see `main.py`).
-
-If you rebuild this on yet another ROS distro, these four spots are the most likely
-places to hit new API drift.
-
----
-
-## 5. Known limitations
-
-- **CGI domain gap** (`sim` mode): YOLO may under-detect Webots' rendered humans. Use
-  `hybrid` mode if you need reliable detection while still using the simulated robot body.
-- **Pixel dead-zone**: small movements near frame-center intentionally don't move the
-  head (prevents jitter) — expect no response to tiny motions there.
-- **`speech_status` is currently visual-only** (lip-movement variance), not real audio —
-  this is exactly what the audio-fusion work in progress addresses.
-- **Webots world edits don't persist automatically** — `robot_launch.py` copies the world
-  file to a temp path on every launch (visible in Webots' title bar as something like
-  `/tmp/tmpXXXXX_end_world_with_URDF_robot.wbt`). To keep scene changes (e.g. added
-  pedestrians), use Webots' **File → Save World As...** and overwrite the actual source
-  file at `ROBOTIS-OP3-Simulations/op3_webots_ros2/worlds/robotis_op3_extern.wbt`, then
-  rebuild `op3_webots_ros2`.
-
----
-
-## 6. Roadmap: audio/vision fusion
-
-**Goal:** replace/augment the visual lip-movement `speech_status` proxy with real
-audio — Voice Activity Detection (VAD) + Sound Source Localization (SSL/DOA) — fused
-with the existing vision cues, so the robot can (a) confirm speech more reliably than
-lip-motion alone, and (b) react to speakers **outside the camera's field of view**,
-which the vision-only baseline cannot do at all.
-
-- **Phase 1 (in progress, no hardware needed)** — `audio_gaze_msgs/AudioCue` message
-  (`is_speech`, `direction_deg`, `confidence`) + `audio_gaze/mock_audio_node` (publishes
-  controllable fake audio events via `/audio/mock_trigger`) + fusion logic in
-  `algo_gaze/main.py` that matches audio direction to each tracked person's visual angle
-  (`camera_hfov_deg`, `audio_match_tolerance_deg` params), with CSV logging extended to
-  record audio state per frame for later ablation analysis.
-- **Phase 2** — swap the mock node for a real mic-array driver (e.g. ReSpeaker Mic Array
-  v2.0 + `respeaker_ros`), publishing to the same `/audio/cue` topic/message — no changes
-  needed elsewhere.
-- **Phase 3** — evaluation: compare vision-only vs. vision+audio fusion using the existing
-  CSV recording pipeline (attention-switch latency, correct-speaker-identification
-  accuracy, off-camera-speech reaction).
+**⚠️ Workspace path is fixed:** if the project folder is ever renamed or moved
+again, `build/`, `install/`, and `log/` must be deleted and fully rebuilt —
+colcon bakes absolute paths in, it doesn't use relative ones.

@@ -1,5 +1,5 @@
 CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/joint_control.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/joint_control.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,7 +24,7 @@ CMakeFiles/op3_online_walking_module.dir/src/joint_control.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/joint_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/joint_control.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \

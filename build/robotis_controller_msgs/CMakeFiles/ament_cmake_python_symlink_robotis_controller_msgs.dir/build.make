@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs
 
 # Utility rule file for ament_cmake_python_symlink_robotis_controller_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/compil
 include CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs:
-	/usr/bin/cmake -E create_symlink /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_py/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/ament_cmake_python/robotis_controller_msgs/robotis_controller_msgs
+	/usr/bin/cmake -E create_symlink /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_py/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/ament_cmake_python/robotis_controller_msgs/robotis_controller_msgs
 
 ament_cmake_python_symlink_robotis_controller_msgs: CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs
 ament_cmake_python_symlink_robotis_controller_msgs: CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_robotis_controller_msgs.dir/depend
 

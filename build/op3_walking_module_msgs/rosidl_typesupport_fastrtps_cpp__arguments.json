@@ -1,11 +1,11 @@
 {
   "package_name": "op3_walking_module_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_typesupport_fastrtps_cpp/op3_walking_module_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_typesupport_fastrtps_cpp/op3_walking_module_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:msg/WalkingParam.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:srv/GetWalkingParam.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:srv/SetWalkingParam.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:msg/WalkingParam.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:srv/GetWalkingParam.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs:srv/SetWalkingParam.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -50,9 +50,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/msg/WalkingParam.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/srv/GetWalkingParam.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/srv/SetWalkingParam.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/msg/WalkingParam.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/srv/GetWalkingParam.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_adapter/op3_walking_module_msgs/srv/SetWalkingParam.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

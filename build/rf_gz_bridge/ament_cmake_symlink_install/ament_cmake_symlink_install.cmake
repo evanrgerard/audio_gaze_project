@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/rf_gz_bridge/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/evan/Documents/algo_gaze_project/install/rf_gz_bridge/${destination}")
+      set(destination "/home/evan/Documents/BRONE_audio_gaze_project/install/rf_gz_bridge/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,52 +316,52 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "rf_gz_bridge_node" "DESTINATION" "lib/rf_gz_bridge")
-include("/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/rf_gz_bridge/" "DESTINATION" "include/rf_gz_bridge")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" DIRECTORY "include/rf_gz_bridge/" "DESTINATION" "include/rf_gz_bridge")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" DIRECTORY "include/rf_gz_bridge/" "DESTINATION" "include/rf_gz_bridge")
 
 # install(DIRECTORY "config" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" DIRECTORY "config" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" DIRECTORY "config" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rf_gz_bridge/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rf_gz_bridge/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rf_gz_bridge")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/packages/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/packages/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/packages/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_index/share/ament_index/resource_index/packages/rf_gz_bridge" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig-version.cmake" "DESTINATION" "share/rf_gz_bridge/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig-version.cmake" "DESTINATION" "share/rf_gz_bridge/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig-version.cmake" "DESTINATION" "share/rf_gz_bridge/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/ament_cmake_core/rf_gz_bridgeConfig-version.cmake" "DESTINATION" "share/rf_gz_bridge/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/package.xml" "DESTINATION" "share/rf_gz_bridge")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/package.xml" "DESTINATION" "share/rf_gz_bridge")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/package.xml" "DESTINATION" "share/rf_gz_bridge")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge" FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/package.xml" "DESTINATION" "share/rf_gz_bridge")

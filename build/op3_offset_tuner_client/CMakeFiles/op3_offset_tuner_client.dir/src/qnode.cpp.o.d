@@ -1,5 +1,5 @@
 CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/qnode.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h \
@@ -686,7 +686,7 @@ CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/../include/op3_offset_tuner_client/qnode.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_client/src/../include/op3_offset_tuner_client/qnode.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h \
@@ -718,29 +718,29 @@ CMakeFiles/op3_offset_tuner_client.dir/src/qnode.cpp.o: \
  /usr/include/yaml-cpp/node/convert.h \
  /usr/include/yaml-cpp/node/detail/impl.h \
  /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_offset_data.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_offset_position_data.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off_array.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/get_present_joint_offset_data.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.hpp
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_offset_data.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_offset_position_data.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off_array.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/get_present_joint_offset_data.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_msgs/rosidl_generator_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.hpp

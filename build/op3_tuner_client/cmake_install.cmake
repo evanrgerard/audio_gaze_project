@@ -1,8 +1,8 @@
-# Install script for directory: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client
+# Install script for directory: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/algo_gaze_project/install/op3_tuner_client")
+  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuner_client")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/evan/Documents/algo_gaze_project/build/op3_tuner_client/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuner_client/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/evan/Documents/algo_gaze_project/build/op3_tuner_client/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuner_client/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

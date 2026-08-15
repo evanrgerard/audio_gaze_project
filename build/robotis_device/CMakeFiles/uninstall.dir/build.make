@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_device
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_device && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device /home/evan/Documents/algo_gaze_project/build/robotis_device/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_device/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

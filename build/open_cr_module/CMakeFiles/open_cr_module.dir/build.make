@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/open_cr_module
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module
 
 # Include any dependencies generated for this target.
 include CMakeFiles/open_cr_module.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/open_cr_module.dir/progress.make
 include CMakeFiles/open_cr_module.dir/flags.make
 
 CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o: CMakeFiles/open_cr_module.dir/flags.make
-CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp
+CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp
 CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o: CMakeFiles/open_cr_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/open_cr_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o -MF CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o.d -o CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o -MF CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o.d -o CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp
 
 CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp > CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp > CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.i
 
 CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp -o CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module/src/open_cr_module.cpp -o CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.s
 
 # Object files for target open_cr_module
 open_cr_module_OBJECTS = \
@@ -92,17 +92,17 @@ open_cr_module_EXTERNAL_OBJECTS =
 
 libopen_cr_module.so: CMakeFiles/open_cr_module.dir/src/open_cr_module.cpp.o
 libopen_cr_module.so: CMakeFiles/open_cr_module.dir/build.make
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/lib/librobotis_device.so
 libopen_cr_module.so: /opt/ros/humble/lib/librclcpp.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 libopen_cr_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libopen_cr_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libopen_cr_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -119,9 +119,9 @@ libopen_cr_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp
 libopen_cr_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libopen_cr_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libopen_cr_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 libopen_cr_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-libopen_cr_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+libopen_cr_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
 libopen_cr_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libopen_cr_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libopen_cr_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
@@ -184,7 +184,7 @@ libopen_cr_module.so: /opt/ros/humble/lib/librcutils.so
 libopen_cr_module.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libopen_cr_module.so: /opt/ros/humble/lib/libtracetools.so
 libopen_cr_module.so: CMakeFiles/open_cr_module.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/open_cr_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libopen_cr_module.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libopen_cr_module.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/open_cr_module.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +196,6 @@ CMakeFiles/open_cr_module.dir/clean:
 .PHONY : CMakeFiles/open_cr_module.dir/clean
 
 CMakeFiles/open_cr_module.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/open_cr_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/open_cr_module /home/evan/Documents/algo_gaze_project/build/open_cr_module /home/evan/Documents/algo_gaze_project/build/open_cr_module /home/evan/Documents/algo_gaze_project/build/open_cr_module/CMakeFiles/open_cr_module.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/open_cr_module /home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module /home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module /home/evan/Documents/BRONE_audio_gaze_project/build/open_cr_module/CMakeFiles/open_cr_module.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/open_cr_module.dir/depend
 

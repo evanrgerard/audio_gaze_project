@@ -1,5 +1,5 @@
 CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/op3_kdl.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/op3_kdl.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -619,7 +619,7 @@ CMakeFiles/op3_online_walking_module.dir/src/op3_kdl.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/op3_kdl.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/op3_kdl.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp \

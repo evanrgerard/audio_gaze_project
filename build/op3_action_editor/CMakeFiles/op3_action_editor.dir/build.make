@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_action_editor
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_action_editor.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/op3_action_editor.dir/progress.make
 include CMakeFiles/op3_action_editor.dir/flags.make
 
 CMakeFiles/op3_action_editor.dir/src/main.cpp.o: CMakeFiles/op3_action_editor.dir/flags.make
-CMakeFiles/op3_action_editor.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp
+CMakeFiles/op3_action_editor.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp
 CMakeFiles/op3_action_editor.dir/src/main.cpp.o: CMakeFiles/op3_action_editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_action_editor.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_action_editor.dir/src/main.cpp.o -MF CMakeFiles/op3_action_editor.dir/src/main.cpp.o.d -o CMakeFiles/op3_action_editor.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_action_editor.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_action_editor.dir/src/main.cpp.o -MF CMakeFiles/op3_action_editor.dir/src/main.cpp.o.d -o CMakeFiles/op3_action_editor.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp
 
 CMakeFiles/op3_action_editor.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_action_editor.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp > CMakeFiles/op3_action_editor.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp > CMakeFiles/op3_action_editor.dir/src/main.cpp.i
 
 CMakeFiles/op3_action_editor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_action_editor.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp -o CMakeFiles/op3_action_editor.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp -o CMakeFiles/op3_action_editor.dir/src/main.cpp.s
 
 CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o: CMakeFiles/op3_action_editor.dir/flags.make
-CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp
+CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp
 CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o: CMakeFiles/op3_action_editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o -MF CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o.d -o CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o -MF CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o.d -o CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp
 
 CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp > CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp > CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.i
 
 CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp -o CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp -o CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.s
 
 # Object files for target op3_action_editor
 op3_action_editor_OBJECTS = \
@@ -110,9 +110,9 @@ op3_action_editor: CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o
 op3_action_editor: CMakeFiles/op3_action_editor.dir/build.make
 op3_action_editor: /usr/lib/x86_64-linux-gnu/libcurses.so
 op3_action_editor: /usr/lib/x86_64-linux-gnu/libform.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller/lib/librobotis_controller.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller/lib/librobotis_controller.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -124,7 +124,7 @@ op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 op3_action_editor: /opt/ros/humble/lib/librcpputils.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module/lib/libop3_action_module.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module/lib/libop3_action_module.so
 op3_action_editor: /opt/ros/humble/lib/libament_index_cpp.so
 op3_action_editor: /opt/ros/humble/lib/librcutils.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -133,16 +133,16 @@ op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_runtime_c.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_c.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_base_module/lib/libop3_base_module.a
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_base_module/lib/libop3_base_module.a
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -159,33 +159,33 @@ op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fast
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
 op3_action_editor: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 op3_action_editor: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/lib/librobotis_device.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
 op3_action_editor: /opt/ros/humble/lib/librclcpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 op3_action_editor: /opt/ros/humble/lib/librclcpp.so
 op3_action_editor: /opt/ros/humble/lib/liblibstatistics_collector.so
 op3_action_editor: /opt/ros/humble/lib/librcl.so
@@ -220,7 +220,7 @@ op3_action_editor: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.s
 op3_action_editor: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 op3_action_editor: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libtracetools.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -238,7 +238,7 @@ op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 op3_action_editor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 op3_action_editor: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-op3_action_editor: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+op3_action_editor: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 op3_action_editor: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 op3_action_editor: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
@@ -255,7 +255,7 @@ op3_action_editor: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c
 op3_action_editor: /opt/ros/humble/lib/librosidl_runtime_c.so
 op3_action_editor: /opt/ros/humble/lib/librcutils.so
 op3_action_editor: CMakeFiles/op3_action_editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable op3_action_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable op3_action_editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_action_editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -267,6 +267,6 @@ CMakeFiles/op3_action_editor.dir/clean:
 .PHONY : CMakeFiles/op3_action_editor.dir/clean
 
 CMakeFiles/op3_action_editor.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_action_editor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor /home/evan/Documents/algo_gaze_project/build/op3_action_editor /home/evan/Documents/algo_gaze_project/build/op3_action_editor /home/evan/Documents/algo_gaze_project/build/op3_action_editor/CMakeFiles/op3_action_editor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_action_editor /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_editor/CMakeFiles/op3_action_editor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_action_editor.dir/depend
 

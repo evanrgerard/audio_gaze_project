@@ -1,7 +1,7 @@
 CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/dynamixel.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -142,7 +142,7 @@ CMakeFiles/robotis_device.dir/src/robotis_device/dynamixel.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/time_stamp.h
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/time_stamp.h

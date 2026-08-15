@@ -1,0 +1,6 @@
+{
+  "package_name": "audio_gaze_msgs",
+  "non_idl_tuples": [
+    "/home/evan/Documents/BRONE_audio_gaze_project/audio_gaze_msgs:msg/AudioCue.msg"
+  ]
+}

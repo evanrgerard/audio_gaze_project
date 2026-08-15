@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_cmake/srv/GetParameters_Response.msg
+/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_cmake/srv/GetParameters_Response.msg

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_gui_demo
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_gui_demo.dir/depend.make
@@ -69,171 +69,171 @@ include CMakeFiles/op3_gui_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/op3_gui_demo.dir/flags.make
 
-include/op3_gui_demo/moc_main_window.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/main_window.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/op3_gui_demo/moc_main_window.cpp"
-	cd /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp_parameters
+include/op3_gui_demo/moc_main_window.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/main_window.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/op3_gui_demo/moc_main_window.cpp"
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp_parameters
 
-include/op3_gui_demo/moc_preview_walking_form.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/preview_walking_form.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/op3_gui_demo/moc_preview_walking_form.cpp"
-	cd /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp_parameters
+include/op3_gui_demo/moc_preview_walking_form.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/preview_walking_form.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/op3_gui_demo/moc_preview_walking_form.cpp"
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp_parameters
 
-include/op3_gui_demo/moc_qnode.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/qnode.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/op3_gui_demo/moc_qnode.cpp"
-	cd /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp_parameters
+include/op3_gui_demo/moc_qnode.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/include/op3_gui_demo/qnode.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/op3_gui_demo/moc_qnode.cpp"
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo && /usr/lib/qt5/bin/moc @/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp_parameters
 
-ui_main_window.h: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_main_window.h"
-	/usr/lib/qt5/bin/uic -o /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/ui_main_window.h /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/main_window.ui
+ui_main_window.h: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_main_window.h"
+	/usr/lib/qt5/bin/uic -o /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/ui_main_window.h /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/main_window.ui
 
-ui_preview_walking_form.h: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/preview_walking_form.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_preview_walking_form.h"
-	/usr/lib/qt5/bin/uic -o /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/ui_preview_walking_form.h /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/preview_walking_form.ui
+ui_preview_walking_form.h: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/preview_walking_form.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_preview_walking_form.h"
+	/usr/lib/qt5/bin/uic -o /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/ui_preview_walking_form.h /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/ui/preview_walking_form.ui
 
-qrc_images.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images/icon.png
+qrc_images.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images/icon.png
 qrc_images.cpp: resources/images.qrc.depends
-qrc_images.cpp: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating qrc_images.cpp"
-	/usr/lib/qt5/bin/rcc --name images --output /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/qrc_images.cpp /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images.qrc
+qrc_images.cpp: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating qrc_images.cpp"
+	/usr/lib/qt5/bin/rcc --name images --output /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/qrc_images.cpp /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/resources/images.qrc
 
 CMakeFiles/op3_gui_demo.dir/src/main.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp
+CMakeFiles/op3_gui_demo.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp
 CMakeFiles/op3_gui_demo.dir/src/main.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/main.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/main.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/main.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/main.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp > CMakeFiles/op3_gui_demo.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp > CMakeFiles/op3_gui_demo.dir/src/main.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp -o CMakeFiles/op3_gui_demo.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main.cpp -o CMakeFiles/op3_gui_demo.dir/src/main.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp
+CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp
 CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp > CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp > CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp -o CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/main_window.cpp -o CMakeFiles/op3_gui_demo.dir/src/main_window.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp
+CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp
 CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp > CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp > CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp -o CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/preview_walking_form.cpp -o CMakeFiles/op3_gui_demo.dir/src/preview_walking_form.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp
+CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp
 CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp
+CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp
 CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_default_demo.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode_default_demo.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
-CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp
+CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp
 CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o -MF CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp > CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo/src/qnode_preview_walking.cpp -o CMakeFiles/op3_gui_demo.dir/src/qnode_preview_walking.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o: include/op3_gui_demo/moc_main_window.cpp
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_main_window.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_main_window.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o: include/op3_gui_demo/moc_preview_walking_form.cpp
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_preview_walking_form.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walking_form.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o: include/op3_gui_demo/moc_qnode.cpp
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o -MF CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp > CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/include/op3_gui_demo/moc_qnode.cpp -o CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.s
 
 CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o: CMakeFiles/op3_gui_demo.dir/flags.make
 CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o: qrc_images.cpp
 CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o: CMakeFiles/op3_gui_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o -MF CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o -c /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/qrc_images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o -MF CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o.d -o CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/qrc_images.cpp
 
 CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/qrc_images.cpp > CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/qrc_images.cpp > CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.i
 
 CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/qrc_images.cpp -o CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/qrc_images.cpp -o CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.s
 
 # Object files for target op3_gui_demo
 op3_gui_demo_OBJECTS = \
@@ -262,33 +262,33 @@ op3_gui_demo: CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_preview_walki
 op3_gui_demo: CMakeFiles/op3_gui_demo.dir/include/op3_gui_demo/moc_qnode.cpp.o
 op3_gui_demo: CMakeFiles/op3_gui_demo.dir/qrc_images.cpp.o
 op3_gui_demo: CMakeFiles/op3_gui_demo.dir/build.make
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
 op3_gui_demo: /opt/ros/humble/lib/libinteractive_markers.so
 op3_gui_demo: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 op3_gui_demo: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
-op3_gui_demo: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
+op3_gui_demo: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
 op3_gui_demo: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 op3_gui_demo: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 op3_gui_demo: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -408,7 +408,7 @@ op3_gui_demo: /opt/ros/humble/lib/librcutils.so
 op3_gui_demo: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 op3_gui_demo: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 op3_gui_demo: CMakeFiles/op3_gui_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable op3_gui_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable op3_gui_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_gui_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -425,6 +425,6 @@ CMakeFiles/op3_gui_demo.dir/depend: include/op3_gui_demo/moc_qnode.cpp
 CMakeFiles/op3_gui_demo.dir/depend: qrc_images.cpp
 CMakeFiles/op3_gui_demo.dir/depend: ui_main_window.h
 CMakeFiles/op3_gui_demo.dir/depend: ui_preview_walking_form.h
-	cd /home/evan/Documents/algo_gaze_project/build/op3_gui_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo /home/evan/Documents/algo_gaze_project/build/op3_gui_demo /home/evan/Documents/algo_gaze_project/build/op3_gui_demo /home/evan/Documents/algo_gaze_project/build/op3_gui_demo/CMakeFiles/op3_gui_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_gui_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_gui_demo/CMakeFiles/op3_gui_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_gui_demo.dir/depend
 

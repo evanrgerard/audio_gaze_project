@@ -1,5 +1,5 @@
 CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/wholebody_control.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/src/wholebody_control.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,7 +24,7 @@ CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/wholebody_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_online_walking_module/include/op3_online_walking_module/wholebody_control.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -514,17 +514,17 @@ CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o: \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
  /usr/include/c++/11/iostream \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -914,5 +914,5 @@ CMakeFiles/op3_online_walking_module.dir/src/wholebody_control.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h

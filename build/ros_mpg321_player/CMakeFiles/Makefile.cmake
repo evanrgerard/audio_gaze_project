@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_mpg321_player/CMakeLists.txt"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-Utility/ros_mpg321_player/package.xml"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_mpg321_player/CMakeLists.txt"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Utility/ros_mpg321_player/package.xml"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"

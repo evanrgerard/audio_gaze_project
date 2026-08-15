@@ -1,7 +1,7 @@
 CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/include/op3_tuning_module/tuning_data.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/include/op3_tuning_module/tuning_data.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

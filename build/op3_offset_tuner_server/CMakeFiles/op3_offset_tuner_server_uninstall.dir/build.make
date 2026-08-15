@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server
 
 # Utility rule file for op3_offset_tuner_server_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/op3_offset_tuner_server_uninstall.dir/compiler_depend.make
 include CMakeFiles/op3_offset_tuner_server_uninstall.dir/progress.make
 
 CMakeFiles/op3_offset_tuner_server_uninstall:
-	/usr/bin/cmake -P /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 op3_offset_tuner_server_uninstall: CMakeFiles/op3_offset_tuner_server_uninstall
 op3_offset_tuner_server_uninstall: CMakeFiles/op3_offset_tuner_server_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/op3_offset_tuner_server_uninstall.dir/clean:
 .PHONY : CMakeFiles/op3_offset_tuner_server_uninstall.dir/clean
 
 CMakeFiles/op3_offset_tuner_server_uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/CMakeFiles/op3_offset_tuner_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/CMakeFiles/op3_offset_tuner_server_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_offset_tuner_server_uninstall.dir/depend
 

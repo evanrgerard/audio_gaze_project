@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_demo
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/self_test_node.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/self_test_node.dir/progress.make
 include CMakeFiles/self_test_node.dir/flags.make
 
 CMakeFiles/self_test_node.dir/src/test_node.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/test_node.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp
+CMakeFiles/self_test_node.dir/src/test_node.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp
 CMakeFiles/self_test_node.dir/src/test_node.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/self_test_node.dir/src/test_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test_node.cpp.o -MF CMakeFiles/self_test_node.dir/src/test_node.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test_node.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/self_test_node.dir/src/test_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test_node.cpp.o -MF CMakeFiles/self_test_node.dir/src/test_node.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test_node.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp
 
 CMakeFiles/self_test_node.dir/src/test_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/test_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp > CMakeFiles/self_test_node.dir/src/test_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp > CMakeFiles/self_test_node.dir/src/test_node.cpp.i
 
 CMakeFiles/self_test_node.dir/src/test_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/test_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp -o CMakeFiles/self_test_node.dir/src/test_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test_node.cpp -o CMakeFiles/self_test_node.dir/src/test_node.cpp.s
 
 CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp
+CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp
 CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp
 
 CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp > CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp > CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.i
 
 CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp -o CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/soccer_demo.cpp -o CMakeFiles/self_test_node.dir/src/soccer/soccer_demo.cpp.s
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp
+CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp
 CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp > CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp > CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.i
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp -o CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_tracker.cpp -o CMakeFiles/self_test_node.dir/src/soccer/ball_tracker.cpp.s
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp
+CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp
 CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o -MF CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o.d -o CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp > CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp > CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.i
 
 CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp -o CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/soccer/ball_follower.cpp -o CMakeFiles/self_test_node.dir/src/soccer/ball_follower.cpp.s
 
 CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp
+CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp
 CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp
 
 CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp > CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp > CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.i
 
 CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp -o CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/action/action_demo.cpp -o CMakeFiles/self_test_node.dir/src/action/action_demo.cpp.s
 
 CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp
+CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp
 CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o -MF CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o.d -o CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp
 
 CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp > CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp > CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.i
 
 CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp -o CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/vision_demo.cpp -o CMakeFiles/self_test_node.dir/src/vision/vision_demo.cpp.s
 
 CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp
+CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp
 CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o -MF CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o.d -o CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o -MF CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o.d -o CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp
 
 CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp > CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp > CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.i
 
 CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp -o CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/vision/face_tracker.cpp -o CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.s
 
 CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp
+CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp
 CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o -MF CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o -MF CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp
 
 CMakeFiles/self_test_node.dir/src/test/button_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/test/button_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp > CMakeFiles/self_test_node.dir/src/test/button_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp > CMakeFiles/self_test_node.dir/src/test/button_test.cpp.i
 
 CMakeFiles/self_test_node.dir/src/test/button_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/test/button_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp -o CMakeFiles/self_test_node.dir/src/test/button_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/button_test.cpp -o CMakeFiles/self_test_node.dir/src/test/button_test.cpp.s
 
 CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: CMakeFiles/self_test_node.dir/flags.make
-CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp
+CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp
 CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: CMakeFiles/self_test_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o -MF CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o -MF CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o.d -o CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp
 
 CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp > CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp > CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.i
 
 CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp -o CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp -o CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.s
 
 # Object files for target self_test_node
 self_test_node_OBJECTS = \
@@ -220,38 +220,38 @@ self_test_node: CMakeFiles/self_test_node.dir/src/vision/face_tracker.cpp.o
 self_test_node: CMakeFiles/self_test_node.dir/src/test/button_test.cpp.o
 self_test_node: CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o
 self_test_node: CMakeFiles/self_test_node.dir/build.make
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_py.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_cpp.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_py.so
 self_test_node: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
 self_test_node: /opt/ros/humble/lib/librclcpp.so
 self_test_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 self_test_node: /opt/ros/humble/lib/librcl.so
@@ -316,11 +316,11 @@ self_test_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 self_test_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 self_test_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 self_test_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_c.so
 self_test_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 self_test_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 self_test_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-self_test_node: /home/evan/Documents/algo_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_c.so
+self_test_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_c.so
 self_test_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 self_test_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 self_test_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
@@ -333,7 +333,7 @@ self_test_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 self_test_node: /opt/ros/humble/lib/librcutils.so
 self_test_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 self_test_node: CMakeFiles/self_test_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable self_test_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable self_test_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/self_test_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -345,6 +345,6 @@ CMakeFiles/self_test_node.dir/clean:
 .PHONY : CMakeFiles/self_test_node.dir/clean
 
 CMakeFiles/self_test_node.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo /home/evan/Documents/algo_gaze_project/build/op3_demo /home/evan/Documents/algo_gaze_project/build/op3_demo /home/evan/Documents/algo_gaze_project/build/op3_demo/CMakeFiles/self_test_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_demo/CMakeFiles/self_test_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/self_test_node.dir/depend
 

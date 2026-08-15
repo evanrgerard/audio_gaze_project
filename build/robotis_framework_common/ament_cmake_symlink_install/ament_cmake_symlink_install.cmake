@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/evan/Documents/algo_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/evan/Documents/algo_gaze_project/install/robotis_framework_common/${destination}")
+      set(destination "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,52 +316,52 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "robotis_framework_common" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include/robotis_framework_common/" "DESTINATION" "include/robotis_framework_common")
-ament_cmake_symlink_install_directory("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" DIRECTORY "include/robotis_framework_common/" "DESTINATION" "include/robotis_framework_common")
+ament_cmake_symlink_install_directory("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" DIRECTORY "include/robotis_framework_common/" "DESTINATION" "include/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_framework_common/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_framework_common/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robotis_framework_common/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_framework_common/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_framework_common/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robotis_framework_common/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robotis_framework_common/environment")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robotis_framework_common")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/packages/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/packages/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/packages/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_index/share/ament_index/resource_index/packages/robotis_framework_common" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig-version.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig.cmake" "/home/evan/Documents/algo_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig-version.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig-version.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig.cmake" "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_framework_common/ament_cmake_core/robotis_framework_commonConfig-version.cmake" "DESTINATION" "share/robotis_framework_common/cmake")
 
-# install(FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common/package.xml" "DESTINATION" "share/robotis_framework_common")
-ament_cmake_symlink_install_files("/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_framework_common/package.xml" "DESTINATION" "share/robotis_framework_common")
+# install(FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common/package.xml" "DESTINATION" "share/robotis_framework_common")
+ament_cmake_symlink_install_files("/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common" FILES "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_framework_common/package.xml" "DESTINATION" "share/robotis_framework_common")

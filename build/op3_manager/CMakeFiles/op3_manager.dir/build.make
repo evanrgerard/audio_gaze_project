@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_manager
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_manager.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/op3_manager.dir/progress.make
 include CMakeFiles/op3_manager.dir/flags.make
 
 CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: CMakeFiles/op3_manager.dir/flags.make
-CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp
+CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp
 CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: CMakeFiles/op3_manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o -MF CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o.d -o CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o -MF CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o.d -o CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp
 
 CMakeFiles/op3_manager.dir/src/op3_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_manager.dir/src/op3_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp > CMakeFiles/op3_manager.dir/src/op3_manager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp > CMakeFiles/op3_manager.dir/src/op3_manager.cpp.i
 
 CMakeFiles/op3_manager.dir/src/op3_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_manager.dir/src/op3_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp -o CMakeFiles/op3_manager.dir/src/op3_manager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp -o CMakeFiles/op3_manager.dir/src/op3_manager.cpp.s
 
 # Object files for target op3_manager
 op3_manager_OBJECTS = \
@@ -92,64 +92,64 @@ op3_manager_EXTERNAL_OBJECTS =
 
 op3_manager: CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o
 op3_manager: CMakeFiles/op3_manager.dir/build.make
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller/lib/librobotis_controller.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/open_cr_module/lib/libopen_cr_module.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_base_module/lib/libop3_base_module.a
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_head_control_module/lib/libop3_head_control_module.a
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module/lib/libop3_walking_module.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module/lib/libop3_action_module.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/lib/libop3_direct_control_module.a
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/lib/libop3_online_walking_module.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller/lib/librobotis_controller.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/open_cr_module/lib/libopen_cr_module.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_base_module/lib/libop3_base_module.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_head_control_module/lib/libop3_head_control_module.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module/lib/libop3_walking_module.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module/lib/libop3_action_module.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_direct_control_module/lib/libop3_direct_control_module.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/lib/libop3_online_walking_module.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -158,17 +158,17 @@ op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_balance_control/lib/libop3_balance_control.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module/lib/libop3_tuning_module.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_balance_control/lib/libop3_balance_control.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module/lib/libop3_tuning_module.a
 op3_manager: /opt/ros/humble/lib/libament_index_cpp.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -186,58 +186,58 @@ op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_fastrtps_cpp.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_introspection_cpp.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_cpp.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_cpp.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_py.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_py.so
 op3_manager: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/lib/librobotis_device.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
 op3_manager: /opt/ros/humble/lib/librclcpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 op3_manager: /opt/ros/humble/lib/librclcpp.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs/lib/libop3_action_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-op3_manager: /home/evan/Documents/algo_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_c.so
+op3_manager: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module_msgs/lib/libop3_tuning_module_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 op3_manager: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 op3_manager: /opt/ros/humble/lib/liblibstatistics_collector.so
@@ -294,7 +294,7 @@ op3_manager: /opt/ros/humble/lib/librcutils.so
 op3_manager: /opt/ros/humble/lib/libtracetools.so
 op3_manager: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 op3_manager: CMakeFiles/op3_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable op3_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable op3_manager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -306,6 +306,6 @@ CMakeFiles/op3_manager.dir/clean:
 .PHONY : CMakeFiles/op3_manager.dir/clean
 
 CMakeFiles/op3_manager.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager /home/evan/Documents/algo_gaze_project/build/op3_manager /home/evan/Documents/algo_gaze_project/build/op3_manager /home/evan/Documents/algo_gaze_project/build/op3_manager/CMakeFiles/op3_manager.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager /home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager /home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager /home/evan/Documents/BRONE_audio_gaze_project/build/op3_manager/CMakeFiles/op3_manager.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_manager.dir/depend
 

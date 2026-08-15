@@ -1,8 +1,8 @@
-# Install script for directory: /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/op3_action_module_msgs__rs
+# Install script for directory: /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/op3_action_module_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/algo_gaze_project/install/op3_action_module_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

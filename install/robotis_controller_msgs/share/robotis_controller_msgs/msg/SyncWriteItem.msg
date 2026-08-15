@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs/msg/SyncWriteItem.msg
+/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs/msg/SyncWriteItem.msg

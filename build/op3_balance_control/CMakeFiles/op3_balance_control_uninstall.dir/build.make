@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_balance_control
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control
 
 # Utility rule file for op3_balance_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/op3_balance_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/op3_balance_control_uninstall.dir/progress.make
 
 CMakeFiles/op3_balance_control_uninstall:
-	/usr/bin/cmake -P /home/evan/Documents/algo_gaze_project/build/op3_balance_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 op3_balance_control_uninstall: CMakeFiles/op3_balance_control_uninstall
 op3_balance_control_uninstall: CMakeFiles/op3_balance_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/op3_balance_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/op3_balance_control_uninstall.dir/clean
 
 CMakeFiles/op3_balance_control_uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_balance_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control/CMakeFiles/op3_balance_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control/CMakeFiles/op3_balance_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_balance_control_uninstall.dir/depend
 

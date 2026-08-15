@@ -1,5 +1,5 @@
 CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /usr/include/c++/11/string \
@@ -131,8 +131,8 @@ CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/include/op3_walking_module/op3_walking_module.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/include/op3_walking_module/op3_walking_parameter.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/include/op3_walking_module/op3_walking_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/include/op3_walking_module/op3_walking_parameter.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -948,53 +948,53 @@ CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/set_walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/robot.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/set_walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/robot.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h

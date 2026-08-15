@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server
 
 # Include any dependencies generated for this target.
 include CMakeFiles/offset_tuner_server_node.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/offset_tuner_server_node.dir/progress.make
 include CMakeFiles/offset_tuner_server_node.dir/flags.make
 
 CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o: CMakeFiles/offset_tuner_server_node.dir/flags.make
-CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp
+CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp
 CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o: CMakeFiles/offset_tuner_server_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o -MF CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o.d -o CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o -MF CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o.d -o CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp
 
 CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp > CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp > CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.i
 
 CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp -o CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/op3_offset_tuner_server.cpp -o CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.s
 
 CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o: CMakeFiles/offset_tuner_server_node.dir/flags.make
-CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp
+CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp
 CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o: CMakeFiles/offset_tuner_server_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o -MF CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o.d -o CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o -MF CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o.d -o CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp
 
 CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp > CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp > CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.i
 
 CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp -o CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server/src/main.cpp -o CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.s
 
 # Object files for target offset_tuner_server_node
 offset_tuner_server_node_OBJECTS = \
@@ -108,15 +108,15 @@ offset_tuner_server_node_EXTERNAL_OBJECTS =
 offset_tuner_server_node: CMakeFiles/offset_tuner_server_node.dir/src/op3_offset_tuner_server.cpp.o
 offset_tuner_server_node: CMakeFiles/offset_tuner_server_node.dir/src/main.cpp.o
 offset_tuner_server_node: CMakeFiles/offset_tuner_server_node.dir/build.make
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller/lib/librobotis_controller.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller/lib/librobotis_controller.so
 offset_tuner_server_node: /opt/ros/humble/lib/libament_index_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
@@ -136,7 +136,7 @@ offset_tuner_server_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_base_module/lib/libop3_base_module.a
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_base_module/lib/libop3_base_module.a
 offset_tuner_server_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -153,36 +153,36 @@ offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesuppo
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
 offset_tuner_server_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 offset_tuner_server_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/lib/librobotis_device.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
 offset_tuner_server_node: /opt/ros/humble/lib/librclcpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 offset_tuner_server_node: /opt/ros/humble/lib/librclcpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 offset_tuner_server_node: /opt/ros/humble/lib/librcl.so
 offset_tuner_server_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -233,7 +233,7 @@ offset_tuner_server_node: /opt/ros/humble/lib/librosidl_typesupport_introspectio
 offset_tuner_server_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 offset_tuner_server_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-offset_tuner_server_node: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+offset_tuner_server_node: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
@@ -250,7 +250,7 @@ offset_tuner_server_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_gene
 offset_tuner_server_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 offset_tuner_server_node: /opt/ros/humble/lib/librcutils.so
 offset_tuner_server_node: CMakeFiles/offset_tuner_server_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable offset_tuner_server_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable offset_tuner_server_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offset_tuner_server_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +262,6 @@ CMakeFiles/offset_tuner_server_node.dir/clean:
 .PHONY : CMakeFiles/offset_tuner_server_node.dir/clean
 
 CMakeFiles/offset_tuner_server_node.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/algo_gaze_project/build/op3_offset_tuner_server/CMakeFiles/offset_tuner_server_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server /home/evan/Documents/BRONE_audio_gaze_project/build/op3_offset_tuner_server/CMakeFiles/offset_tuner_server_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/offset_tuner_server_node.dir/depend
 

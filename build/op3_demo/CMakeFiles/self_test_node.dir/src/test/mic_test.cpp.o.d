@@ -1,5 +1,5 @@
 CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/src/test/mic_test.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /usr/include/c++/11/string \
@@ -131,7 +131,7 @@ CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/mic_test.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/mic_test.h \
  /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -1460,10 +1460,10 @@ CMakeFiles/self_test_node.dir/src/test/mic_test.cpp.o: \
  /usr/include/boost/type_traits/is_fundamental.hpp \
  /usr/include/boost/thread/detail/atomic_undef_macros.hpp \
  /usr/include/boost/thread/detail/atomic_redef_macros.hpp \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/op_demo.h \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_demo/include/op3_demo/op_demo.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

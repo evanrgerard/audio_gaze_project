@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_read_write_demo
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/read_write.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/read_write.dir/progress.make
 include CMakeFiles/read_write.dir/flags.make
 
 CMakeFiles/read_write.dir/src/read_write.cpp.o: CMakeFiles/read_write.dir/flags.make
-CMakeFiles/read_write.dir/src/read_write.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp
+CMakeFiles/read_write.dir/src/read_write.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp
 CMakeFiles/read_write.dir/src/read_write.cpp.o: CMakeFiles/read_write.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/read_write.dir/src/read_write.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/read_write.dir/src/read_write.cpp.o -MF CMakeFiles/read_write.dir/src/read_write.cpp.o.d -o CMakeFiles/read_write.dir/src/read_write.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/read_write.dir/src/read_write.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/read_write.dir/src/read_write.cpp.o -MF CMakeFiles/read_write.dir/src/read_write.cpp.o.d -o CMakeFiles/read_write.dir/src/read_write.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp
 
 CMakeFiles/read_write.dir/src/read_write.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/read_write.dir/src/read_write.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp > CMakeFiles/read_write.dir/src/read_write.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp > CMakeFiles/read_write.dir/src/read_write.cpp.i
 
 CMakeFiles/read_write.dir/src/read_write.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/read_write.dir/src/read_write.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp -o CMakeFiles/read_write.dir/src/read_write.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp -o CMakeFiles/read_write.dir/src/read_write.cpp.s
 
 # Object files for target read_write
 read_write_OBJECTS = \
@@ -93,12 +93,12 @@ read_write_EXTERNAL_OBJECTS =
 read_write: CMakeFiles/read_write.dir/src/read_write.cpp.o
 read_write: CMakeFiles/read_write.dir/build.make
 read_write: /opt/ros/humble/lib/librclcpp.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
 read_write: /opt/ros/humble/lib/liblibstatistics_collector.so
 read_write: /opt/ros/humble/lib/librcl.so
 read_write: /opt/ros/humble/lib/librmw_implementation.so
@@ -160,9 +160,9 @@ read_write: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 read_write: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 read_write: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 read_write: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 read_write: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-read_write: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+read_write: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
 read_write: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 read_write: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 read_write: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
@@ -179,7 +179,7 @@ read_write: /opt/ros/humble/lib/librosidl_runtime_c.so
 read_write: /opt/ros/humble/lib/librcutils.so
 read_write: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 read_write: CMakeFiles/read_write.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_read_write_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable read_write"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable read_write"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/read_write.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/read_write.dir/clean:
 .PHONY : CMakeFiles/read_write.dir/clean
 
 CMakeFiles/read_write.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_read_write_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo /home/evan/Documents/algo_gaze_project/build/op3_read_write_demo /home/evan/Documents/algo_gaze_project/build/op3_read_write_demo /home/evan/Documents/algo_gaze_project/build/op3_read_write_demo/CMakeFiles/read_write.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo /home/evan/Documents/BRONE_audio_gaze_project/build/op3_read_write_demo/CMakeFiles/read_write.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/read_write.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -479,17 +479,17 @@ CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
  /usr/include/c++/11/iostream \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -905,5 +905,5 @@ CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h

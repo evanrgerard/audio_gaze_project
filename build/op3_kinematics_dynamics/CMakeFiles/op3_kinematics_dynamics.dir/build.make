@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_kinematics_dynamics.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/op3_kinematics_dynamics.dir/progress.make
 include CMakeFiles/op3_kinematics_dynamics.dir/flags.make
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: CMakeFiles/op3_kinematics_dynamics.dir/flags.make
-CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp
+CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp
 CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o: CMakeFiles/op3_kinematics_dynamics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o -MF CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o.d -o CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o -MF CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o.d -o CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp > CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp > CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.i
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp -o CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp -o CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.s
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o: CMakeFiles/op3_kinematics_dynamics.dir/flags.make
-CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp
+CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp
 CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o: CMakeFiles/op3_kinematics_dynamics.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o -MF CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o.d -o CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o -MF CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o.d -o CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp > CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp > CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.i
 
 CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp -o CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp -o CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.s
 
 # Object files for target op3_kinematics_dynamics
 op3_kinematics_dynamics_OBJECTS = \
@@ -108,7 +108,7 @@ op3_kinematics_dynamics_EXTERNAL_OBJECTS =
 libop3_kinematics_dynamics.so: CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o
 libop3_kinematics_dynamics.so: CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o
 libop3_kinematics_dynamics.so: CMakeFiles/op3_kinematics_dynamics.dir/build.make
-libop3_kinematics_dynamics.so: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+libop3_kinematics_dynamics.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 libop3_kinematics_dynamics.so: /opt/ros/humble/lib/librclcpp.so
 libop3_kinematics_dynamics.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libop3_kinematics_dynamics.so: /opt/ros/humble/lib/librcl.so
@@ -164,7 +164,7 @@ libop3_kinematics_dynamics.so: /opt/ros/humble/lib/librcutils.so
 libop3_kinematics_dynamics.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libop3_kinematics_dynamics.so: /opt/ros/humble/lib/libtracetools.so
 libop3_kinematics_dynamics.so: CMakeFiles/op3_kinematics_dynamics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libop3_kinematics_dynamics.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libop3_kinematics_dynamics.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_kinematics_dynamics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/op3_kinematics_dynamics.dir/clean:
 .PHONY : CMakeFiles/op3_kinematics_dynamics.dir/clean
 
 CMakeFiles/op3_kinematics_dynamics.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics /home/evan/Documents/algo_gaze_project/build/op3_kinematics_dynamics/CMakeFiles/op3_kinematics_dynamics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics /home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics /home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics /home/evan/Documents/BRONE_audio_gaze_project/build/op3_kinematics_dynamics/CMakeFiles/op3_kinematics_dynamics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_kinematics_dynamics.dir/depend
 

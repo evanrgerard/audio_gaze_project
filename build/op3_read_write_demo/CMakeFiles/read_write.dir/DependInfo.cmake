@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp" "CMakeFiles/read_write.dir/src/read_write.cpp.o" "gcc" "CMakeFiles/read_write.dir/src/read_write.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Demo/op3_read_write_demo/src/read_write.cpp" "CMakeFiles/read_write.dir/src/read_write.cpp.o" "gcc" "CMakeFiles/read_write.dir/src/read_write.cpp.o.d"
   )
 
 # Targets to which this target links.

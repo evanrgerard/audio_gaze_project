@@ -1,7 +1,7 @@
 CMakeFiles/robotis_math.dir/src/step_data_define.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/src/step_data_define.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/src/step_data_define.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

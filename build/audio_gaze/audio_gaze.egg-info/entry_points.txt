@@ -1,0 +1,3 @@
+[console_scripts]
+mock_audio_node = audio_gaze.mock_audio_node:main
+

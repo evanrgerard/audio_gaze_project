@@ -1,7 +1,7 @@
 CMakeFiles/robotis_math.dir/src/bezier_curve.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/src/bezier_curve.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/src/bezier_curve.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/bezier_curve.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -44,7 +44,7 @@ CMakeFiles/robotis_math.dir/src/bezier_curve.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_math_base.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
@@ -174,7 +174,7 @@ CMakeFiles/robotis_math.dir/src/bezier_curve.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -400,4 +400,4 @@ CMakeFiles/robotis_math.dir/src/bezier_curve.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math/include/robotis_math/step_data_define.h

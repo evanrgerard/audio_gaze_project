@@ -40,9 +40,16 @@ def generate_launch_description():
         default_value='/dev/video0',
         description="Camera device path, used in 'real' and 'hybrid' modes."
     )
+    use_audio_arg = DeclareLaunchArgument(
+        'use_audio',
+        default_value='true',
+        description="Whether to launch the audio perception node (mock_audio_node in Phase 1)."
+    )
 
     mode = LaunchConfiguration('mode')
     video_device = LaunchConfiguration('video_device')
+    use_audio = LaunchConfiguration('use_audio')
+    is_audio_enabled = IfCondition(use_audio)
 
     is_real = IfCondition(PythonExpression(["'", mode, "' == 'real'"]))
     is_sim = IfCondition(PythonExpression(["'", mode, "' == 'sim'"]))
@@ -130,13 +137,24 @@ def generate_launch_description():
         ]
     )
 
+    # --- AUDIO PATH (Phase 1: mock, hardware-independent of vision mode) ---
+    mock_audio_node = Node(
+        package='audio_gaze',
+        executable='mock_audio_node',
+        name='mock_audio_node',
+        output='screen',
+        condition=is_audio_enabled,
+    )
+
     return LaunchDescription([
         mode_arg,
         video_device_arg,
+        use_audio_arg,
         usb_cam_node,
         gaze_node_real,
         webots_sim,
         gaze_node_sim,
         webots_sim_hybrid,
         gaze_node_hybrid,
+        mock_audio_node,
     ])

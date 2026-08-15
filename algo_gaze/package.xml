@@ -13,6 +13,8 @@
   <depend>geometry_msgs</depend>
   <depend>cv_bridge</depend>
   <depend>op3_ball_detector_msgs</depend>
+  <depend>robotis_controller_msgs</depend>
+  <depend>audio_gaze_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

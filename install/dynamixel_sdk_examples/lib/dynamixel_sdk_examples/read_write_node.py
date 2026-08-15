@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/DynamixelSDK/ros/dynamixel_sdk_examples/src/read_write_node.py
+/home/evan/Documents/BRONE_audio_gaze_project/DynamixelSDK/ros/dynamixel_sdk_examples/src/read_write_node.py

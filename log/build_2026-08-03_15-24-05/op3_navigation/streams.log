@@ -1,0 +1,59 @@
+[0.028s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation
+[0.586s] -- The C compiler identification is GNU 11.4.0
+[0.586s] -- The CXX compiler identification is GNU 11.4.0
+[0.586s] -- Detecting C compiler ABI info
+[0.586s] -- Detecting C compiler ABI info - done
+[0.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.586s] -- Detecting C compile features
+[0.587s] -- Detecting C compile features - done
+[0.587s] -- Detecting CXX compiler ABI info
+[0.587s] -- Detecting CXX compiler ABI info - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.587s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.587s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.738s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.833s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.077s] -- Configuring done
+[1.080s] -- Generating done
+[1.083s] -- Build files have been written to: /home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation
+[1.089s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation
+[1.093s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation -- -j12 -l12
+[1.854s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation -- -j12 -l12
+[1.855s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation
+[2.409s] -- Install configuration: ""
+[2.409s] -- Execute custom install script
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/ament_index/resource_index/package_run_dependencies/op3_navigation
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/ament_index/resource_index/parent_prefix_path/op3_navigation
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/environment/ament_prefix_path.sh
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/environment/ament_prefix_path.dsv
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/environment/path.sh
+[2.409s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/environment/path.dsv
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.bash
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.sh
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.zsh
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/local_setup.dsv
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/package.dsv
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/ament_index/resource_index/packages/op3_navigation
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/cmake/op3_navigationConfig.cmake
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/cmake/op3_navigationConfig-version.cmake
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/package.xml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/footsteps_robotis_op3.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/footsteps_thormang3.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/navigation_params.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params_robotis_op3.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/config/planning_params_thormang3.yaml
+[2.416s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/launch/map_server_empty.launch.xml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/launch/op3_footstep_planner.launch.xml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/empty.gif
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/empty.yaml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/nao_map.gif
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/nao_map.yaml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample.gif
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample.yaml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample2.gif
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/sample2.yaml
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/thor.gif
+[2.417s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_navigation/share/op3_navigation/maps/thor.yaml
+[2.422s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/BRONE_audio_gaze_project/build/op3_navigation

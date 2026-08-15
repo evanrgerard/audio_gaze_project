@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rf_gz_bridge_node.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/rf_gz_bridge_node.dir/progress.make
 include CMakeFiles/rf_gz_bridge_node.dir/flags.make
 
 CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o: CMakeFiles/rf_gz_bridge_node.dir/flags.make
-CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp
+CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp
 CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o: CMakeFiles/rf_gz_bridge_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o -MF CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o.d -o CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o -MF CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o.d -o CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp
 
 CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp > CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp > CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.i
 
 CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp -o CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/main.cpp -o CMakeFiles/rf_gz_bridge_node.dir/src/main.cpp.s
 
 CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o: CMakeFiles/rf_gz_bridge_node.dir/flags.make
-CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp
+CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp
 CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o: CMakeFiles/rf_gz_bridge_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o -MF CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o.d -o CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o -MF CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o.d -o CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp
 
 CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp > CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp > CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.i
 
 CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp -o CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge/src/rf_gz_bridge.cpp -o CMakeFiles/rf_gz_bridge_node.dir/src/rf_gz_bridge.cpp.s
 
 # Object files for target rf_gz_bridge_node
 rf_gz_bridge_node_OBJECTS = \
@@ -171,7 +171,7 @@ rf_gz_bridge_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 rf_gz_bridge_node: /opt/ros/humble/lib/librcutils.so
 rf_gz_bridge_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rf_gz_bridge_node: CMakeFiles/rf_gz_bridge_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable rf_gz_bridge_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable rf_gz_bridge_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rf_gz_bridge_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/rf_gz_bridge_node.dir/clean:
 .PHONY : CMakeFiles/rf_gz_bridge_node.dir/clean
 
 CMakeFiles/rf_gz_bridge_node.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge /home/evan/Documents/algo_gaze_project/build/rf_gz_bridge/CMakeFiles/rf_gz_bridge_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/rf_gz_bridge /home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge /home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge /home/evan/Documents/BRONE_audio_gaze_project/build/rf_gz_bridge/CMakeFiles/rf_gz_bridge_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rf_gz_bridge_node.dir/depend
 

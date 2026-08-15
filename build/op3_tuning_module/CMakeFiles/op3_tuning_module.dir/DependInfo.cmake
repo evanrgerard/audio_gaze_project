@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_data.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_data.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_module.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_tuning_module/src/tuning_module_state.cpp" "CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o" "gcc" "CMakeFiles/op3_tuning_module.dir/src/tuning_module_state.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/build/op3_tuner_client/include/op3_tuner_client/moc_main_window.cpp" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_main_window.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_main_window.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/build/op3_tuner_client/include/op3_tuner_client/moc_qnode.cpp" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_qnode.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_qnode.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/build/op3_tuner_client/qrc_images.cpp" "CMakeFiles/op3_tuner_client.dir/qrc_images.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/qrc_images.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/main.cpp" "CMakeFiles/op3_tuner_client.dir/src/main.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/main.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/main_window.cpp" "CMakeFiles/op3_tuner_client.dir/src/main_window.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/main_window.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/qnode.cpp" "CMakeFiles/op3_tuner_client.dir/src/qnode.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/qnode.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuner_client/include/op3_tuner_client/moc_main_window.cpp" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_main_window.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_main_window.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuner_client/include/op3_tuner_client/moc_qnode.cpp" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_qnode.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/include/op3_tuner_client/moc_qnode.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuner_client/qrc_images.cpp" "CMakeFiles/op3_tuner_client.dir/qrc_images.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/qrc_images.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/main.cpp" "CMakeFiles/op3_tuner_client.dir/src/main.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/main.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/main_window.cpp" "CMakeFiles/op3_tuner_client.dir/src/main_window.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/main_window.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Tools/op3_tuner_client/src/qnode.cpp" "CMakeFiles/op3_tuner_client.dir/src/qnode.cpp.o" "gcc" "CMakeFiles/op3_tuner_client.dir/src/qnode.cpp.o.d"
   )
 
 # Targets to which this target links.

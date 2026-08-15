@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/algo_gaze/setup.py
+/home/evan/Documents/BRONE_audio_gaze_project/algo_gaze/setup.py

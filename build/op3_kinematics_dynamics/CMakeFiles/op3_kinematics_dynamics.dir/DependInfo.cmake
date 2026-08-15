@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp" "CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o" "gcc" "CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o.d"
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp" "CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o" "gcc" "CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/link_data.cpp" "CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o" "gcc" "CMakeFiles/op3_kinematics_dynamics.dir/src/link_data.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_kinematics_dynamics/src/op3_kinematics_dynamics.cpp" "CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o" "gcc" "CMakeFiles/op3_kinematics_dynamics.dir/src/op3_kinematics_dynamics.cpp.o.d"
   )
 
 # Targets to which this target links.

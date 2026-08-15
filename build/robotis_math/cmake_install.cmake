@@ -1,8 +1,8 @@
-# Install script for directory: /home/evan/Documents/algo_gaze_project/ROBOTIS-Math/robotis_math
+# Install script for directory: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Math/robotis_math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/algo_gaze_project/install/robotis_math")
+  set(CMAKE_INSTALL_PREFIX "/home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,18 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/evan/Documents/algo_gaze_project/build/robotis_math/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/librobotis_math.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/librobotis_math.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake/export_robotis_mathExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake/export_robotis_mathExport.cmake"
-         "/home/evan/Documents/algo_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport.cmake")
+         "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake/export_robotis_mathExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -63,9 +63,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake" TYPE FILE FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake" TYPE FILE FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake" TYPE FILE FILES "/home/evan/Documents/algo_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotis_math/cmake" TYPE FILE FILES "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/CMakeFiles/Export/share/robotis_math/cmake/export_robotis_mathExport-noconfig.cmake")
   endif()
 endif()
 
@@ -77,5 +77,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/evan/Documents/algo_gaze_project/build/robotis_math/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_math/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

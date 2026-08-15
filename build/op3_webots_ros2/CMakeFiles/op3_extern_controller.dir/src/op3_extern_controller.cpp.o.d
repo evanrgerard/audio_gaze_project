@@ -1,7 +1,7 @@
 CMakeFiles/op3_extern_controller.dir/src/op3_extern_controller.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/src/op3_extern_controller.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/src/op3_extern_controller.cpp \
  /usr/include/stdc-predef.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/include/op3_webots_ros2/op3_extern_controller.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Simulations/op3_webots_ros2/include/op3_webots_ros2/op3_extern_controller.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

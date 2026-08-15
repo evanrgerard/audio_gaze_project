@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

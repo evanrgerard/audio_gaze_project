@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_walking_module
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_walking_module.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/op3_walking_module.dir/progress.make
 include CMakeFiles/op3_walking_module.dir/flags.make
 
 CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: CMakeFiles/op3_walking_module.dir/flags.make
-CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp
+CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp
 CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o: CMakeFiles/op3_walking_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_walking_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o -MF CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o.d -o CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o -MF CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o.d -o CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp
 
 CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp > CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp > CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.i
 
 CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp -o CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp -o CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.s
 
 # Object files for target op3_walking_module
 op3_walking_module_OBJECTS = \
@@ -92,25 +92,25 @@ op3_walking_module_EXTERNAL_OBJECTS =
 
 libop3_walking_module.so: CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o
 libop3_walking_module.so: CMakeFiles/op3_walking_module.dir/build.make
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_device/lib/librobotis_device.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_cpp.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_py.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/lib/librobotis_device.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/lib/libop3_kinematics_dynamics.so
 libop3_walking_module.so: /opt/ros/humble/lib/librclcpp.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 libop3_walking_module.so: /opt/ros/humble/lib/librclcpp.so
 libop3_walking_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -123,9 +123,9 @@ libop3_walking_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesuppo
 libop3_walking_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libop3_walking_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libop3_walking_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libop3_walking_module.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -136,9 +136,9 @@ libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fa
 libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_typesupport_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-libop3_walking_module.so: /home/evan/Documents/algo_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
+libop3_walking_module.so: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module_msgs/lib/libop3_walking_module_msgs__rosidl_generator_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libop3_walking_module.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libop3_walking_module.so: /opt/ros/humble/lib/librcl.so
@@ -194,7 +194,7 @@ libop3_walking_module.so: /opt/ros/humble/lib/librcutils.so
 libop3_walking_module.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libop3_walking_module.so: /opt/ros/humble/lib/libtracetools.so
 libop3_walking_module.so: CMakeFiles/op3_walking_module.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_walking_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libop3_walking_module.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libop3_walking_module.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_walking_module.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -206,6 +206,6 @@ CMakeFiles/op3_walking_module.dir/clean:
 .PHONY : CMakeFiles/op3_walking_module.dir/clean
 
 CMakeFiles/op3_walking_module.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_walking_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module /home/evan/Documents/algo_gaze_project/build/op3_walking_module /home/evan/Documents/algo_gaze_project/build/op3_walking_module /home/evan/Documents/algo_gaze_project/build/op3_walking_module/CMakeFiles/op3_walking_module.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module/CMakeFiles/op3_walking_module.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_walking_module.dir/depend
 

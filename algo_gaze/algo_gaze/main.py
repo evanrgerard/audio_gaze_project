@@ -23,7 +23,8 @@ from rclpy.qos import QoSProfile, DurabilityPolicy
 # Import Message Types
 from geometry_msgs.msg import Point 
 from op3_ball_detector_msgs.msg import CircleSetStamped
-from robotis_controller_msgs.srv import SetModule 
+from robotis_controller_msgs.srv import SetModule
+from audio_gaze_msgs.msg import AudioCue
 
 # --- Konfigurasi Visualisasi ---
 PRIORITY_COLORS = [(0, 255, 0), (0, 255, 255), (255, 255, 0), (0, 165, 255)]
@@ -143,6 +144,23 @@ class FuzzyGazeNode(Node):
         
         self.trigger_sub = self.create_subscription(
             Bool, '/experiment/trigger', self.trigger_callback, 10)
+
+        # --- [FUSION] Audio perception input ---
+        # Phase 1: subscribes to /audio/cue, published by either mock_audio_node
+        # (no hardware) or, later, a real mic-array driver -- same message type,
+        # same topic, so swapping hardware in requires zero changes here.
+        self.declare_parameter('camera_hfov_deg', 78.0)  # Logitech Brio ~78 deg diagonal-ish default; tune to your actual FOV setting
+        self.declare_parameter('audio_match_tolerance_deg', 15.0)
+        self.declare_parameter('audio_cue_timeout_sec', 0.5)
+        self.camera_hfov_deg = self.get_parameter('camera_hfov_deg').value
+        self.audio_match_tolerance_deg = self.get_parameter('audio_match_tolerance_deg').value
+        self.audio_cue_timeout_sec = self.get_parameter('audio_cue_timeout_sec').value
+
+        self.latest_audio_cue = None       # most recent AudioCue message received
+        self.latest_audio_cue_time = 0.0   # node-clock seconds when it was received, for staleness check
+
+        self.audio_sub = self.create_subscription(
+            AudioCue, '/audio/cue', self.audio_callback, 10)
         
         qos_profile = QoSProfile(depth=10, durability=DurabilityPolicy.TRANSIENT_LOCAL)
 
@@ -220,6 +238,30 @@ class FuzzyGazeNode(Node):
             self.save_data_to_csv()
             self.get_logger().warn(">>> DATA RECORDING STOPPED & SAVED <<<")
 
+    def audio_callback(self, msg: AudioCue):
+        self.latest_audio_cue = msg
+        self.latest_audio_cue_time = time.time()
+
+    def get_active_audio_cue(self):
+        """Return the latest AudioCue if it's speech and not stale, else None."""
+        if self.latest_audio_cue is None:
+            return None
+        if not self.latest_audio_cue.is_speech:
+            return None
+        age = time.time() - self.latest_audio_cue_time
+        if age > self.audio_cue_timeout_sec:
+            return None
+        return self.latest_audio_cue
+
+    def pixel_x_to_azimuth_deg(self, person_center_x, frame_width):
+        """Convert a person's horizontal pixel position to an approximate azimuth
+        angle in degrees, using the same convention as AudioCue.direction_deg:
+        0 = camera center, negative = left, positive = right.
+        This is a simple linear FOV mapping -- fine for angle-matching tolerance
+        purposes, not a precise lens-calibrated projection."""
+        norm_offset = (person_center_x - (frame_width / 2.0)) / (frame_width / 2.0)  # -1..1
+        return norm_offset * (self.camera_hfov_deg / 2.0)
+
     # --- Simpan CSV ---
     def save_data_to_csv(self):
         if not self.recording_data:
@@ -232,7 +274,7 @@ class FuzzyGazeNode(Node):
         try:
             with open(path, mode='w', newline='') as file:
                 writer = csv.writer(file)
-                writer.writerow(['Time_Sec', 'Latency_ms', 'FPS', 'Error_Px', 'On_Target', 'Pan_Angle', 'Tilt_Angle'])
+                writer.writerow(['Time_Sec', 'Latency_ms', 'FPS', 'Error_Px', 'On_Target', 'Pan_Angle', 'Tilt_Angle', 'Audio_Active', 'Audio_Direction_Deg', 'Audio_Matched_Person'])
                 writer.writerows(self.recording_data)
             self.get_logger().info(f"File saved: {path}")
         except Exception as e:
@@ -304,7 +346,7 @@ class FuzzyGazeNode(Node):
         self.pixel_deadband = 0.10 * self.frame_center_x 
 
         image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        yolo_results = self.yolo_model.track(image_rgb, classes=0, conf=0.1, persist=True, verbose=False)
+        yolo_results = self.yolo_model.track(image_rgb, classes=0, conf=0.5, persist=True, verbose=False)
         
         detected_people = []
         metric_pixel_error = -1
@@ -336,6 +378,9 @@ class FuzzyGazeNode(Node):
                     'lip_distance': lip_distance
                 })
 
+        active_audio_cue = self.get_active_audio_cue()
+        audio_matched_any_person = False
+
         if detected_people:
             all_areas = [(p['bbox_yolo'][2] - p['bbox_yolo'][0]) * (p['bbox_yolo'][3] - p['bbox_yolo'][1]) for p in detected_people]
             max_area = max(all_areas) if all_areas else 1
@@ -356,9 +401,25 @@ class FuzzyGazeNode(Node):
                 
                 if len(self.person_histories[p_id]) == 10:
                     variance = np.var(list(self.person_histories[p_id]))
-                    p['cues']['speech'] = 1 if variance > 0.00008 else 0
+                    visual_speech = 1 if variance > 0.00008 else 0
                 else:
-                    p['cues']['speech'] = 0
+                    visual_speech = 0
+
+                # --- [FUSION] Match this person's visual angle against the audio DOA ---
+                audio_speech_for_this_person = 0
+                if active_audio_cue is not None:
+                    person_azimuth_deg = self.pixel_x_to_azimuth_deg(person_center_x, frame_width)
+                    angle_diff = abs(person_azimuth_deg - active_audio_cue.direction_deg)
+                    if angle_diff <= self.audio_match_tolerance_deg:
+                        audio_speech_for_this_person = 1
+                        audio_matched_any_person = True
+
+                # Keep both signals visible for logging/ablation, but the fuzzy
+                # controller's speech_status input is the fused result: either
+                # cue on its own is enough to flag "this person may be speaking".
+                p['cues']['visual_speech'] = visual_speech
+                p['cues']['audio_speech'] = audio_speech_for_this_person
+                p['cues']['speech'] = 1 if (visual_speech or audio_speech_for_this_person) else 0
                 
                 self.fis_controller.input['proximity'] = p['cues']['proximity']
                 self.fis_controller.input['speech_status'] = p['cues']['speech']
@@ -376,6 +437,17 @@ class FuzzyGazeNode(Node):
                 else:
                     self.score_history[p_id] = (self.alpha_score * raw_score) + ((1 - self.alpha_score) * self.score_history[p_id])
                 p['score'] = self.score_history[p_id] 
+
+            # --- [FUSION] Off-camera speech: audio detected a speaker at an angle
+            # that matches NO currently-tracked person. This is a case the
+            # vision-only baseline cannot handle at all -- logged here for the
+            # thesis's ablation comparison. (Reactive behavior, e.g. triggering
+            # a pan-search toward that direction, can be added in a later phase.)
+            if active_audio_cue is not None and not audio_matched_any_person:
+                self.get_logger().info(
+                    f'[FUSION] Off-camera speech detected at {active_audio_cue.direction_deg:.1f} deg '
+                    f'-- no visually tracked person matches this direction.'
+                )
 
             sorted_people = sorted(detected_people, key=lambda p: p['score'], reverse=True)
             potential_winner = sorted_people[0]
@@ -468,6 +540,8 @@ class FuzzyGazeNode(Node):
             fps = 1.0 / (proc_end - proc_start) if (proc_end - proc_start) > 0 else 0
             
             timestamp = time.time() - self.rec_start_time
+            audio_active_flag = 1 if active_audio_cue is not None else 0
+            audio_direction_val = round(active_audio_cue.direction_deg, 1) if active_audio_cue is not None else -999.0
             self.recording_data.append([
                 round(timestamp, 3),
                 round(latency_ms, 2),
@@ -475,7 +549,10 @@ class FuzzyGazeNode(Node):
                 round(metric_pixel_error, 2),
                 metric_on_target,
                 round(self.current_pan, 3),
-                round(self.current_tilt, 3)
+                round(self.current_tilt, 3),
+                audio_active_flag,
+                audio_direction_val,
+                int(audio_matched_any_person)
             ])
 
         try:

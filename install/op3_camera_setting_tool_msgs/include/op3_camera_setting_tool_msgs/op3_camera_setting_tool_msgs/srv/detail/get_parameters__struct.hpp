@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_generator_cpp/op3_camera_setting_tool_msgs/srv/detail/get_parameters__struct.hpp
+/home/evan/Documents/BRONE_audio_gaze_project/build/op3_camera_setting_tool_msgs/rosidl_generator_cpp/op3_camera_setting_tool_msgs/srv/detail/get_parameters__struct.hpp

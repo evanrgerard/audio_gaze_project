@@ -1,0 +1,79 @@
+[0.026s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Common/op3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/BRONE_audio_gaze_project/install/op3_description
+[2.387s] -- The C compiler identification is GNU 11.4.0
+[2.387s] -- The CXX compiler identification is GNU 11.4.0
+[2.387s] -- Detecting C compiler ABI info
+[2.387s] -- Detecting C compiler ABI info - done
+[2.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.387s] -- Detecting C compile features
+[2.387s] -- Detecting C compile features - done
+[2.387s] -- Detecting CXX compiler ABI info
+[2.387s] -- Detecting CXX compiler ABI info - done
+[2.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.387s] -- Detecting CXX compile features
+[2.387s] -- Detecting CXX compile features - done
+[2.387s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.387s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.388s] -- Configuring done
+[2.388s] -- Generating done
+[2.388s] -- Build files have been written to: /home/evan/Documents/BRONE_audio_gaze_project/build/op3_description
+[2.419s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3-Common/op3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/Documents/BRONE_audio_gaze_project/install/op3_description
+[2.420s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/BRONE_audio_gaze_project/build/op3_description -- -j12 -l12
+[2.995s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --build /home/evan/Documents/BRONE_audio_gaze_project/build/op3_description -- -j12 -l12
+[2.995s] Invoking command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/BRONE_audio_gaze_project/build/op3_description
+[3.276s] -- Install configuration: ""
+[3.276s] -- Execute custom install script
+[3.276s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/ament_index/resource_index/package_run_dependencies/op3_description
+[3.276s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/ament_index/resource_index/parent_prefix_path/op3_description
+[3.276s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/environment/ament_prefix_path.sh
+[3.276s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/environment/ament_prefix_path.dsv
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/environment/path.sh
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/environment/path.dsv
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/local_setup.bash
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/local_setup.sh
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/local_setup.zsh
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/local_setup.dsv
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/package.dsv
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/ament_index/resource_index/packages/op3_description
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/cmake/op3_descriptionConfig.cmake
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/cmake/op3_descriptionConfig-version.cmake
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/package.xml
+[3.277s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/doc/OP3 mass property.docx
+[3.279s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/doc/op3_sim.docx
+[3.289s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/doc/op3_sim.ods
+[3.300s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/launch/op3_display.launch.py
+[3.318s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/base.stl
+[3.327s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/body.stl
+[3.344s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/h1.stl
+[3.360s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/h2.stl
+[3.371s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/la1.stl
+[3.390s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/la2.stl
+[3.400s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/la3.stl
+[3.412s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll1.stl
+[3.426s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll2.stl
+[3.439s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll3.stl
+[3.452s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll4.stl
+[3.468s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll5.stl
+[3.486s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ll6.stl
+[3.500s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ra1.stl
+[3.510s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ra2.stl
+[3.519s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/ra3.stl
+[3.531s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl1.stl
+[3.540s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl2.stl
+[3.549s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl3.stl
+[3.561s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl4.stl
+[3.570s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl5.stl
+[3.581s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/meshes/rl6.stl
+[3.590s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/rviz/op3.rviz
+[3.601s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/gazebo_harness.xacro
+[3.613s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.gazebo.xacro
+[3.626s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.inertia.xacro
+[3.637s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.structure.head.xacro
+[3.648s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.structure.larm.xacro
+[3.659s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.structure.lleg.xacro
+[3.669s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.structure.rarm.xacro
+[3.680s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.structure.rleg.xacro
+[3.692s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.transmissions.xacro
+[3.702s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.urdf.xacro
+[3.713s] -- Symlinking: /home/evan/Documents/BRONE_audio_gaze_project/install/op3_description/share/op3_description/urdf/robotis_op3.visuals.xacro
+[3.743s] Invoked command in '/home/evan/Documents/BRONE_audio_gaze_project/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/Documents/BRONE_audio_gaze_project/install/algo_gaze:/home/evan/Documents/BRONE_audio_gaze_project/install/brone_gaze:/opt/ros/humble /usr/bin/cmake --install /home/evan/Documents/BRONE_audio_gaze_project/build/op3_description

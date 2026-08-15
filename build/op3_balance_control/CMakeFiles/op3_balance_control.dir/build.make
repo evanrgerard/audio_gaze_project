@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_balance_control
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_balance_control.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/op3_balance_control.dir/progress.make
 include CMakeFiles/op3_balance_control.dir/flags.make
 
 CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o: CMakeFiles/op3_balance_control.dir/flags.make
-CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp
+CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp
 CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o: CMakeFiles/op3_balance_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_balance_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o -MF CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o.d -o CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o -MF CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o.d -o CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp
 
 CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp > CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp > CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.i
 
 CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp -o CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control/src/op3_balance_control.cpp -o CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.s
 
 # Object files for target op3_balance_control
 op3_balance_control_OBJECTS = \
@@ -92,7 +92,7 @@ op3_balance_control_EXTERNAL_OBJECTS =
 
 libop3_balance_control.so: CMakeFiles/op3_balance_control.dir/src/op3_balance_control.cpp.o
 libop3_balance_control.so: CMakeFiles/op3_balance_control.dir/build.make
-libop3_balance_control.so: /home/evan/Documents/algo_gaze_project/install/robotis_math/lib/librobotis_math.a
+libop3_balance_control.so: /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/lib/librobotis_math.a
 libop3_balance_control.so: /opt/ros/humble/lib/librclcpp.so
 libop3_balance_control.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libop3_balance_control.so: /opt/ros/humble/lib/librcl.so
@@ -148,7 +148,7 @@ libop3_balance_control.so: /opt/ros/humble/lib/librcutils.so
 libop3_balance_control.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libop3_balance_control.so: /opt/ros/humble/lib/libtracetools.so
 libop3_balance_control.so: CMakeFiles/op3_balance_control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_balance_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libop3_balance_control.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libop3_balance_control.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_balance_control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,6 +160,6 @@ CMakeFiles/op3_balance_control.dir/clean:
 .PHONY : CMakeFiles/op3_balance_control.dir/clean
 
 CMakeFiles/op3_balance_control.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_balance_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control /home/evan/Documents/algo_gaze_project/build/op3_balance_control/CMakeFiles/op3_balance_control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control /home/evan/Documents/BRONE_audio_gaze_project/build/op3_balance_control/CMakeFiles/op3_balance_control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_balance_control.dir/depend
 

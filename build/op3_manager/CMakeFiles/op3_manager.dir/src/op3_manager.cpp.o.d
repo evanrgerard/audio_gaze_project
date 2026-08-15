@@ -1,5 +1,5 @@
 CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_manager/src/op3_manager.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -627,7 +627,7 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_controller/include/robotis_controller/robotis_controller.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_controller/include/robotis_controller/robotis_controller.h \
  /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
  /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
  /usr/include/c++/11/cstddef /usr/include/yaml-cpp/binary.h \
@@ -668,61 +668,61 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/write_control_table.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/get_joint_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_joint_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/load_offset.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/robot.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_framework_common/include/robotis_framework_common/sensor_module.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
- /home/evan/Documents/algo_gaze_project/install/open_cr_module/include/open_cr_module/open_cr_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/write_control_table.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/joint_ctrl_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/get_joint_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_joint_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/set_module.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/load_offset.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/robot.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/sensor_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/time_stamp.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/motion_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/singleton.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_framework_common/include/robotis_framework_common/sensor_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/open_cr_module/include/open_cr_module/open_cr_module.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
@@ -732,13 +732,13 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/status_msg.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
@@ -939,8 +939,8 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
- /home/evan/Documents/algo_gaze_project/install/op3_base_module/include/op3_base_module/base_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/step_data_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_base_module/include/op3_base_module/base_module.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int16.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int16__builder.hpp \
@@ -954,17 +954,17 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_linear_algebra.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_math_base.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/bezier_curve.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/preview_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
  /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -1038,58 +1038,58 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
- /home/evan/Documents/algo_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
- /home/evan/Documents/algo_gaze_project/install/op3_base_module/include/op3_base_module/base_module_state.h \
- /home/evan/Documents/algo_gaze_project/install/op3_head_control_module/include/op3_head_control_module/head_control_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/op3_kinematics_dynamics_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_base_module/include/op3_base_module/base_module_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_head_control_module/include/op3_head_control_module/head_control_module.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/empty.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_action_module/include/op3_action_module/action_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module/include/op3_action_module/action_module.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/is_running.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/start_action.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_action_module/include/op3_action_module/action_file_define.h \
- /home/evan/Documents/algo_gaze_project/install/op3_walking_module/include/op3_walking_module/op3_walking_module.h \
- /home/evan/Documents/algo_gaze_project/install/op3_walking_module/include/op3_walking_module/op3_walking_parameter.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/is_running.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/srv/detail/is_running__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/start_action.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_action_module_msgs/rosidl_generator_cpp/op3_action_module_msgs/msg/detail/start_action__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_action_module/include/op3_action_module/action_file_define.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module/include/op3_walking_module/op3_walking_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_walking_module/include/op3_walking_module/op3_walking_parameter.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/set_walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
- /home/evan/Documents/algo_gaze_project/install/op3_direct_control_module/include/op3_direct_control_module/direct_control_module.h \
- /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/online_walking_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/get_walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/get_walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/set_walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_walking_module_msgs/rosidl_generator_cpp/op3_walking_module_msgs/srv/detail/set_walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_direct_control_module/include/op3_direct_control_module/direct_control_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/online_walking_module.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
@@ -1102,41 +1102,41 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/joint_control.h \
- /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/wholebody_control.h \
- /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/walking_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/joint_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/wholebody_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/walking_control.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose2_d.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose2_d__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/foot_step_command.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/foot_step_array.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/preview_response.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/step2_d.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/step2_d_array.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/op3_kdl.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/foot_step_command.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/foot_step_array.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/preview_response.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/step2_d.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/step2_d_array.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_online_walking_module/include/op3_online_walking_module/op3_kdl.h \
  /usr/include/kdl/joint.hpp /usr/include/kdl/frames.hpp \
  /usr/include/kdl/utilities/kdl-config.h \
  /usr/include/kdl/utilities/utility.h \
@@ -1169,62 +1169,62 @@ CMakeFiles/op3_manager.dir/src/op3_manager.cpp.o: \
  /usr/include/kdl/utilities/svd_HH.hpp /usr/include/kdl/jacobian.hpp \
  /usr/include/kdl/jntarray.hpp \
  /usr/include/kdl/chainiksolverpos_nr_jl.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_balance_control/include/op3_balance_control/op3_balance_control.h \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/joint_pose.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/kinematics_pose.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/preview_request.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/walking_param.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_joint_pose.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_kinematics_pose.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_preview_matrix.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_module.h \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/joint_offset_data.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/joint_torque_on_off_array.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/get_present_joint_offset_data.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_position_data__struct.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__builder.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_position_data__traits.hpp \
- /home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__type_support.hpp \
- /home/evan/Documents/algo_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_module_state.h \
- /home/evan/Documents/algo_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_data.h
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_balance_control/include/op3_balance_control/op3_balance_control.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/joint_pose.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/kinematics_pose.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/preview_request.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/walking_param.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_joint_pose.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_kinematics_pose.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/get_preview_matrix.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_online_walking_module_msgs/rosidl_generator_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_module.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/joint_offset_data.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_data__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/joint_torque_on_off_array.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_torque_on_off_array__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/get_present_joint_offset_data.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_position_data__struct.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__builder.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/msg/detail/joint_offset_position_data__traits.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_generator_cpp/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__type_support.hpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_module_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/op3_tuning_module/include/op3_tuning_module/tuning_data.h

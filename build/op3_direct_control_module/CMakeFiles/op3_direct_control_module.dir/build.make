@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module
 
 # Include any dependencies generated for this target.
 include CMakeFiles/op3_direct_control_module.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/op3_direct_control_module.dir/progress.make
 include CMakeFiles/op3_direct_control_module.dir/flags.make
 
 CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o: CMakeFiles/op3_direct_control_module.dir/flags.make
-CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o: /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp
+CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o: /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp
 CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o: CMakeFiles/op3_direct_control_module.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_direct_control_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o -MF CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o.d -o CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o -c /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o -MF CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o.d -o CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o -c /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp
 
 CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp > CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp > CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.i
 
 CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp -o CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module/src/direct_control_module.cpp -o CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.s
 
 # Object files for target op3_direct_control_module
 op3_direct_control_module_OBJECTS = \
@@ -93,7 +93,7 @@ op3_direct_control_module_EXTERNAL_OBJECTS =
 libop3_direct_control_module.a: CMakeFiles/op3_direct_control_module.dir/src/direct_control_module.cpp.o
 libop3_direct_control_module.a: CMakeFiles/op3_direct_control_module.dir/build.make
 libop3_direct_control_module.a: CMakeFiles/op3_direct_control_module.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/op3_direct_control_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libop3_direct_control_module.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libop3_direct_control_module.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/op3_direct_control_module.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/op3_direct_control_module.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/op3_direct_control_module.dir/clean:
 .PHONY : CMakeFiles/op3_direct_control_module.dir/clean
 
 CMakeFiles/op3_direct_control_module.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module /home/evan/Documents/algo_gaze_project/build/op3_direct_control_module/CMakeFiles/op3_direct_control_module.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module /home/evan/Documents/BRONE_audio_gaze_project/build/op3_direct_control_module/CMakeFiles/op3_direct_control_module.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/op3_direct_control_module.dir/depend
 

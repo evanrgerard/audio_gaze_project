@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs
+CMAKE_SOURCE_DIR = /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs
+CMAKE_BINARY_DIR = /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs
 
 # Utility rule file for robotis_controller_msgs__cpp.
 
@@ -223,8 +223,8 @@ rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp: /opt/ros/h
 rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp: rosidl_generator_cpp/robotis_controller_msgs/msg/sync_write_item.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp
@@ -396,6 +396,6 @@ CMakeFiles/robotis_controller_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/robotis_controller_msgs__cpp.dir/clean
 
 CMakeFiles/robotis_controller_msgs__cpp.dir/depend:
-	cd /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs /home/evan/Documents/algo_gaze_project/build/robotis_controller_msgs/CMakeFiles/robotis_controller_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework-msgs/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs /home/evan/Documents/BRONE_audio_gaze_project/build/robotis_controller_msgs/CMakeFiles/robotis_controller_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robotis_controller_msgs__cpp.dir/depend
 

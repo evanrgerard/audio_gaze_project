@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/evan/Documents/algo_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp" "CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o" "gcc" "CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o.d"
+  "/home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-OP3/op3_walking_module/src/op3_walking_module.cpp" "CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o" "gcc" "CMakeFiles/op3_walking_module.dir/src/op3_walking_module.cpp.o.d"
   )
 
 # Targets to which this target links.

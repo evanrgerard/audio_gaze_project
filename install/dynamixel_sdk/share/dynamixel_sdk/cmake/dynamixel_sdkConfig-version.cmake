@@ -1,1 +1,1 @@
-/home/evan/Documents/algo_gaze_project/build/dynamixel_sdk/ament_cmake_core/dynamixel_sdkConfig-version.cmake
+/home/evan/Documents/BRONE_audio_gaze_project/build/dynamixel_sdk/ament_cmake_core/dynamixel_sdkConfig-version.cmake

@@ -1,5 +1,5 @@
 CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/src/robotis_device/robot.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
@@ -175,15 +175,15 @@ CMakeFiles/robotis_device.dir/src/robotis_device/robot.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/robot.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/sensor.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/robot.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/sensor.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/device.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/control_table_item.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/sensor_state.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/time_stamp.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel.h \
- /home/evan/Documents/algo_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel_state.h \
- /home/evan/Documents/algo_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/device.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/control_table_item.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/sensor_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/time_stamp.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/ROBOTIS-Framework/robotis_device/include/robotis_device/dynamixel_state.h \
+ /home/evan/Documents/BRONE_audio_gaze_project/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h

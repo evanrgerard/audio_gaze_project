@@ -1,13 +1,13 @@
 {
   "package_name": "op3_tuning_module_msgs",
-  "output_dir": "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_typesupport_fastrtps_c/op3_tuning_module_msgs",
+  "output_dir": "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_typesupport_fastrtps_c/op3_tuning_module_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointOffsetData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointOffsetPositionData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointTorqueOnOff.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointTorqueOnOffArray.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:srv/GetPresentJointOffsetData.idl"
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointOffsetPositionData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointTorqueOnOff.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:msg/JointTorqueOnOffArray.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs:srv/GetPresentJointOffsetData.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -52,11 +52,11 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointOffsetData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointOffsetPositionData.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointTorqueOnOff.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointTorqueOnOffArray.idl",
-    "/home/evan/Documents/algo_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/srv/GetPresentJointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointOffsetData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointOffsetPositionData.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointTorqueOnOff.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/msg/JointTorqueOnOffArray.idl",
+    "/home/evan/Documents/BRONE_audio_gaze_project/build/op3_tuning_module_msgs/rosidl_adapter/op3_tuning_module_msgs/srv/GetPresentJointOffsetData.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating audio_gaze.egg-info
+writing audio_gaze.egg-info/PKG-INFO
+writing dependency_links to audio_gaze.egg-info/dependency_links.txt
+writing entry points to audio_gaze.egg-info/entry_points.txt
+writing requirements to audio_gaze.egg-info/requires.txt
+writing top-level names to audio_gaze.egg-info/top_level.txt
+writing manifest file 'audio_gaze.egg-info/SOURCES.txt'
+reading manifest file 'audio_gaze.egg-info/SOURCES.txt'
+writing manifest file 'audio_gaze.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/lib/python3.10/site-packages/audio-gaze.egg-link (link to .)
+Installing mock_audio_node script to /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/lib/audio_gaze
+
+Installed /home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze
+running symlink_data
+creating /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/ament_index
+creating /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/ament_index/resource_index
+creating /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze/resource/audio_gaze -> /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/ament_index/resource_index/packages
+symbolically linking /home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze/package.xml -> /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/audio_gaze
+creating /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/audio_gaze/launch
+symbolically linking /home/evan/Documents/BRONE_audio_gaze_project/build/audio_gaze/launch/audio_mock.launch.py -> /home/evan/Documents/BRONE_audio_gaze_project/install/audio_gaze/share/audio_gaze/launch
