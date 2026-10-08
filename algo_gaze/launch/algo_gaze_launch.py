@@ -10,6 +10,9 @@ Usage:
     ros2 launch algo_gaze algo_gaze_launch.py mode:=real video_device:=/dev/video1
     ros2 launch algo_gaze algo_gaze_launch.py mode:=hybrid video_device:=/dev/video1
 
+    # Real 2+ channel mic array, one launch instead of two:
+    ros2 launch algo_gaze algo_gaze_launch.py mode:=hybrid audio_mode:=real_mic_array
+
 'hybrid' mode runs Webots (so the OP3's head physically moves in sim) but feeds
 the vision pipeline from your real laptop/USB camera instead of Webots' rendered
 camera feed -- avoids the YOLO-vs-CGI domain-gap issue while still testing the
@@ -29,6 +32,18 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
+    # Central tuning file -- edit algo_gaze/config/gaze_params.yaml directly to
+    # change thresholds/timings/tolerances, no code changes or --ros-args -p
+    # flags needed. Loaded as the FIRST parameters source below so the
+    # mode-specific dict overrides (simulation_mode, the sim CGI-domain-gap
+    # thresholds) still take precedence over it where they need to.
+    gaze_params_yaml = os.path.join(
+        get_package_share_directory('algo_gaze'), 'config', 'gaze_params.yaml')
+    audio_sim_params_yaml = os.path.join(
+        get_package_share_directory('audio_gaze'), 'config', 'sim_audio_params.yaml')
+    audio_real_params_yaml = os.path.join(
+        get_package_share_directory('audio_gaze'), 'config', 'real_audio_params.yaml')
+
     mode_arg = DeclareLaunchArgument(
         'mode',
         default_value='real',
@@ -43,13 +58,35 @@ def generate_launch_description():
     use_audio_arg = DeclareLaunchArgument(
         'use_audio',
         default_value='true',
-        description="Whether to launch the audio perception node (mock_audio_node in Phase 1)."
+        description="Whether to launch the audio perception pipeline at all."
+    )
+    audio_mode_arg = DeclareLaunchArgument(
+        'audio_mode',
+        default_value='mock',
+        description="Audio perception backend: 'mock' (manual /audio/mock_trigger, no DSP), "
+                    "'gcc_phat_sim' (real GCC-PHAT/SRP-PHAT DOA + delay-and-sum beamforming, "
+                    "run against a synthetic mic-array signal -- no hardware needed), "
+                    "'real_mono_mic' (real VAD from your actual laptop/USB mic -- direction_deg "
+                    "is always 0.0, a single channel cannot measure direction of arrival), or "
+                    "'real_mic_array' (real GCC-PHAT/SRP-PHAT DOA from a real 2+ channel device --"
+                    " geometry/device settings come from real_audio_params.yaml, "
+                    "edit that file before trusting any direction output, see README.md 4f). "
+                    "All four publish the same audio_gaze_msgs/AudioCue on /audio/cue, so "
+                    "algo_gaze itself needs no changes either way."
     )
 
     mode = LaunchConfiguration('mode')
     video_device = LaunchConfiguration('video_device')
     use_audio = LaunchConfiguration('use_audio')
-    is_audio_enabled = IfCondition(use_audio)
+    audio_mode = LaunchConfiguration('audio_mode')
+    is_audio_mock = IfCondition(PythonExpression(
+        ["'", use_audio, "' == 'true' and '", audio_mode, "' == 'mock'"]))
+    is_audio_gcc_phat_sim = IfCondition(PythonExpression(
+        ["'", use_audio, "' == 'true' and '", audio_mode, "' == 'gcc_phat_sim'"]))
+    is_audio_real_mono_mic = IfCondition(PythonExpression(
+        ["'", use_audio, "' == 'true' and '", audio_mode, "' == 'real_mono_mic'"]))
+    is_audio_real_mic_array = IfCondition(PythonExpression(
+        ["'", use_audio, "' == 'true' and '", audio_mode, "' == 'real_mic_array'"]))
 
     is_real = IfCondition(PythonExpression(["'", mode, "' == 'real'"]))
     is_sim = IfCondition(PythonExpression(["'", mode, "' == 'sim'"]))
@@ -88,7 +125,7 @@ def generate_launch_description():
         name='algo_gaze_node',
         output='screen',
         condition=is_real,
-        parameters=[{'simulation_mode': False}],
+        parameters=[gaze_params_yaml, {'simulation_mode': False}],
     )
 
     # --- SIMULATION PATH ---
@@ -115,7 +152,14 @@ def generate_launch_description():
         name='algo_gaze_node',
         output='screen',
         condition=is_sim,
-        parameters=[{'simulation_mode': True}],
+        # Lower detection thresholds than the real/hybrid default (0.5): Webots' CGI-rendered
+        # pedestrians look visually different from the real photos YOLO/MediaPipe were trained
+        # on (documented CGI domain-gap limitation in README.md section 5).
+        parameters=[gaze_params_yaml, {
+            'simulation_mode': True,
+            'yolo_conf_threshold': 0.3,
+            'mediapipe_min_detection_confidence': 0.3,
+        }],
         remappings=[
             ('/image_raw', '/robotis_op3/camera/image_raw'),
             ('/robotis/present_joint_states', '/robotis_op3/joint_states'),
@@ -128,7 +172,7 @@ def generate_launch_description():
         name='algo_gaze_node',
         output='screen',
         condition=is_hybrid,
-        parameters=[{'simulation_mode': True}],
+        parameters=[gaze_params_yaml, {'simulation_mode': True}],
         remappings=[
             # NOTE: image_raw is intentionally NOT remapped here -- usb_cam already
             # publishes the real camera feed on /image_raw, which is exactly what
@@ -137,19 +181,76 @@ def generate_launch_description():
         ]
     )
 
-    # --- AUDIO PATH (Phase 1: mock, hardware-independent of vision mode) ---
+    # --- AUDIO PATH (hardware-independent of vision mode) ---
+    # 'mock': manual /audio/mock_trigger -> forged AudioCue, no signal processing.
+    # 'gcc_phat_sim': real GCC-PHAT/SRP-PHAT DOA + delay-and-sum beamforming, run
+    # against sim_mic_array_node's synthetic mic-array signal (no hardware, no
+    # Webots acoustics needed) -- same /audio/mock_trigger UX to fire a test event.
+    # Both paths publish the same AudioCue on /audio/cue.
     mock_audio_node = Node(
         package='audio_gaze',
         executable='mock_audio_node',
         name='mock_audio_node',
         output='screen',
-        condition=is_audio_enabled,
+        condition=is_audio_mock,
+    )
+
+    sim_mic_array_node = Node(
+        package='audio_gaze',
+        executable='sim_mic_array_node',
+        name='sim_mic_array_node',
+        output='screen',
+        condition=is_audio_gcc_phat_sim,
+        parameters=[audio_sim_params_yaml],
+    )
+
+    gcc_phat_node = Node(
+        package='audio_gaze',
+        executable='gcc_phat_node',
+        name='gcc_phat_node',
+        output='screen',
+        condition=is_audio_gcc_phat_sim,
+        parameters=[audio_sim_params_yaml],
+    )
+
+    # 'real_mono_mic': real VAD from your actual mic, no DOA (see module docstring
+    # in real_mono_mic_node.py for why -- one channel physically cannot measure
+    # direction of arrival). Publishes AudioCue directly, no gcc_phat_node needed.
+    real_mono_mic_node = Node(
+        package='audio_gaze',
+        executable='real_mono_mic_node',
+        name='real_mono_mic_node',
+        output='screen',
+        condition=is_audio_real_mono_mic,
+    )
+
+    # 'real_mic_array': real GCC-PHAT/SRP-PHAT DOA from a real 2+ channel device --
+    # same gcc_phat_node as gcc_phat_sim, only the signal source changes (see
+    # README.md 4f). mic_array_radius_m/mic_start_angle_deg/mic_array_yaw_offset_deg
+    # in real_audio_params.yaml are placeholders until you measure your real device.
+    real_mic_array_node = Node(
+        package='audio_gaze',
+        executable='real_mic_array_node',
+        name='real_mic_array_node',
+        output='screen',
+        condition=is_audio_real_mic_array,
+        parameters=[audio_real_params_yaml],
+    )
+
+    gcc_phat_node_real = Node(
+        package='audio_gaze',
+        executable='gcc_phat_node',
+        name='gcc_phat_node',
+        output='screen',
+        condition=is_audio_real_mic_array,
+        parameters=[audio_real_params_yaml],
     )
 
     return LaunchDescription([
         mode_arg,
         video_device_arg,
         use_audio_arg,
+        audio_mode_arg,
         usb_cam_node,
         gaze_node_real,
         webots_sim,
@@ -157,4 +258,9 @@ def generate_launch_description():
         webots_sim_hybrid,
         gaze_node_hybrid,
         mock_audio_node,
+        sim_mic_array_node,
+        gcc_phat_node,
+        real_mono_mic_node,
+        real_mic_array_node,
+        gcc_phat_node_real,
     ])

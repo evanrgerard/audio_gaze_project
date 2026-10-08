@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>audio_gaze</name>
+  <name>gaze_dashboard</name>
   <version>0.0.1</version>
-  <description>Audio perception nodes (mock + future real mic-array driver) for vision-audio fusion attention.</description>
+  <description>Local web dashboard for observing the algo_gaze / audio_gaze system live (video feed, audio cue, per-person fuzzy scores, pan/tilt, logs) in one page.</description>
   <maintainer email="evan@todo.todo">evan</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>cv_bridge</depend>
   <depend>audio_gaze_msgs</depend>
-  <depend>python3-numpy</depend>
+  <depend>rosbag2_py</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

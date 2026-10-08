@@ -1,0 +1,24 @@
+# Same as Ultralytics' stock botsort.yaml, except gmc_method: none.
+#
+# BoT-SORT's default gmc_method (sparseOptFlow) runs corner-feature matching
+# (cv2.goodFeaturesToTrack) between consecutive frames to compensate for
+# camera motion. Webots' flat-shaded, low-texture scenes (plain background,
+# plain floor, flat single-color pedestrian models) don't have enough strong
+# corners for that to find matches, so it fails on nearly every frame --
+# logging "WARNING not enough matching points" continuously and burning CPU
+# on a computation that never succeeds. Disabling it removes both.
+
+tracker_type: botsort
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.25
+track_buffer: 30
+match_thresh: 0.8
+fuse_score: True
+
+gmc_method: none
+
+proximity_thresh: 0.5
+appearance_thresh: 0.8
+with_reid: False
+model: auto

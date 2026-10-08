@@ -1,0 +1,37 @@
+# Tunable values for the REAL microphone-array pipeline
+# (real_mic_array_node -> gcc_phat_node). Edit directly, no code changes, no
+# --ros-args -p flags. Loaded by audio_gcc_phat_real.launch.py.
+#
+# *** mic_array_radius_m / mic_start_angle_deg / mic_array_yaw_offset_deg are
+# STILL SIMULATION-PLACEHOLDER VALUES. *** Measure your real device's mic
+# spacing and mounting orientation and set them here before trusting any
+# direction_deg output -- see README.md section 4f/5.
+
+real_mic_array_node:
+  ros__parameters:
+    sample_rate: 16000    # must be a rate your device actually supports --
+                           # check: python3 -c "import sounddevice as sd; print(sd.query_devices())"
+    frame_size: 1024
+    # ReSpeaker XVF3800 (6-channel firmware): ch0-1 are the chip's own
+    # AEC/beamformed output, ch2-5 are the 4 raw mic capsules. num_channels
+    # is what gets OPENED on the device; raw_channel_indices then keeps only
+    # the raw mics before publishing, so gcc_phat_node never sees the
+    # already-processed channels as if they were 2 more raw mics.
+    num_channels: 6
+    raw_channel_indices: [2, 3, 4, 5]
+    input_device: -1       # -1 = system default; set to a specific device index otherwise
+
+gcc_phat_node:
+  ros__parameters:
+    mic_array_radius_m: 0.07        # PLACEHOLDER -- set to HALF your measured real mic spacing
+    mic_start_angle_deg: 0.0        # PLACEHOLDER -- which physical mic is "channel 0", and its
+                                     # angle in the array's own frame
+    mic_array_yaw_offset_deg: 0.0   # PLACEHOLDER -- how the array is mounted relative to the
+                                     # robot's forward axis; calibrate once mounted
+    speed_of_sound_mps: 343.0
+    doa_grid_step_deg: 2.0
+    vad_snr_threshold_db: 9.0       # real rooms are noisier than the simulation -- may need raising
+    noise_floor_alpha: 0.95
+    min_doa_confidence: 0.3
+    noise_floor_warmup_sec: 1.5
+    publish_beamformed_audio: true

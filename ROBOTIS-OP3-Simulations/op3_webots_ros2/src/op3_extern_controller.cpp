@@ -1,5 +1,9 @@
 #include "op3_webots_ros2/op3_extern_controller.hpp"
 
+#include <cmath>
+#include <sstream>
+#include <iomanip>
+
 #include <sensor_msgs/image_encodings.hpp>
 
 #include <webots/Motor.hpp>
@@ -13,6 +17,8 @@
 #include <webots/Gyro.hpp>
 #include <webots/Accelerometer.hpp>
 #include <webots/InertialUnit.hpp>
+#include <webots/Node.hpp>
+#include <webots/Field.hpp>
 
 namespace robotis_op
 {
@@ -158,6 +164,31 @@ void OP3ExternController::initialize(std::string gain_file_path)
     encoders_[i]->enable(time_step_ms_);
   }
 
+  // World ground truth for gaze_dashboard's top-down map: find every
+  // DEF-labeled Pedestrian in the world. A missing DEF just means that
+  // pedestrian won't show on the map -- not fatal, so the world file can
+  // add/remove pedestrians without touching this controller.
+  {
+    const std::vector<std::string> pedestrian_defs = {
+        "PEDESTRIAN_0", "PEDESTRIAN_1", "PEDESTRIAN_2"};
+    for (const auto &def_name : pedestrian_defs) {
+      webots::Node *node = this->getFromDef(def_name);
+      if (node == nullptr) {
+        RCLCPP_WARN(this->get_logger(),
+            "World ground truth: DEF '%s' not found in the world -- "
+            "that pedestrian won't appear on the dashboard map.",
+            def_name.c_str());
+        continue;
+      }
+      pedestrian_nodes_.push_back(node);
+      // The dashboard identifies people by their Pedestrian.name field, not
+      // the DEF label -- read it back so the two stay in sync automatically.
+      webots::Field *name_field = node->getField("name");
+      pedestrian_names_.push_back(
+          name_field != nullptr ? name_field->getSFString() : def_name);
+    }
+  }
+
   // set publishers and subscribers and spin
   queue_thread_ = std::thread(&OP3ExternController::queueThread, this);
 }
@@ -291,6 +322,43 @@ void OP3ExternController::publishCameraData()
   }
 }
 
+void OP3ExternController::publishWorldGroundTruth()
+{
+  // Raw ground-truth positions for gaze_dashboard's top-down map (README.md
+  // section 4e/4j) -- JSON on a plain std_msgs/String, same lightweight
+  // pattern algo_gaze uses for its own /gaze_model/telemetry, so no new
+  // .msg/interface package is needed for what's just a debug/viz feed.
+  // Deliberately carries NO audio/"who's speaking" information -- that's
+  // computed dashboard-side by combining this with /audio/cue, keeping this
+  // controller's only job "report where things really are."
+  const double *robot_pos = this->getSelf()->getPosition();
+  const double *robot_rot = this->getSelf()->getOrientation();
+  // Row-major 3x3 rotation matrix; yaw (rotation about the world Z axis)
+  // from its first column, valid for a robot standing upright with no
+  // significant roll/pitch.
+  double robot_yaw_deg = std::atan2(robot_rot[3], robot_rot[0]) * 180.0 / M_PI;
+
+  std::ostringstream json;
+  json << std::fixed << std::setprecision(4);
+  json << "{\"robot\":{\"x\":" << robot_pos[0] << ",\"y\":" << robot_pos[1]
+       << ",\"yaw_deg\":" << robot_yaw_deg << "},\"people\":[";
+
+  bool first = true;
+  for (size_t i = 0; i < pedestrian_nodes_.size(); i++)
+  {
+    const double *p_pos = pedestrian_nodes_[i]->getPosition();
+    if (!first) json << ",";
+    first = false;
+    json << "{\"x\":" << p_pos[0] << ",\"y\":" << p_pos[1]
+         << ",\"name\":\"" << pedestrian_names_[i] << "\"}";
+  }
+  json << "]}";
+
+  std_msgs::msg::String msg;
+  msg.data = json.str();
+  world_ground_truth_publisher_->publish(msg);
+}
+
 void OP3ExternController::queueThread()
 {
   auto executor = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
@@ -304,6 +372,7 @@ void OP3ExternController::queueThread()
 
   camera_info_publisher_ = this->create_publisher<sensor_msgs::msg::CameraInfo>("/robotis_op3/camera/camera_info", 1);
   camera_image_publisher_ = this->create_publisher<sensor_msgs::msg::Image>("/robotis_op3/camera/image_raw", rclcpp::SensorDataQoS().reliable());
+  world_ground_truth_publisher_ = this->create_publisher<std_msgs::msg::String>("/webots/world_ground_truth", 1);
 
   rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr goal_pos_subs[N_MOTORS];
 
@@ -318,10 +387,15 @@ void OP3ExternController::queueThread()
   }
 
   rclcpp::Rate rate(1000.0 / 8);
+  int world_ground_truth_counter = 0;
   while (rclcpp::ok())
   {
     executor->spin_some();
     this->publishCameraData();
+    // Throttled to ~10 Hz (every 12th iteration of this ~125 Hz loop) --
+    // plenty for a dashboard map, no need to match the camera's own rate.
+    if (!pedestrian_nodes_.empty() && (++world_ground_truth_counter % 12 == 0))
+      this->publishWorldGroundTruth();
     rate.sleep();
   }
 }

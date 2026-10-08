@@ -1,0 +1,35 @@
+# Tunable values for the hardware-free simulated audio pipeline
+# (sim_mic_array_node -> gcc_phat_node). Edit directly, no code changes, no
+# --ros-args -p flags. Loaded by audio_gcc_phat_sim.launch.py and by
+# algo_gaze_launch.py's audio_mode:=gcc_phat_sim path.
+#
+# mic_array_radius_m MUST match between the two nodes below -- it's the
+# simulated array's actual geometry, so the simulator and the estimator have
+# to agree on it. If you change one, change both.
+
+sim_mic_array_node:
+  ros__parameters:
+    sample_rate: 16000
+    frame_size: 1024
+    num_mics: 4
+    mic_array_radius_m: 0.07      # meters; must match gcc_phat_node's value below
+    mic_start_angle_deg: 0.0
+    mic_array_yaw_offset_deg: 0.0
+    speed_of_sound_mps: 343.0
+    speech_burst_duration: 3.0    # seconds a triggered /audio/mock_trigger burst lasts
+    sensor_noise_std: 0.03        # simulated per-channel mic self-noise
+    ambient_noise_std: 0.01       # background noise level published even when idle
+    speech_amplitude: 0.5         # loudness of the simulated "speech" source
+
+gcc_phat_node:
+  ros__parameters:
+    mic_array_radius_m: 0.07      # meters; must match sim_mic_array_node's value above
+    mic_start_angle_deg: 0.0
+    mic_array_yaw_offset_deg: 0.0
+    speed_of_sound_mps: 343.0
+    doa_grid_step_deg: 2.0        # SRP-PHAT angle-scan resolution; smaller = slower, finer
+    vad_snr_threshold_db: 9.0     # dB above the noise floor before is_speech triggers
+    noise_floor_alpha: 0.95       # adaptive noise-floor smoothing (closer to 1 = slower to adapt)
+    min_doa_confidence: 0.3       # below this, distrust the new direction, keep the last good one
+    noise_floor_warmup_sec: 1.5   # ignore speech entirely for this long after launch (see README 4f)
+    publish_beamformed_audio: true

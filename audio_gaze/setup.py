@@ -10,9 +10,17 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/audio_mock.launch.py']),
+        ('share/' + package_name + '/launch', [
+            'launch/audio_mock.launch.py',
+            'launch/audio_gcc_phat_sim.launch.py',
+            'launch/audio_gcc_phat_real.launch.py',
+        ]),
+        ('share/' + package_name + '/config', [
+            'config/sim_audio_params.yaml',
+            'config/real_audio_params.yaml',
+        ]),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'numpy', 'sounddevice'],
     zip_safe=True,
     maintainer='evan',
     maintainer_email='evan@todo.todo',
@@ -26,6 +34,10 @@ setup(
     entry_points={
         'console_scripts': [
             'mock_audio_node = audio_gaze.mock_audio_node:main',
+            'gcc_phat_node = audio_gaze.gcc_phat_node:main',
+            'sim_mic_array_node = audio_gaze.sim_mic_array_node:main',
+            'real_mono_mic_node = audio_gaze.real_mono_mic_node:main',
+            'real_mic_array_node = audio_gaze.real_mic_array_node:main',
         ],
     },
 )

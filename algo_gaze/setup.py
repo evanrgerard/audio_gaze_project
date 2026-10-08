@@ -14,6 +14,10 @@ setup(
             'launch/algo_gaze.py',
             'launch/algo_gaze_launch.py',
         ]),
+        ('share/' + package_name + '/config', [
+            'algo_gaze/config/botsort_no_gmc.yaml',
+            'algo_gaze/config/gaze_params.yaml',
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

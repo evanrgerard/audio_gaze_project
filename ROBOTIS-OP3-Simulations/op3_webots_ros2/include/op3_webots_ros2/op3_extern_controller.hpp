@@ -4,8 +4,11 @@
 #include <rclcpp/rclcpp.hpp>
 
 #include <thread>
+#include <vector>
+#include <string>
 
 #include <std_msgs/msg/float64.hpp>
+#include <std_msgs/msg/string.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 #include <sensor_msgs/msg/camera_info.hpp>
@@ -47,6 +50,7 @@ public:
   void publishIMUOutput();
   void publishCOMData();
   void publishCameraData();
+  void publishWorldGroundTruth();
 
   void posCommandCallback(const std_msgs::msg::Float64::SharedPtr msg, const int &joint_idx);
   
@@ -86,7 +90,15 @@ public:
   rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr imu_data_publisher_;
   rclcpp::Publisher<sensor_msgs::msg::CameraInfo>::SharedPtr camera_info_publisher_;
   rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr camera_image_publisher_;
-  
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr world_ground_truth_publisher_;
+
+  // World ground-truth (for gaze_dashboard's top-down map): populated in
+  // initialize() via Supervisor::getFromDef() against DEF-labeled Pedestrian
+  // nodes in the .wbt world. A null entry (DEF not found) is skipped, not
+  // fatal -- lets the world file add/remove pedestrians without a rebuild.
+  std::vector<webots::Node*> pedestrian_nodes_;
+  std::vector<std::string> pedestrian_names_;
+
   // devices
   webots::Camera* camera_;
   webots::LED* head_led_;

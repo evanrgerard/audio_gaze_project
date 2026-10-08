@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image, JointState
-from std_msgs.msg import Header, Bool, Float64
+from std_msgs.msg import Header, Bool, Float64, String
 from cv_bridge import CvBridge
 import cv2
 import mediapipe as mp
@@ -14,7 +14,8 @@ from collections import deque
 import os
 import time 
 import math
-import csv  
+import csv
+import json
 import subprocess # Ditambahkan untuk kontrol kamera
 from datetime import datetime 
 from ament_index_python.packages import get_package_share_directory
@@ -59,6 +60,16 @@ class FuzzyGazeNode(Node):
         self.declare_parameter('yolo_model_path', 'yolo11s.pt')
         yolo_model_path = self.get_parameter('yolo_model_path').get_parameter_value().string_value
 
+        # Detection confidence thresholds -- tunable per launch mode. Webots' CGI-rendered
+        # pedestrians look visually different from the real photos YOLO/MediaPipe were
+        # trained on (documented CGI domain-gap limitation), so `mode:=sim` lowers these
+        # via algo_gaze_launch.py; real/hybrid mode keeps the stricter defaults below.
+        self.declare_parameter('yolo_conf_threshold', 0.5)
+        self.declare_parameter('mediapipe_min_detection_confidence', 0.5)
+        self.yolo_conf_threshold = self.get_parameter('yolo_conf_threshold').value
+        mediapipe_min_detection_confidence = self.get_parameter(
+            'mediapipe_min_detection_confidence').value
+
         if not os.path.isabs(yolo_model_path):
             # Fall back to the models/ dir next to this source file (works with --symlink-install
             # even before setup.py's data_files/share install is wired up for the models folder).
@@ -73,12 +84,22 @@ class FuzzyGazeNode(Node):
             self.get_logger().error(f'File model tidak ditemukan: {yolo_model_path}')
             raise FileNotFoundError()
 
+        # Custom BoT-SORT config with gmc_method disabled -- the stock config's sparse-
+        # optical-flow motion compensation constantly fails ("not enough matching points")
+        # on Webots' flat-shaded, low-texture scenes, wasting CPU every frame for nothing.
+        local_tracker_path = os.path.join(os.path.dirname(__file__), 'config', 'botsort_no_gmc.yaml')
+        if os.path.exists(local_tracker_path):
+            self.tracker_config_path = local_tracker_path
+        else:
+            pkg_share = get_package_share_directory('algo_gaze')
+            self.tracker_config_path = os.path.join(pkg_share, 'config', 'botsort_no_gmc.yaml')
+
         # --- Inisialisasi AI ---
         self.yolo_model = YOLO(yolo_model_path)
         self.holistic = mp_holistic.Holistic(
-            refine_face_landmarks=True, 
-            min_detection_confidence=0.5, 
-            min_tracking_confidence=0.5
+            refine_face_landmarks=True,
+            min_detection_confidence=mediapipe_min_detection_confidence,
+            min_tracking_confidence=mediapipe_min_detection_confidence
         )
         self.bridge = CvBridge()
         self.fis_controller = self.create_fuzzy_controller()
@@ -89,8 +110,24 @@ class FuzzyGazeNode(Node):
         self.alpha_score = 0.2 
         self.current_target_id = None
         self.last_target_switch_time = 0.0
-        self.min_switch_delay = 1.0 
-        
+        self.min_switch_delay = 1.0
+
+        # --- Variabel Lost-Target Recenter ---
+        self.declare_parameter('lost_target_recenter_delay_sec', 1.5)
+        self.lost_target_recenter_delay_sec = self.get_parameter('lost_target_recenter_delay_sec').value
+        self.last_detection_time = time.time()
+
+        # --- Variabel Audio Search (turn toward off-camera speech) ---
+        # This is the one reactive behavior that never existed before: audio
+        # alone can now move the head, not just re-weigh someone already
+        # visible. Runs regardless of camera_hfov_deg -- direction of arrival
+        # is a full 360 deg estimate, unrelated to what the camera can see.
+        self.declare_parameter('enable_audio_search', True)
+        self.declare_parameter('audio_search_gain', 0.08)
+        self.enable_audio_search = self.get_parameter('enable_audio_search').value
+        self.audio_search_gain = self.get_parameter('audio_search_gain').value
+        self._audio_search_active = False
+
         # --- Variabel Nodding (Posisi Stabil) ---
         self.is_nodding = False
         self.nod_start_time = 0.0
@@ -166,7 +203,13 @@ class FuzzyGazeNode(Node):
 
         self.image_publisher = self.create_publisher(
             Image, '/gaze_model/annotated_image', qos_profile)
-        
+
+        # --- [DASHBOARD] Per-frame gaze state, JSON-encoded ---
+        # Consumed by gaze_dashboard's live web page (people/fuzzy-score table,
+        # FPS/latency, commanded pan/tilt). Not used by any other node --
+        # algo_gaze's own control loop doesn't read this back.
+        self.telemetry_pub = self.create_publisher(String, '/gaze_model/telemetry', 10)
+
         self.center_pub_ = self.create_publisher(
             CircleSetStamped, 
             '/ball_detector_node/circle_set', 
@@ -346,7 +389,9 @@ class FuzzyGazeNode(Node):
         self.pixel_deadband = 0.10 * self.frame_center_x 
 
         image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        yolo_results = self.yolo_model.track(image_rgb, classes=0, conf=0.5, persist=True, verbose=False)
+        yolo_results = self.yolo_model.track(
+            image_rgb, classes=0, conf=self.yolo_conf_threshold, persist=True, verbose=False,
+            tracker=self.tracker_config_path)
         
         detected_people = []
         metric_pixel_error = -1
@@ -382,6 +427,7 @@ class FuzzyGazeNode(Node):
         audio_matched_any_person = False
 
         if detected_people:
+            self.last_detection_time = time.time()
             all_areas = [(p['bbox_yolo'][2] - p['bbox_yolo'][0]) * (p['bbox_yolo'][3] - p['bbox_yolo'][1]) for p in detected_people]
             max_area = max(all_areas) if all_areas else 1
 
@@ -533,12 +579,44 @@ class FuzzyGazeNode(Node):
                 (w, h), _ = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 2)
                 cv2.rectangle(frame, (x1, y1 - h - 10), (x1 + w, y1), color, -1)
                 cv2.putText(frame, label, (x1, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
+        else:
+            # Nobody detected: without this, the head just stays wherever it last was
+            # (e.g. tracking a person who then left frame) with no way back -- after a
+            # grace period of continuous non-detection, smoothly drift back to center
+            # instead of getting stuck looking at nothing.
+            self.current_target_id = None
+            if time.time() - self.last_detection_time > self.lost_target_recenter_delay_sec:
+                self.recenter_head_smooth()
+
+        # --- Audio search: turn toward off-camera speech ---
+        # Runs AFTER (and overrides pan from) whatever the block above just did --
+        # unmatched speech takes priority over passively tracking/idling. Fires
+        # whether or not other people are visible elsewhere in frame; the only
+        # requirement is that nobody currently detected matches this direction.
+        should_search = (
+            self.enable_audio_search
+            and active_audio_cue is not None
+            and not audio_matched_any_person
+        )
+        if should_search:
+            if not self._audio_search_active:
+                self.get_logger().info(
+                    f'[AUDIO SEARCH] Turning toward unmatched speech at '
+                    f'{active_audio_cue.direction_deg:.1f} deg.'
+                )
+                self._audio_search_active = True
+            self.pan_search_toward_audio(active_audio_cue.direction_deg)
+        elif self._audio_search_active:
+            self.get_logger().info('[AUDIO SEARCH] Direction matched or speech ended -- resuming normal tracking.')
+            self._audio_search_active = False
+
+        # FPS/latency: computed every frame (not just while recording) so the
+        # dashboard's Config panel has live numbers even outside an experiment run.
+        proc_end = time.perf_counter()
+        latency_ms = (proc_end - proc_start) * 1000
+        fps = 1.0 / (proc_end - proc_start) if (proc_end - proc_start) > 0 else 0
 
         if self.is_recording:
-            proc_end = time.perf_counter()
-            latency_ms = (proc_end - proc_start) * 1000
-            fps = 1.0 / (proc_end - proc_start) if (proc_end - proc_start) > 0 else 0
-            
             timestamp = time.time() - self.rec_start_time
             audio_active_flag = 1 if active_audio_cue is not None else 0
             audio_direction_val = round(active_audio_cue.direction_deg, 1) if active_audio_cue is not None else -999.0
@@ -554,6 +632,8 @@ class FuzzyGazeNode(Node):
                 audio_direction_val,
                 int(audio_matched_any_person)
             ])
+
+        self.publish_telemetry(fps, latency_ms, detected_people, audio_matched_any_person)
 
         try:
             # --- [MODIFIKASI] Brightness untuk tampilan RQT ---
@@ -630,6 +710,46 @@ class FuzzyGazeNode(Node):
 
         self.publish_head_command(self.current_pan, self.current_tilt)
 
+    def recenter_head_smooth(self):
+        """Slowly drift pan/tilt back toward (0, 0) when no one has been
+        detected for a while, so the head doesn't stay stuck wherever it last
+        had a target. Deliberately much slower than track_face_smooth's gain
+        -- this is a passive "go home" fallback, not active tracking."""
+        RECENTER_GAIN = 0.03
+        RECENTER_DEADBAND = 0.01
+        if abs(self.current_pan) < RECENTER_DEADBAND and abs(self.current_tilt) < RECENTER_DEADBAND:
+            return
+
+        self.current_pan += (0.0 - self.current_pan) * RECENTER_GAIN
+        self.current_tilt += (0.0 - self.current_tilt) * RECENTER_GAIN
+        self.target_pan = self.current_pan
+        self.target_tilt = self.current_tilt
+
+        self.publish_head_command(self.current_pan, self.current_tilt)
+
+    def pan_search_toward_audio(self, direction_deg):
+        """Pan toward a speech direction that doesn't match anyone currently
+        visible -- the reactive behavior audio previously never had (it could
+        only re-weigh someone already on-screen). direction_deg uses the same
+        convention as everywhere else (0=forward, -=left, +=right; see
+        README.md 4i); converted to a pan target using the same
+        self.pan_dir=-1 sign convention track_face_smooth relies on. Beyond
+        the pan joint's physical limit (+-1.4 rad, roughly +-80 deg) the head
+        just pans as far as it mechanically can -- it can't reach directly
+        behind the robot, same as any real neck. Tilt is left untouched: a
+        horizontal mic array carries no elevation information to search with.
+        """
+        target_pan = max(-1.4, min(1.4, -math.radians(direction_deg)))
+        error = target_pan - self.current_pan
+        if abs(error) < 0.03:  # ~1.7 deg -- close enough, hold rather than jitter
+            return
+
+        self.current_pan += error * self.audio_search_gain
+        self.current_pan = max(-1.4, min(1.4, self.current_pan))
+        self.target_pan = self.current_pan
+
+        self.publish_head_command(self.current_pan, self.current_tilt)
+
     def publish_head_command(self, pan, tilt):
         """Publish head pan/tilt to whichever backend is active (real robot or Webots sim)."""
         joint_msg = JointState()
@@ -651,6 +771,29 @@ class FuzzyGazeNode(Node):
         circle_point.x, circle_point.y, circle_point.z = float(x), float(y), float(z)
         msg.circles.append(circle_point)
         self.center_pub_.publish(msg)
+
+    def publish_telemetry(self, fps, latency_ms, detected_people, audio_matched_any_person):
+        """JSON gaze-state snapshot for gaze_dashboard's web page. Purely
+        observational -- nothing in algo_gaze reads this back."""
+        people = [{
+            'id': p['id'],
+            'score': round(float(p['score']), 3),
+            'cues': {k: p['cues'].get(k) for k in ('proximity', 'speech', 'pointing', 'waving')},
+        } for p in detected_people]
+
+        payload = {
+            'fps': round(fps, 1),
+            'latency_ms': round(latency_ms, 1),
+            'is_recording': self.is_recording,
+            'pan_deg': round(math.degrees(self.current_pan), 1),
+            'tilt_deg': round(math.degrees(self.current_tilt), 1),
+            'target_id': self.current_target_id,
+            'people': people,
+            'audio': {'matched_person': bool(audio_matched_any_person)},
+        }
+        msg = String()
+        msg.data = json.dumps(payload)
+        self.telemetry_pub.publish(msg)
 
     # --- Helper Methods Fuzzy (Tetap Sama) ---
     def create_fuzzy_controller(self):

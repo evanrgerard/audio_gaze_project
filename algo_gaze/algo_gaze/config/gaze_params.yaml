@@ -1,0 +1,51 @@
+# Tunable values for algo_gaze_node -- edit these directly, no code changes,
+# no --ros-args -p flags to remember. Takes effect on the next launch.
+#
+# Loaded by algo_gaze_launch.py for every mode (real/sim/hybrid). A couple of
+# values are still overridden per-mode in that launch file on top of this
+# (simulation_mode itself, and the CGI-domain-gap sim thresholds) -- see the
+# comments below on those two specifically.
+
+algo_gaze_node:
+  ros__parameters:
+
+    # --- Vision detection thresholds ---
+    # How confident YOLO/MediaPipe must be before a person counts as detected.
+    # 0.5 is right for real cameras. `mode:=sim` overrides BOTH to 0.3 in
+    # algo_gaze_launch.py to compensate for Webots' CGI domain gap (see
+    # README.md section 4c) -- editing the values here only affects
+    # `mode:=real`/`hybrid`; edit algo_gaze_launch.py's sim override instead
+    # to change the simulation value.
+    yolo_conf_threshold: 0.1
+    mediapipe_min_detection_confidence: 0.1
+
+    # --- Vision-audio fusion ---
+    # How close (degrees) a person's on-screen angle must be to the current
+    # /audio/cue direction to count as "this person is the one speaking".
+    audio_match_tolerance_deg: 15.0
+    # How old (seconds) an /audio/cue can be before it's treated as stale and
+    # ignored -- prevents a lingering old cue from matching someone new.
+    audio_cue_timeout_sec: 0.5
+    # Camera horizontal field of view, used for the on-screen-position ->
+    # angle conversion. Default is the Logitech Brio's approximate diagonal
+    # FOV -- tune to your actual camera/lens setting for real accuracy
+    # (see README.md's "azimuth mapping" limitation).
+    camera_hfov_deg: 78.0
+
+    # --- Head behavior ---
+    # Seconds of continuous "nobody detected" before the head gives up on the
+    # last target and smoothly drifts back to center (pan=0, tilt=0).
+    lost_target_recenter_delay_sec: 1.5
+
+    # --- Audio search (turn toward off-camera speech) ---
+    # If /audio/cue reports speech that doesn't match any currently-visible
+    # person's on-screen angle, pan toward that direction instead of just
+    # logging it -- works across the full 360 deg, not limited to
+    # camera_hfov_deg (GCC-PHAT direction-of-arrival isn't camera-limited;
+    # see README.md 4i). Set false to restore the old log-only behavior.
+    enable_audio_search: true
+    audio_search_gain: 0.08   # 0.03-0.15ish; higher = snappier turn, lower = smoother/slower
+
+    # --- Misc ---
+    yolo_model_path: yolo11s.pt   # relative to algo_gaze's models/ dir, or an absolute path
+    viz_brightness: 60            # brightness boost on the annotated image for RQT viewing, 0-100ish

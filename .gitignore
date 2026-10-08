@@ -3,3 +3,17 @@ venv/
 __pycache__/
 *.so
 *.pyc
+
+# colcon build artifacts -- note the top-level build/install/log were already
+# committed historically before this rule existed; this only stops NEW
+# per-package ones (e.g. gaze_dashboard/build/) from being swept in by a
+# future `git add <package>/`.
+*/build/
+*/install/
+*/log/
+
+# Claude Code
+.claude/
+CLAUDE.local.md
+.mcp.json
+NUC-brone-gaze-system/

@@ -11,6 +11,8 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AudioCue.msg"
+  "msg/MicArrayFrame.msg"
+  "msg/BeamformedAudio.msg"
   DEPENDENCIES std_msgs
 )
 
