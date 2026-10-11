@@ -2,10 +2,12 @@
 # (real_mic_array_node -> gcc_phat_node). Edit directly, no code changes, no
 # --ros-args -p flags. Loaded by audio_gcc_phat_real.launch.py.
 #
-# *** mic_array_radius_m / mic_start_angle_deg / mic_array_yaw_offset_deg are
-# STILL SIMULATION-PLACEHOLDER VALUES. *** Measure your real device's mic
-# spacing and mounting orientation and set them here before trusting any
-# direction_deg output -- see README.md section 4f/5.
+# *** mic_array_radius_m measured 2026-10-11 (caliper: 91mm opposite-mic
+# diagonal / 2 -- cross-checked against 63mm adjacent spacing, consistent
+# with a square layout: 91/sqrt(2) = 64.3mm, close to the measured 63mm). ***
+# mic_start_angle_deg / mic_array_yaw_offset_deg are STILL PLACEHOLDERS --
+# calibrate via the empirical known-angle test (README.md 4f/5) before
+# trusting direction_deg.
 
 real_mic_array_node:
   ros__parameters:
@@ -23,7 +25,7 @@ real_mic_array_node:
 
 gcc_phat_node:
   ros__parameters:
-    mic_array_radius_m: 0.07        # PLACEHOLDER -- set to HALF your measured real mic spacing
+    mic_array_radius_m: 0.0455      # measured: 91mm opposite-mic diagonal / 2
     mic_start_angle_deg: 0.0        # PLACEHOLDER -- which physical mic is "channel 0", and its
                                      # angle in the array's own frame
     mic_array_yaw_offset_deg: 0.0   # PLACEHOLDER -- how the array is mounted relative to the
