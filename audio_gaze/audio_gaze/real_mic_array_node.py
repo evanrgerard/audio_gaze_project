@@ -52,7 +52,7 @@ import queue
 import numpy as np
 import rclpy
 import sounddevice as sd
-from rcl_interfaces.msg import ParameterDescriptor, ParameterType
+from rcl_interfaces.msg import ParameterDescriptor
 from rclpy.node import Node
 
 from audio_gaze_msgs.msg import MicArrayFrame
@@ -66,15 +66,26 @@ class RealMicArrayNode(Node):
         self.declare_parameter('sample_rate', 16000)
         self.declare_parameter('frame_size', 1024)
         self.declare_parameter('num_channels', 2)
+        # dynamic_typing=True, not a fixed PARAMETER_INTEGER_ARRAY type --
+        # ROS2's YAML params-file loader (rcl_yaml_param_parser) infers a
+        # plain list of small non-negative integers like [2, 3, 4, 5] as a
+        # BYTE_ARRAY, not an INTEGER_ARRAY, which a fixed-type declaration
+        # then rejects with InvalidParameterTypeException. dynamic_typing
+        # accepts whatever type the override actually is; _as_int_list()
+        # below normalizes it either way. (This only bit once an actual
+        # --params-file was used -- declaring/setting it via the Python API
+        # directly, as this node's own earlier tests did, never exercises
+        # rcl_yaml_param_parser's type inference at all.)
         self.declare_parameter(
             'raw_channel_indices', [],
-            ParameterDescriptor(type=ParameterType.PARAMETER_INTEGER_ARRAY))
+            ParameterDescriptor(dynamic_typing=True))
         self.declare_parameter('input_device', -1)
 
         self.sample_rate = int(self.get_parameter('sample_rate').value)
         self.frame_size = int(self.get_parameter('frame_size').value)
         self.num_channels = int(self.get_parameter('num_channels').value)
-        self.raw_channel_indices = list(self.get_parameter('raw_channel_indices').value)
+        self.raw_channel_indices = self._as_int_list(
+            self.get_parameter('raw_channel_indices').value)
         input_device = int(self.get_parameter('input_device').value)
 
         if self.raw_channel_indices and max(self.raw_channel_indices) >= self.num_channels:
@@ -84,6 +95,20 @@ class RealMicArrayNode(Node):
             raise ValueError('raw_channel_indices out of range')
 
         self._audio_queue = queue.Queue()
+        self._init_stream(input_device)
+
+    @staticmethod
+    def _as_int_list(value):
+        """Normalize a dynamic_typing parameter's value to a plain list of
+        ints, whichever underlying rcl type the YAML loader picked for it
+        (observed: a plain Python list already for int64_array_value, but
+        handle bytes/bytearray too in case byte_array_value ever surfaces
+        here instead -- see the declare_parameter comment above)."""
+        if isinstance(value, (bytes, bytearray)):
+            return [int(b) for b in value]
+        return [int(x) for x in value]
+
+    def _init_stream(self, input_device):
         self.frame_pub = self.create_publisher(MicArrayFrame, '/audio/mic_array_raw', 10)
 
         device = None if input_device < 0 else input_device
