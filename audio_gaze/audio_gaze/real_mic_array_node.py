@@ -103,7 +103,16 @@ class RealMicArrayNode(Node):
         ints, whichever underlying rcl type the YAML loader picked for it
         (observed: a plain Python list already for int64_array_value, but
         handle bytes/bytearray too in case byte_array_value ever surfaces
-        here instead -- see the declare_parameter comment above)."""
+        here instead -- see the declare_parameter comment above).
+
+        An explicit `raw_channel_indices: []` override in the YAML file is a
+        SEPARATE case from not overriding it at all: with dynamic_typing,
+        rcl_yaml_param_parser can't infer a type from zero elements, so the
+        override comes through as a bare `None` (PARAMETER_NOT_SET) rather
+        than an empty list -- handled here the same as "no override", since
+        both mean the same thing: publish every opened channel as-is."""
+        if value is None:
+            return []
         if isinstance(value, (bytes, bytearray)):
             return [int(b) for b in value]
         return [int(x) for x in value]
